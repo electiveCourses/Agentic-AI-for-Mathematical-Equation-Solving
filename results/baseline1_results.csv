@@ -1,0 +1,169 @@
+file,question,gt_answer,llm_answer,correct
+algebra__linear_1d.txt,Solve -20*b + 128*b + 648 = 0 for b.,-6,-20,False
+algebra__linear_1d.txt,Solve 0 = 20*g + 2*g - 198 for g.,9,0,False
+algebra__linear_1d.txt,Solve -x = 11 - 8 for x.,-3,11,False
+algebra__linear_1d_composed.txt,Let b be (-208)/(-20) - (-7)/(70/(-4)). Solve 16*r = 14*r - b for r.,-5,-208,False
+algebra__linear_1d_composed.txt,Let p be (-27)/18 - (-57)/6. Solve 2*o - p = -0*o for o.,4,-27,False
+algebra__linear_1d_composed.txt,Let l = -38 + 22. Let h = -9 - l. Let r = -3 + h. Solve 3*x - r = 4*x for x.,-4,-38,False
+algebra__linear_2d.txt,"Solve 4*b = -5*n - 21, -b - 3*n = b + 11 for b.",-4,4,False
+algebra__linear_2d.txt,"Solve 13 = -2*a - 0*a - 3*u, 3*a + 2*u + 17 = 0 for a.",-5,13,False
+algebra__linear_2d.txt,"Solve 0 = -3*i + 3*p + 12, -3 = -i - p - 9 for i.",-1,0,False
+algebra__linear_2d_composed.txt,"Let n(j) = j**2 - 8*j + 5. Let x be n(8). Solve 24 = -4*k - 0*k - 4*z, -x*k + 3*z + 10 = 0 for k.",-1,2,False
+algebra__linear_2d_composed.txt,"Let w(r) = -r**3 + 2*r**2 - 1. Suppose -3*o - 2 = -c, -2*c - 1 = -2*o + c. Let a be w(o). Let p = a - -1. Solve 4*t + 3*h + 4 = -h, -5*t = -p*h + 37 for t.",-5,3,False
+algebra__linear_2d_composed.txt,"Suppose 7*m + 8 = 11*m. Suppose -20 = -3*v - m*v. Solve c - 2*f = -3*c - 12, -v*f = 4*c for c.",-2,7,False
+algebra__polynomial_roots.txt,Find w such that 6*w**4 + 2*w**3 - 10*w**2 - 2*w + 4 = 0.,"-1, 2/3, 1",6,False
+algebra__polynomial_roots.txt,Factor 4*p**5 - 20*p**4 - 56*p**3.,4*p**3*(p - 7)*(p + 2),4,False
+algebra__polynomial_roots.txt,Factor 3*k**4 + 168*k**3 + 2997*k**2 + 16032*k - 19200.,3*(k - 1)*(k + 16)**2*(k + 25),3,False
+algebra__polynomial_roots_composed.txt,Suppose 2*x**3 + 16*x**2 - 8*x**3 - 43*x - 12 + 53*x = 0. What is x?,"-1, 2/3, 3",2,False
+algebra__polynomial_roots_composed.txt,Let p be (-89)/3*(-64)/6. Let z = p + -316. Factor -14/9*o**4 + 2*o**3 + 0 + 0*o - z*o**2.,-2*o**2*(o - 1)*(7*o - 2)/9,-89,False
+algebra__polynomial_roots_composed.txt,Let k(v) be the third derivative of v**6/144 - 13*v**5/360 + v**4/36 + v**3/9 - v**2 + v. Find x such that k(x) = 0.,"-2/5, 1, 2",6,False
+algebra__sequence_next_term.txt,"What is next in -407, -406, -405?",-404,-407,False
+algebra__sequence_next_term.txt,"What comes next: 237, 472, 707, 942, 1177?",1412,237,False
+algebra__sequence_next_term.txt,"What comes next: 28, 25, 10, -23, -80, -167, -290?",-455,28,False
+algebra__sequence_nth_term.txt,"What is the l'th term of -5546, -11091, -16636?",-5545*l - 1,-5546,False
+algebra__sequence_nth_term.txt,"What is the i'th term of 1, 3, 5, 7, 9, 11?",2*i - 1,1,False
+algebra__sequence_nth_term.txt,"What is the g'th term of 33, 90, 175, 288, 429, 598, 795?",14*g**2 + 15*g + 4,33,False
+arithmetic__add_or_sub.txt,1.480219 - 0.2,1.280219,1.480219,False
+arithmetic__add_or_sub.txt,What is 0.06 less than -0.2?,-0.26,0.06,False
+arithmetic__add_or_sub.txt,What is 62.131 + -4?,58.131,62.131,False
+arithmetic__add_or_sub_in_base.txt,"In base 6, what is 12 - 1134?",-1122,6,False
+arithmetic__add_or_sub_in_base.txt,"In base 8, what is -1 - 225?",-226,8,False
+arithmetic__add_or_sub_in_base.txt,"In base 10, what is 6 - -1597?",1603,10,False
+arithmetic__add_sub_multiple.txt,(-2 - (1 - -4)) + 2,-5,-2,False
+arithmetic__add_sub_multiple.txt,-2 + 4 - (8 + -3 + 2),-5,-2,False
+arithmetic__add_sub_multiple.txt,Calculate 0 + 3 + 1 + (-2 - -1).,3,0,False
+arithmetic__div.txt,Calculate 1110 divided by 2.,555,1110,False
+arithmetic__div.txt,Divide -4 by -89.,4/89,-4,False
+arithmetic__div.txt,15 divided by 1778,15/1778,15,False
+arithmetic__mixed.txt,What is the value of ((-8)/6)/(14/21)?,-2,-8,False
+arithmetic__mixed.txt,10/3*6/(-4) + -1,-6,10,False
+arithmetic__mixed.txt,What is 96/190 - (-14)/(-35)?,2/19,96,False
+arithmetic__mul.txt,Product of 38 and -6.,-228,38,False
+arithmetic__mul.txt,0.1 times 0.0714,0.00714,0.1,False
+arithmetic__mul.txt,What is the product of -53 and 6?,-318,-53,False
+arithmetic__mul_div_multiple.txt,What is the value of (1*3/(-1))/1?,-3,1,False
+arithmetic__mul_div_multiple.txt,What is the value of 3/2*240/(-180)?,-2,3,False
+arithmetic__mul_div_multiple.txt,((-1260)/14)/(-10)*1/9,1,-1260,False
+arithmetic__nearest_integer_root.txt,"What is 178907 to the power of 1/3, to the nearest integer?",56,178907,False
+arithmetic__nearest_integer_root.txt,What is the third root of 2402 to the nearest integer?,13,2402,False
+arithmetic__nearest_integer_root.txt,"What is 11955 to the power of 1/3, to the nearest integer?",23,11955,False
+arithmetic__simplify_surd.txt,Simplify (-4 + sqrt(208)*-1)**2 + (-1 + sqrt(26)/sqrt(2))**2 + -3.,30*sqrt(13) + 235,-4,False
+arithmetic__simplify_surd.txt,Simplify sqrt(147) + (sqrt(147) + (sqrt(147) - (1 + sqrt(147))) + 5 + sqrt(147))**2 - ((0 + sqrt(12))**2 + sqrt(3) + (sqrt(9)/sqrt(3)*-5 - sqrt(3))).,124*sqrt(3) + 592,147,False
+arithmetic__simplify_surd.txt,Simplify (((-4*sqrt(450))/sqrt(10))/sqrt(9))**2 + -4.,76,-4,False
+calculus__differentiate.txt,Differentiate -b*l + 156*b + 2*l - 239 wrt b.,156 - l,156,False
+calculus__differentiate.txt,Find the third derivative of -39*f*s*x*z + 2*f*x**4 + f*x**2*z + 2*f*x + 3*f - 2*s*x**3*z + 2*s*x**2*z - 82*x**3*z wrt x.,48*f*x - 12*s*z - 492*z,-39,False
+calculus__differentiate.txt,Differentiate 22*m - 453 wrt m.,22,22,True
+calculus__differentiate_composed.txt,Let k(w) be the third derivative of -w**6/90 + w**5/20 - w**4/24 + 6*w**2. Let x(h) be the second derivative of k(h). What is the derivative of x(i) wrt i?,-8,6,False
+calculus__differentiate_composed.txt,Let m(w) be the third derivative of w**7/42 + 5*w**3/6 - 4*w**2. Differentiate m(g) wrt g.,20*g**3,7,False
+calculus__differentiate_composed.txt,Find the first derivative of 1 - 11 - 7 + 4 - 15*u wrt u.,-15,1,False
+comparison__closest.txt,Which is the closest to 1?  (a) -1  (b) 2  (c) -52,b,1,False
+comparison__closest.txt,Which is the closest to 0.1?  (a) 0.2  (b) -3/26  (c) 4,a,0.1,False
+comparison__closest.txt,"What is the nearest to 161 in 4, 0.1, 0.4, -4?",4,161,False
+comparison__closest_composed.txt,Let u(f) = -f - 4. Let g be u(-4). Let j = 1.2 - 0.2. Let s = j - 0. Which is the closest to s?  (a) -3/4  (b) -1/10  (c) g,c,4,False
+comparison__closest_composed.txt,Let q = -0.9 + -3. Let f = q - -4. Let j = 0.03 + -3.03. Which is the closest to 1?  (a) f  (b) 4  (c) j,a,-0.9,False
+comparison__closest_composed.txt,Let i be 0 + -1 + (-19)/(-21). Let p = -0.5 - 0.5. Which is the nearest to -0.1?  (a) p  (b) 0.2  (c) i,c,0,False
+comparison__kth_biggest.txt,Which is the fourth biggest value?  (a) -3  (b) -123  (c) 1  (d) -5/2,b,-3,False
+comparison__kth_biggest.txt,"What is the fourth biggest value in 0.1, 0.57, -26, -3, -3/5?",-3,0.1,False
+comparison__kth_biggest.txt,Which is the fourth smallest value?  (a) 0  (b) -4  (c) 4  (d) -50,c,0,False
+comparison__kth_biggest_composed.txt,"Let o be 19/10 + 9/(-6). What is the third biggest value in -0.06, -4, o?",-4,19,False
+comparison__kth_biggest_composed.txt,"Let o = 342232/2775 - -6/925. Let g = o - 122. What is the third smallest value in 0.5, g, 4?",4,342232,False
+comparison__kth_biggest_composed.txt,Let w = -683.8 - -628. Let x = w + 61. Let q = -5 + x. Which is the second biggest value?  (a) -3  (b) q  (c) 2,b,-683.8,False
+comparison__pair.txt,Which is smaller: -509/4 or -127?,-509/4,-509,False
+comparison__pair.txt,Which is smaller: 0 or -10.1?,-10.1,0,False
+comparison__pair.txt,Which is smaller: -1/311 or -1?,-1,-1,True
+comparison__pair_composed.txt,Suppose -j = 2*j - 357. Let q = j + -1189/10. Let m = -13/30 + q. Is m greater than 2/11?,False,2,False
+comparison__pair_composed.txt,Let m = -6 + 8. Let p = -19/2 + 10. Do p and m have different values?,True,-6,False
+comparison__pair_composed.txt,Let c = 0 + -12. Let x = c + -3. Is -16 at least x?,False,0,False
+comparison__sort.txt,"Sort 0.2, 1/10, 1/2, -5 in decreasing order.","1/2, 0.2, 1/10, -5",0.2,False
+comparison__sort.txt,"Put 8/9, 3, 1/2, -0.2, -0.057 in decreasing order.","3, 8/9, 1/2, -0.057, -0.2",8,False
+comparison__sort.txt,"Sort -348, -5, -15 in ascending order.","-348, -15, -5",-348,False
+comparison__sort_composed.txt,"Let x be (-1)/(-4)*(-16)/18. Let l(m) = m**2 + 13*m + 7. Let p be l(-12). Sort -1/9, x, p.","p, x, -1/9",-1,False
+comparison__sort_composed.txt,"Let v = -2.8 - 0.2. Let c = -0.015 - -0.215. Let m = -0.38 + 0.08. Sort c, m, v.","v, m, c",-2.8,False
+comparison__sort_composed.txt,"Let q = 2/17 + 13/34. Suppose 0 + 5 = -n, 0 = -5*r - 3*n - 40. Put q, 2, r in descending order.","2, q, r",2,False
+measurement__conversion.txt,How many nanoseconds are there in 8083.277 minutes?,484996620000000,8083.277,False
+measurement__conversion.txt,What is 315297.8l in millilitres?,315297800,315297.8,False
+measurement__conversion.txt,What is one fifteenth of a minute in milliseconds?,4000,1,False
+measurement__time.txt,What is 296 minutes after 3:07 AM?,8:03 AM,296,False
+measurement__time.txt,How many minutes are there between 6:47 PM and 1:12 AM?,385,6,False
+measurement__time.txt,How many minutes are there between 4:49 AM and 7:21 AM?,152,4,False
+numbers__base_conversion.txt,Convert 31 (base 8) to base 3.,221,31,False
+numbers__base_conversion.txt,4 (base 8) to base 2,100,4,False
+numbers__base_conversion.txt,-14 (base 15) to base 14,-15,-14,False
+numbers__div_remainder.txt,Calculate the remainder when 3361 is divided by 86.,7,3361,False
+numbers__div_remainder.txt,What is the remainder when 415 is divided by 30?,25,415,False
+numbers__div_remainder.txt,Calculate the remainder when 568 is divided by 190.,188,568,False
+numbers__div_remainder_composed.txt,"Suppose -3*m - 15 = -6*m. Suppose -m*z + 2*k - 28 = -114, 5*k = -5*z + 65. Calculate the remainder when z is divided by 9.",7,-3,False
+numbers__div_remainder_composed.txt,Suppose 0 = -x - 0 - 3. Let z be 0 - x - (-5 - -6). Suppose -z*o + 0*o = -20. What is the remainder when 17 is divided by o?,7,0,False
+numbers__div_remainder_composed.txt,"Suppose 2*g + 2*z - 201 + 77 = 0, -3*g + 162 = -5*z. What is the remainder when g is divided by 16?",11,2,False
+numbers__gcd.txt,What is the greatest common factor of 13975 and 130?,65,13975,False
+numbers__gcd.txt,What is the highest common factor of 20 and 365?,5,20,False
+numbers__gcd.txt,Calculate the greatest common factor of 34945 and 145.,145,34945,False
+numbers__gcd_composed.txt,Let j = -32 + -10. Let h = j + 68. What is the highest common factor of h and 65?,13,-32,False
+numbers__gcd_composed.txt,"Suppose 2*d = 3*b + 6, 6*b = 2*b - 3*d + 9. Let f be 19/(4 + -3 + b). Calculate the highest common factor of f and 57.",19,2,False
+numbers__gcd_composed.txt,Let v be (15/(-6))/(3/(-12)). What is the highest common factor of v and 4?,2,15,False
+numbers__is_factor.txt,Is 10 a factor of 4444?,False,10,False
+numbers__is_factor.txt,Is 1383 a multiple of 4?,False,1383,False
+numbers__is_factor.txt,Is 2644 a multiple of 5?,False,2644,False
+numbers__is_factor_composed.txt,Let f(a) = a**3 + 10*a**2 - 3*a + 7. Let n be f(-11). Let i = n + 125. Is 18 a factor of i?,False,3,False
+numbers__is_factor_composed.txt,"Let a(d) = -d**2 - 1. Let p(i) = -i**3 - 7*i**2 + 6*i - 9. Let z(j) = 3*a(j) - p(j). Suppose 6*t + c = 3*t - 12, 2*t + 4*c - 2 = 0. Is 7 a factor of z(t)?",False,2,False
+numbers__is_factor_composed.txt,"Suppose 2*f + 3*j = j + 14, -25 = -4*f - 5*j. Does 5 divide f?",True,2,False
+numbers__is_prime.txt,Is 159521 a prime number?,True,159521,False
+numbers__is_prime.txt,Is 650059 a prime number?,True,650059,False
+numbers__is_prime.txt,Is 8053 a prime number?,True,8053,False
+numbers__is_prime_composed.txt,"Suppose 6 = p - 2. Let g(r) = r**3 - 8*r**2 + 8*r - 5. Let i be g(p). Suppose 3*n - 5*m - 29 = 0, -3*n - 2*n + 3*m + i = 0. Is n a composite number?",False,6,False
+numbers__is_prime_composed.txt,Let g(c) = 12*c**2 + 5*c + 4. Is g(-3) composite?,False,12,False
+numbers__is_prime_composed.txt,Let j(s) = 3*s + s**2 - 2*s + 2*s + 3. Let v = -35 + 31. Is j(v) a prime number?,True,3,False
+numbers__lcm.txt,Calculate the least common multiple of 100 and 132.,3300,100,False
+numbers__lcm.txt,Calculate the common denominator of 19/858 and -77/234.,2574,19,False
+numbers__lcm.txt,Calculate the lowest common multiple of 63 and 210.,630,63,False
+numbers__lcm_composed.txt,Let m(t) = -6*t - 3. Let o be m(-6). Let r = o - 79/2. Let h(n) = 3*n - 6. Find the common denominator of r and h(-4).,2,-6,False
+numbers__lcm_composed.txt,What is the common denominator of 127/12 and 55/36 + (-44)/(-198)?,12,127,False
+numbers__lcm_composed.txt,Let m(f) = -f**2 + 7*f + 2. Let l be m(7). What is the common denominator of l*2/(-5)*1 and 1/2?,10,2,False
+numbers__list_prime_factors.txt,What are the prime factors of 5476?,"2, 37",5476,False
+numbers__list_prime_factors.txt,List the prime factors of 91821.,"3, 127, 241",91821,False
+numbers__list_prime_factors.txt,What are the prime factors of 30982?,"2, 7, 2213",30982,False
+numbers__list_prime_factors_composed.txt,"Suppose 3*a = 5*y + 65, -a - 3*y = -3 - 0. Suppose -3*l - a = -4*l. What are the prime factors of l?","3, 5",3,False
+numbers__list_prime_factors_composed.txt,Let b be 13/6 - 6/36. Let d(l) = 5*l**2 + 0 - 1 - b - l**3 - 2*l. List the prime factors of d(4).,5,13,False
+numbers__list_prime_factors_composed.txt,Let n(y) be the third derivative of y**6/120 + y**5/15 - y**4/24 - 2*y**2. What are the prime factors of n(-3)?,"2, 3",6,False
+numbers__place_value.txt,What is the hundreds digit of 19402?,4,19402,False
+numbers__place_value.txt,What is the ten thousands digit of 13158?,1,13158,False
+numbers__place_value.txt,What is the tens digit of 432?,3,432,False
+numbers__place_value_composed.txt,Let u be ((-6)/4)/((-12)/448). Suppose -u - 24 = -5*g. Let t = 22 - g. What is the units digit of t?,6,-6,False
+numbers__place_value_composed.txt,Suppose 0 = -7*l + 486 + 277. What is the units digit of l?,9,0,False
+numbers__place_value_composed.txt,"Let l be 2 + -1 - (-4 + 9). Let u be 6/8 + (-9)/l. Suppose -2*j - 4*a + 22 = a, 2*a + 14 = u*j. What is the units digit of j?",6,2,False
+numbers__round_number.txt,Round 0.0002202 to 6 decimal places.,0.00022,0.0002202,False
+numbers__round_number.txt,What is 3.8068 rounded to two dps?,3.81,3.8068,False
+numbers__round_number.txt,What is 1389800 rounded to the nearest one million?,1000000,1389800,False
+numbers__round_number_composed.txt,Let m = 10.7 - 0.7. Let d = 9.99999969 - m. Round d to seven dps.,-0.0000003,10.7,False
+numbers__round_number_composed.txt,Let y(g) be the second derivative of 16667*g**4/6 - g**3/3 + 3*g. Let m be y(3). What is m rounded to the nearest one hundred thousand?,300000,16667,False
+numbers__round_number_composed.txt,"Suppose 0 = 3*r, -3*b + 8 = 2*r - 4. Let i be 2/(-2 + (-512)/(-255)). Suppose -b*k = -k + i. What is k rounded to the nearest ten?",-90,0,False
+polynomials__add.txt,Let q(l) = -9*l - 14. Let i(m) = -3*m - 5. Give -17*i(j) + 6*q(j).,1 - 3*j,-9,False
+polynomials__add.txt,"Let r(b) = 5*b - 1. Suppose -4*l = -5*x, 5*l + 4*x - 3*x = 0. Suppose -30 = -5*s - 3*n, l*s - n = 3*s - 18. Let k(w) = 1 - 6*w. What is s*k(o) + 7*r(o)?",-o - 1,5,False
+polynomials__add.txt,Let x(i) = i**2 - 2*i. Let u = -19 + 30. Let v(f) = -5*f**2 + 2*f**2 + u*f - 3*f**2. Let t(s) = -s**2 - 9*s - 3. Let z be t(-7). What is z*x(n) + 2*v(n)?,-n**2,2,False
+polynomials__coefficient_named.txt,Express 41*o - 5 + 9*o + 5 as r + m*o and give m.,50,41,False
+polynomials__coefficient_named.txt,Rearrange (-4*x + 4*x - x)*(1 + 2 - 2) + x - 4*x + 2*x + (-3 - 8 + 0)*(0*x - 3*x + x) to h*x + g and give h.,20,-4,False
+polynomials__coefficient_named.txt,Express -b**3 + 4*b**4 - 4*b**4 - b**4 + (4*b**3 + 2*b**3 - 4*b**3)*(-2*b + 4*b + 0*b) in the form w*b**4 + f + a*b + m*b**2 + g*b**3 and give m.,0,3,False
+polynomials__collect.txt,Collect the terms in 13 - 95*o**3 - 13.,-95*o**3,13,False
+polynomials__collect.txt,Collect the terms in 21*m**3 - 8*m**3 - 6*m**3.,7*m**3,21,False
+polynomials__collect.txt,Collect the terms in 4*g**3 - 240*g**2 + 121*g**2 + 119*g**2.,4*g**3,4,False
+polynomials__compose.txt,Let r(c) = 9*c**2. Let m(t) be the first derivative of 2*t**3/3 + 1. Calculate r(m(w)).,36*w**4,9,False
+polynomials__compose.txt,Let u(i) = 2*i. Let n(w) be the first derivative of w**5/30 - 2*w**3/3 + 1. Let r(m) be the third derivative of n(m). What is u(r(h))?,8*h,2,False
+polynomials__compose.txt,Let m(r) = 0 + 0 + 5*r**2. Let p(x) = -2*x**2 - 3*x + 3. Let v(o) = -3*o**2 - 4*o + 4. Let w(f) = -4*p(f) + 3*v(f). Calculate w(m(z)).,-25*z**4,0,False
+polynomials__evaluate.txt,Let t(n) = 2*n**2 + 12*n + 2. Calculate t(-9).,56,2,False
+polynomials__evaluate.txt,Let w(j) = -j**3 + 15*j**2 + j - 3. Calculate w(15).,12,3,False
+polynomials__evaluate.txt,Let g(t) = t**3 + t**2 + 4*t - 57. Give g(0).,-57,3,False
+polynomials__evaluate_composed.txt,"Suppose -2*o = -o + 5*c + 19, -3*o - 2*c - 5 = 0. Let j(x) = 2*x + o + 0*x + 3*x**2 - 2*x**2. Calculate j(-1).",0,-2,False
+polynomials__evaluate_composed.txt,"Suppose -2*n + 2*f + 16 = 0, -4*n + 5*f + 35 = -0*n. Let d(h) = 0*h + n - 4*h - 4. What is d(3)?",-11,-2,False
+polynomials__evaluate_composed.txt,"Let f(g) = 2*g. Let h be 10*1*(-1 + 2). Suppose 3*t - h = -5*b, -b + 2 + 0 = 3*t. Suppose -b*q - 4 + 0 = 0. Determine f(q).",-4,2,False
+polynomials__expand.txt,Expand 2*w**5 - 3*w**5 + 2*w**5 + (-2*w**4 + 2*w**4 - 2*w**4)*(2*w + 0*w - w) - w**5 - 2*w**5 + 6*w**5 + 1.,2*w**5 + 1,2,False
+polynomials__expand.txt,Expand (2*i**4 - i**4 + i**4)*(-33*i - 19 + 19).,-66*i**5,2,False
+polynomials__expand.txt,Expand (-r + 0*r + 2*r)*(-4 + 7*r + 4).,7*r**2,0,False
+polynomials__simplify_power.txt,Simplify (z**(-2/9)*z)/(z/(z/(z**(-4)/z)))*z/z**(-4/9)*z**6*z assuming z is positive.,z**(128/9),-2,False
+polynomials__simplify_power.txt,Simplify (d*d*d*d**(-7)*d*d)/d**(-8)*d**(2/7)*((d/(d/(d**(-10)*d)))/d)/d assuming d is positive.,d**(-33/7),-7,False
+polynomials__simplify_power.txt,Simplify ((n*n*(n/n**0)/n)/n*n)/(n/((n/((n/(n**2*n))/n))/n*n)*n) assuming n is positive.,n**4,0,False
+probability__swr_p_level_set.txt,"Two letters picked without replacement from {g: 4, i: 1, z: 1, u: 1, h: 1}. Give prob of picking 2 h.",0,4,False
+probability__swr_p_level_set.txt,"Three letters picked without replacement from ezgijue. What is prob of picking 1 z, 1 e and 1 u?",2/35,1,False
+probability__swr_p_level_set.txt,Four letters picked without replacement from rojjjojrorooorj. Give prob of picking 3 o and 1 r.,16/273,3,False
+probability__swr_p_sequence.txt,"Two letters picked without replacement from {j: 1, d: 4, x: 3, r: 4, z: 2, y: 6}. What is prob of sequence dr?",4/95,1,False
+probability__swr_p_sequence.txt,Three letters picked without replacement from {i: 6}. What is prob of sequence iii?,1,6,False
+probability__swr_p_sequence.txt,"Calculate prob of sequence ayy when three letters picked without replacement from {n: 1, o: 4, y: 2, x: 1, a: 1}.",1/252,1,False
