@@ -1,0 +1,64 @@
+{
+  "overall_metrics": {
+    "total_problems": 5,
+    "parsed_successfully": 5,
+    "correct_answers": 1,
+    "errors": 0,
+    "parsing_accuracy": 1.0,
+    "solving_accuracy": 0.2,
+    "conditional_accuracy": 0.2
+  },
+  "category_metrics": {
+    "numbers": {
+      "total_problems": 5,
+      "correct_answers": 1,
+      "parsed_successfully": 5,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 0.2,
+      "conditional_accuracy": 0.2
+    }
+  },
+  "detailed_results": [
+    {
+      "problem": "What is the greatest common factor of 13975 and 130?",
+      "expected_answer": "65",
+      "predicted_answer": "5",
+      "correct": false,
+      "parsed_successfully": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the highest common factor of 20 and 365?",
+      "expected_answer": "5",
+      "predicted_answer": "5",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the greatest common factor of 34945 and 145.",
+      "expected_answer": "145",
+      "predicted_answer": "3",
+      "correct": false,
+      "parsed_successfully": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let m(t) = -6*t - 3. Let o be m(-6). Let r = o - 79/2. Let h(n) = 3*n - 6. Find the common denominator of r and h(-4).",
+      "expected_answer": "2",
+      "predicted_answer": "-18",
+      "correct": false,
+      "parsed_successfully": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the common denominator of 127/12 and 55/36 + (-44)/(-198)?",
+      "expected_answer": "12",
+      "predicted_answer": "3001",
+      "correct": false,
+      "parsed_successfully": true,
+      "category": "numbers"
+    }
+  ]
+}
