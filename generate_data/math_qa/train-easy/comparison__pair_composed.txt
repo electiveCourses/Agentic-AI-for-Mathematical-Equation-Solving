@@ -1,0 +1,6 @@
+Suppose -j = 2*j - 357. Let q = j + -1189/10. Let m = -13/30 + q. Is m greater than 2/11?
+False
+Let m = -6 + 8. Let p = -19/2 + 10. Do p and m have different values?
+True
+Let c = 0 + -12. Let x = c + -3. Is -16 at least x?
+False

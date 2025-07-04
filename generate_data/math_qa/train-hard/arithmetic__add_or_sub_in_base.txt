@@ -1,0 +1,6 @@
+In base 8, what is 244 + 31551?
+32015
+In base 9, what is 1054 + -56353?
+-55288
+In base 7, what is 2060334 - -213?
+2060550

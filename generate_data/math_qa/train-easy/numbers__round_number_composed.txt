@@ -1,0 +1,6 @@
+Let m = 10.7 - 0.7. Let d = 9.99999969 - m. Round d to seven dps.
+-0.0000003
+Let y(g) be the second derivative of 16667*g**4/6 - g**3/3 + 3*g. Let m be y(3). What is m rounded to the nearest one hundred thousand?
+300000
+Suppose 0 = 3*r, -3*b + 8 = 2*r - 4. Let i be 2/(-2 + (-512)/(-255)). Suppose -b*k = -k + i. What is k rounded to the nearest ten?
+-90

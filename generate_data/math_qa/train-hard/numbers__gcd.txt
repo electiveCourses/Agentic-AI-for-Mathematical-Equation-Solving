@@ -1,0 +1,6 @@
+Calculate the highest common factor of 32657 and 60690.
+289
+Calculate the greatest common divisor of 484456 and 63511.
+1477
+Calculate the greatest common factor of 755 and 1510510.
+5

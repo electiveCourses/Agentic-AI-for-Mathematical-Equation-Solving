@@ -1,0 +1,6 @@
+Suppose 2*g = s - g - 22, 0 = 5*s - 2*g - 110. What is the second derivative of 36*v**4 - s*v**4 + 9*v - 5*v**2 + 5*v**2 wrt v?
+168*v**2
+Let i(z) = z + 14. Let o be i(-6). Suppose o*t + 6 = 9*t. Find the third derivative of -5*d**6 + d**6 - d**t + 2*d**2 - 7*d**2 wrt d.
+-600*d**3
+Find the first derivative of -2*q**3 + 122 - 3*q**2 + q**3 - 4*q**3 + 16 + 14 wrt q.
+-15*q**2 - 6*q

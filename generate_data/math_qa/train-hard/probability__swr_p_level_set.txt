@@ -1,0 +1,6 @@
+Four letters picked without replacement from fpppbfbbppbbflb. Give prob of picking 1 b, 1 p and 2 f.
+6/91
+What is prob of picking 1 r, 1 t and 1 c when three letters picked without replacement from {t: 7, r: 3, m: 7, c: 2}?
+14/323
+What is prob of picking 1 c, 1 y and 2 u when four letters picked without replacement from cuyvyuzccc?
+4/105

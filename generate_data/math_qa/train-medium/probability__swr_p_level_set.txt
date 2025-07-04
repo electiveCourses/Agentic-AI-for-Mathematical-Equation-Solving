@@ -1,0 +1,6 @@
+Three letters picked without replacement from qivvaqqaqilqivviiv. What is prob of picking 1 a, 1 i and 1 q?
+25/408
+What is prob of picking 1 o and 1 j when two letters picked without replacement from xohrojh?
+2/21
+Four letters picked without replacement from {j: 2, f: 3, v: 2, w: 4}. What is prob of picking 2 f, 1 j and 1 v?
+2/55

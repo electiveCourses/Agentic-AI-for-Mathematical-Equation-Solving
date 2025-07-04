@@ -1,0 +1,6 @@
+Express 41*o - 5 + 9*o + 5 as r + m*o and give m.
+50
+Rearrange (-4*x + 4*x - x)*(1 + 2 - 2) + x - 4*x + 2*x + (-3 - 8 + 0)*(0*x - 3*x + x) to h*x + g and give h.
+20
+Express -b**3 + 4*b**4 - 4*b**4 - b**4 + (4*b**3 + 2*b**3 - 4*b**3)*(-2*b + 4*b + 0*b) in the form w*b**4 + f + a*b + m*b**2 + g*b**3 and give m.
+0

@@ -1,0 +1,6 @@
+Suppose -5*y = -2 - 3. Let m(x) = 320*x**3 - x. Is m(y) composite?
+True
+Suppose -t - 3*z - 42 = -4*t, -3*t = -z - 34. Is t composite?
+True
+Let j = -32 - -80. Suppose 0*r - 4*r = -j. Let a(c) = 20*c - 17. Is a(r) a prime number?
+True

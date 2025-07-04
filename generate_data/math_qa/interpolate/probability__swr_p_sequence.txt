@@ -1,0 +1,20 @@
+Two letters picked without replacement from dfdoydycdoyhofff. What is prob of sequence yd?
+1/20
+Calculate prob of sequence ve when two letters picked without replacement from {a: 2, v: 4, g: 4, e: 3}.
+1/13
+Four letters picked without replacement from {j: 4, f: 13, e: 1, k: 1, p: 1}. What is prob of sequence kefj?
+13/29070
+What is prob of sequence aaz when three letters picked without replacement from {z: 4, a: 9}?
+24/143
+Calculate prob of sequence bspp when four letters picked without replacement from {s: 3, b: 2, p: 2}.
+1/70
+Calculate prob of sequence mmpp when four letters picked without replacement from jpccjcmkjfmjjj.
+0
+Two letters picked without replacement from heohee. Give prob of sequence ee.
+1/5
+Four letters picked without replacement from {j: 1, w: 13}. What is prob of sequence wwwj?
+1/14
+Calculate prob of sequence dlyr when four letters picked without replacement from ddpdyppldlqrdr.
+5/6006
+Calculate prob of sequence qk when two letters picked without replacement from qrrkmt.
+1/30

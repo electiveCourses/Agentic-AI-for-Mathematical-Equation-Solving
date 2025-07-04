@@ -1,0 +1,6 @@
+Is 10349203 a composite number?
+False
+Is 63856769 composite?
+False
+Is 147415 prime?
+False

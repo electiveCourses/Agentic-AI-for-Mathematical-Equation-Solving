@@ -1,0 +1,6 @@
+Suppose 2046*c - 2121*c = -825. Solve -14*r + 16 = 4*k - c*r, 2*k = -r + 6 for k.
+1
+Let p(m) = -4*m - 3. Suppose -3*i - i - 16 = -2*u, -u + 14 = -5*i. Let b be p(i). Solve 4*y + 5*f = -18, 3*f = b*f + 4 for y.
+-2
+Suppose -2*d = -0*d. Suppose 10 + d = 2*w. Let j be 0/w - (-2)/1. Solve 2*h + 6 = 0, -k - 2*h - 8 = j*h for k.
+4

@@ -1,0 +1,20 @@
+Let g = 12874 - 7587. What is the tens digit of g?
+8
+Let c(z) = -14*z**3 + 9*z**2 + 13*z - 17. What is the units digit of c(-5)?
+3
+Suppose -n = 3*o + 4 - 26, 0 = 4*o + 4*n - 24. Suppose o*y + 4 = 6*y, -4*y = 2*s - 504. What is the hundreds digit of s?
+2
+Let c = 4629 + 267. What is the units digit of c?
+6
+Suppose 4*d = 18 - 10. Suppose -13 - 13 = -d*z. Suppose l + 7 = k - z, k + 4*l - 30 = 0. What is the units digit of k?
+2
+Suppose -f = -4*h + 2*f + 277, -f + 71 = h. What is the tens digit of (h + -8)*13/2?
+0
+Let h(b) = 194*b + 2. Let m(w) = 2*w - 4. Let v be m(3). What is the units digit of h(v)?
+0
+Let p = 24753 + -15606. What is the units digit of p?
+7
+Let n = -164 - -170. What is the hundreds digit of (-24)/36 - (-2512)/n?
+4
+Suppose 41 - 74 = -3*j. Suppose 1730 = 5*t + 2*l, -1371 = -4*t - 10*l + j*l. What is the tens digit of t?
+4

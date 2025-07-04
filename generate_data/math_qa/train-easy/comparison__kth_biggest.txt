@@ -1,0 +1,6 @@
+Which is the fourth biggest value?  (a) -3  (b) -123  (c) 1  (d) -5/2
+b
+What is the fourth biggest value in 0.1, 0.57, -26, -3, -3/5?
+-3
+Which is the fourth smallest value?  (a) 0  (b) -4  (c) 4  (d) -50
+c

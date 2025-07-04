@@ -1,0 +1,20 @@
+Let l(s) = 2*s**2 + 41*s - 21671. What is l(-115)?
+64
+Let a(h) = 8306*h - 323938. Determine a(39).
+-4
+Let t(m) = m**3 + 8*m**2 - 204*m - 1791. Determine t(-11).
+90
+Let v(i) = 4*i**3 - 4*i**2 - 87*i - 302. Calculate v(-4).
+-274
+Let q(u) = -32*u**2 - 482*u + 50. Calculate q(-14).
+526
+Let a(m) = 3*m**2 + 90*m + 108. Determine a(0).
+108
+Let u(j) = -2*j**3 + 108*j**2 + 713*j + 8. Determine u(-6).
+50
+Let g(s) = 54*s**2 - 22245*s - 1236. Calculate g(412).
+0
+Let x(j) = -1003*j**3 - 17*j**2 - 24*j - 7. Calculate x(-1).
+1003
+Let c(y) = 31*y**2 - 304*y + 458. Give c(8).
+10

@@ -1,0 +1,6 @@
+Two letters picked without replacement from {j: 1, d: 4, x: 3, r: 4, z: 2, y: 6}. What is prob of sequence dr?
+4/95
+Three letters picked without replacement from {i: 6}. What is prob of sequence iii?
+1
+Calculate prob of sequence ayy when three letters picked without replacement from {n: 1, o: 4, y: 2, x: 1, a: 1}.
+1/252

@@ -1,0 +1,20 @@
+Let u(d) = 80*d + 18. Let a(t) = -2*t**2 - 38*t. What is a(u(k))?
+-12800*k**2 - 8800*k - 1332
+Let h(s) = -15*s. Let y(i) = 238*i. Let a(p) = -63*h(p) - 4*y(p). Let b(x) = 9*x. Let v(f) = -7*a(f) - 5*b(f). Let l(u) = 10*u. What is l(v(d))?
+40*d
+Let p(o) = 3*o. Let s(z) = -1029676*z - 2. What is p(s(f))?
+-3089028*f - 6
+Let y(v) = -23*v - 1. Let a(m) = -2006*m**2. Give y(a(r)).
+46138*r**2 - 1
+Let r(x) = -2*x. Let i(m) = -4338734*m**2. Give i(r(a)).
+-17354936*a**2
+Let y(t) = 1950*t**2 + 7*t + 0*t - 1952*t**2 + 13*t. Let s(g) = g**2. Let m(d) = 3*d**2. Let v(c) = -m(c) + 5*s(c). Calculate v(y(b)).
+8*b**4 - 160*b**3 + 800*b**2
+Let c(y) = -2*y**2. Let b(j) = -940*j - 12. Let d(q) = 3240180*q + 41360. Let z(g) = -10340*b(g) - 3*d(g). Give z(c(x)).
+1880*x**2
+Let c(g) = -9*g**2 - 2. Let h(o) = 5*o + 8856. Calculate h(c(d)).
+8846 - 45*d**2
+Suppose j = -4*l - 3, 4*j + 3*l = j + 18. Let o(h) = 6*h - h - j*h + 3*h. Let x(s) = 8*s**2 + 2. Determine x(o(q)).
+8*q**2 + 2
+Let b(k) = k. Let z(f) be the second derivative of 36*f**4 - f**2/2 - 4*f - 87. What is b(z(n))?
+432*n**2 - 1

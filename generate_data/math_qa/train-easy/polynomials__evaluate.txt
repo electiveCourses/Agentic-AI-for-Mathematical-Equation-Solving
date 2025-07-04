@@ -1,0 +1,6 @@
+Let t(n) = 2*n**2 + 12*n + 2. Calculate t(-9).
+56
+Let w(j) = -j**3 + 15*j**2 + j - 3. Calculate w(15).
+12
+Let g(t) = t**3 + t**2 + 4*t - 57. Give g(0).
+-57

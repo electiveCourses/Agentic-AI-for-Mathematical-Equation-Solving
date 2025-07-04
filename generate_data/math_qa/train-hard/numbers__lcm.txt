@@ -1,0 +1,6 @@
+Calculate the lowest common multiple of 3489184 and 3925332.
+31402656
+Calculate the lowest common multiple of 3468868 and 570.
+52033020
+Find the common denominator of -29/77097720 and -139/32124050.
+385488600

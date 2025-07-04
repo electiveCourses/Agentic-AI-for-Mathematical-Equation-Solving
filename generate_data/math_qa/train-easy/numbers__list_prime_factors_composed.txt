@@ -1,0 +1,6 @@
+Suppose 3*a = 5*y + 65, -a - 3*y = -3 - 0. Suppose -3*l - a = -4*l. What are the prime factors of l?
+3, 5
+Let b be 13/6 - 6/36. Let d(l) = 5*l**2 + 0 - 1 - b - l**3 - 2*l. List the prime factors of d(4).
+5
+Let n(y) be the third derivative of y**6/120 + y**5/15 - y**4/24 - 2*y**2. What are the prime factors of n(-3)?
+2, 3

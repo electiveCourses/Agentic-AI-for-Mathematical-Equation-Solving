@@ -1,0 +1,6 @@
+Collect the terms in 13 - 95*o**3 - 13.
+-95*o**3
+Collect the terms in 21*m**3 - 8*m**3 - 6*m**3.
+7*m**3
+Collect the terms in 4*g**3 - 240*g**2 + 121*g**2 + 119*g**2.
+4*g**3

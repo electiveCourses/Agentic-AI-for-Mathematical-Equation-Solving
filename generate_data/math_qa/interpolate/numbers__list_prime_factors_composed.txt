@@ -1,0 +1,20 @@
+Suppose 28994 = -59*w + 549374. List the prime factors of w.
+2, 3, 5, 7
+Suppose -25*u + 132116 + 2434 = 0. List the prime factors of u.
+2, 3, 13, 23
+Let z = -21545 - -30234. List the prime factors of z.
+8689
+Let c(r) = r**3 + 27*r**2 + 26*r + 10. Let t be c(-26). Suppose -i - 4*w + 419 = 0, t*i - w - 2200 = 5*i. What are the prime factors of i?
+439
+Suppose 2*s - 22*q + 19*q = 12173, -q = -s + 6089. What are the prime factors of s?
+2, 11, 277
+Suppose -3*c - 3*v + 4 = 13, -v - 7 = 5*c. What are the prime factors of c + (13 - -6) + 5?
+23
+List the prime factors of -389*-1*(5 - (-12)/(-3)).
+389
+Let l(m) = 2476*m**2 + 11*m - 7. List the prime factors of l(1).
+2, 5, 31
+List the prime factors of 5870 - 10*(1 + 0).
+2, 5, 293
+Suppose -2 = 2*f, 16*f - 19*f = 4*n - 2221. What are the prime factors of n?
+2, 139

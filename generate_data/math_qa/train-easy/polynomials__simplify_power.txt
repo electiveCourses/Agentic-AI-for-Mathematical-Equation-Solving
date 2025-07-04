@@ -1,0 +1,6 @@
+Simplify (z**(-2/9)*z)/(z/(z/(z**(-4)/z)))*z/z**(-4/9)*z**6*z assuming z is positive.
+z**(128/9)
+Simplify (d*d*d*d**(-7)*d*d)/d**(-8)*d**(2/7)*((d/(d/(d**(-10)*d)))/d)/d assuming d is positive.
+d**(-33/7)
+Simplify ((n*n*(n/n**0)/n)/n*n)/(n/((n/((n/(n**2*n))/n))/n*n)*n) assuming n is positive.
+n**4

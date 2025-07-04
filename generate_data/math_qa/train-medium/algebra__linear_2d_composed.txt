@@ -1,0 +1,6 @@
+Let z = 14 + -13. Let l = -11 + z. Let r(p) = p**3 + 10*p**2 + 1. Let t be r(l). Solve 3*x = 4*o + 1, -o = -x - 2 + t for x.
+-5
+Let z be (-10)/(6 + -3 + -5). Solve 0 = y + z*k + 26, k = -6*y + 11*y for y.
+-1
+Suppose 206 = -7*q - 18. Let z = q + 44. Solve 2*u + 2*d - z = 6*u, 4*u + 4*d = 0 for u.
+-2

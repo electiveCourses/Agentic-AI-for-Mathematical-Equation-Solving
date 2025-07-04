@@ -1,0 +1,6 @@
+Is 10 a factor of 4444?
+False
+Is 1383 a multiple of 4?
+False
+Is 2644 a multiple of 5?
+False

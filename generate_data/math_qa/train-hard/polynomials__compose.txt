@@ -1,0 +1,6 @@
+Let p(x) = 18244*x. Let n(r) = 53 - 4*r. Determine p(n(h)).
+966932 - 72976*h
+Let x(k) be the first derivative of 0*k + 0*k**2 + 36 - 3/40*k**5 - 2*k**3 + 0*k**4. Let b(j) be the third derivative of x(j). Let m(t) = 5*t. What is b(m(l))?
+-45*l
+Let v(u) = 124*u - 57055. Let t(c) = -10*c. Determine v(t(l)).
+-1240*l - 57055

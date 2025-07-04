@@ -1,0 +1,6 @@
+What is the cube root of 65988664 to the nearest integer?
+404
+What is the third root of 19948412 to the nearest integer?
+271
+What is 412117798 to the power of 1/6, to the nearest integer?
+27

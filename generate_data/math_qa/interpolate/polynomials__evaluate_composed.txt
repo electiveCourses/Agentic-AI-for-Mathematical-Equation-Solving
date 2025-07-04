@@ -1,0 +1,20 @@
+Let n(t) = t**2 - 6*t - 70. Let w be ((30/7)/(-5))/((-6)/84). Give n(w).
+2
+Let g(r) = 6*r**2 - 3 - 2*r**3 + 3*r**3 - 9*r + 0*r. Suppose -22 - 322 = 76*t + 188. Calculate g(t).
+11
+Let y(u) = 4*u**2 + 11*u + 9. Let i(j) = -3*j**2 - 12*j - 11. Let c(n) = -3*i(n) - 2*y(n). Give c(-15).
+30
+Let k(u) be the third derivative of -u**5/60 + 5*u**4/8 - 15*u**3/2 - 250*u**2 - 2*u. Give k(12).
+-9
+Let n be ((-10)/(-9) - 0)/(652/(-2934)). Let d(z) be the third derivative of -z**4/24 - 11*z**3/6 + z**2. Give d(n).
+-6
+Suppose -g + 41 = 4*p, -2*p - 7*g = -12*g - 15. Let w(x) = -x**3 + 9*x**2 + 10*x + 2. Determine w(p).
+2
+Let s(t) = 6*t - 7. Let b(j) = -5 - 1 - 5*j - 4 + 16. Let i(o) = 4*b(o) + 3*s(o). Calculate i(5).
+-7
+Let j(v) = v**2 - v + 1. Suppose 196 = 10*x - 6*x. Let h = 49 - x. Suppose 2*y = 4*n - 10, h*y = 4*y - 2*n - 4. Give j(y).
+7
+Let j(d) be the first derivative of 9*d**2/2 + 7*d + 2. Let k(s) = -22*s - 18. Let u = 306 - 301. Let c(h) = u*k(h) + 12*j(h). Give c(-5).
+4
+Suppose 4*w - 151 = -3*a, 2*w - 5*a + 59 = 3*w. Let z be (149 - 1)*((-66)/(-12) + -5). Let x(j) = z - w - j - 42. Give x(3).
+-5

@@ -1,0 +1,6 @@
+Is 159521 a prime number?
+True
+Is 650059 a prime number?
+True
+Is 8053 a prime number?
+True

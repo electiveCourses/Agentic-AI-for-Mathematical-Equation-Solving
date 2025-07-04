@@ -1,0 +1,20 @@
+Four letters picked without replacement from {s: 12, k: 8}. Give prob of picking 2 k and 2 s.
+616/1615
+Calculate prob of picking 3 d and 1 x when four letters picked without replacement from xxdadnnaddddcd.
+10/143
+Three letters picked without replacement from lqqqqqqqqqqqqqlqq. Give prob of picking 3 q.
+91/136
+Two letters picked without replacement from yggwwkyvg. What is prob of picking 1 g and 1 y?
+1/6
+Three letters picked without replacement from lpfpplllplpplvv. Give prob of picking 3 l.
+4/91
+Three letters picked without replacement from {t: 1, h: 1, k: 1, a: 3, o: 2, g: 2}. What is prob of picking 2 g and 1 a?
+1/40
+Three letters picked without replacement from {s: 9, p: 4}. Give prob of picking 2 s and 1 p.
+72/143
+Two letters picked without replacement from klkkkkkokookokk. Give prob of picking 2 k.
+3/7
+What is prob of picking 1 w and 1 q when two letters picked without replacement from sqwwwqwiwiwwi?
+7/39
+What is prob of picking 1 b and 1 h when two letters picked without replacement from {g: 2, b: 10, h: 1}?
+5/39

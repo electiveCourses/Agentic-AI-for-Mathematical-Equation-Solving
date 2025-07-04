@@ -1,0 +1,6 @@
+Find the third derivative of 8*b*n*q**4 - 2*b*n*q**3 - b*q + 673*n*q**2 + 11*q**5 - 5*q**2 wrt q.
+192*b*n*q - 12*b*n + 660*q**2
+Find the first derivative of 126459*d**3 + 72143 wrt d.
+379377*d**2
+What is the second derivative of -17*d*g**3 - 2*d*g**2 - d*g - 5*g**3 + g**2 + 10992*g wrt g?
+-102*d*g - 4*d - 30*g + 2

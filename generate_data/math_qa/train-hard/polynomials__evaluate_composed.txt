@@ -1,0 +1,6 @@
+Let s(m) = -m**2 - 5*m - 11. Let r be s(-4). Let l be (-6 - r)/(-5) - (-87)/(-15). Let u(o) = 3*o + 3. Calculate u(l).
+-15
+Let b be (-2 - (-14)/6)*(-8 + 8)/(-13). Let k(i) = i**3 + i**2 - i + 11. Give k(b).
+11
+Let x(d) be the first derivative of 34*d**3 + 2*d**2 - 3*d - 1215. Determine x(1).
+103

@@ -1,0 +1,6 @@
+What are the prime factors of 5476?
+2, 37
+List the prime factors of 91821.
+3, 127, 241
+What are the prime factors of 30982?
+2, 7, 2213

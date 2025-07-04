@@ -1,0 +1,6 @@
+Let f be (-15)/(-10) + (-9354)/(-12). Calculate the highest common divisor of f and 71.
+71
+Let i be ((-64)/(-10))/(2/10). Suppose 5*o = 5*d + 620, -10*o + 7*o + d + 380 = 0. Calculate the greatest common factor of i and o.
+32
+Let l(h) = -93*h - 87. Let c be l(-3). What is the greatest common factor of c and 72?
+24

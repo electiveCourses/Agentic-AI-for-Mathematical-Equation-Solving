@@ -1,0 +1,6 @@
+Collect the terms in -47*j - 5672*j**2 + 90*j - 43*j.
+-5672*j**2
+Collect the terms in 211*n**2 - 120*n**2 - 67*n**2.
+24*n**2
+Collect the terms in 1041*u + 1213*u + 2*u**2 - 440*u - 356*u.
+2*u**2 + 1458*u

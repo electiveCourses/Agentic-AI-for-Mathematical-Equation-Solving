@@ -1,0 +1,6 @@
+Is 10 a factor of 14410?
+True
+Is 187434 a multiple of 81?
+True
+Is 534933 a multiple of 1059?
+False

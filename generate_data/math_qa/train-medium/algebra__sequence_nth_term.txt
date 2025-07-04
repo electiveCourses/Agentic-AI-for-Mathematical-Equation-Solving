@@ -1,0 +1,6 @@
+What is the d'th term of 483, -151, -787, -1425?
+-d**2 - 631*d + 1115
+What is the g'th term of -88, -117, -112, -55, 72, 287, 608, 1053?
+3*g**3 - g**2 - 47*g - 43
+What is the f'th term of -25, 4, 81, 206, 379, 600?
+24*f**2 - 43*f - 6

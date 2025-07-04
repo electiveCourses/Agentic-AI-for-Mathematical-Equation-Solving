@@ -1,0 +1,6 @@
+Calculate the remainder when 563 is divided by (-5535)/(-49) - (-4)/98.
+111
+Let s = -45 - 42. What is the remainder when -1 - (s - -2 - -4) is divided by 27?
+26
+Let j = 362 + -336. Calculate the remainder when 76 is divided by j.
+24

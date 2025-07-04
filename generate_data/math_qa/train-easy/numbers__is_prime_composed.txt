@@ -1,0 +1,6 @@
+Suppose 6 = p - 2. Let g(r) = r**3 - 8*r**2 + 8*r - 5. Let i be g(p). Suppose 3*n - 5*m - 29 = 0, -3*n - 2*n + 3*m + i = 0. Is n a composite number?
+False
+Let g(c) = 12*c**2 + 5*c + 4. Is g(-3) composite?
+False
+Let j(s) = 3*s + s**2 - 2*s + 2*s + 3. Let v = -35 + 31. Is j(v) a prime number?
+True

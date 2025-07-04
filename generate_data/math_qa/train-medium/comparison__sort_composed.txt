@@ -1,0 +1,6 @@
+Suppose 3*j - 432 = -j. Suppose f = 4*f - j. Let a be (-8)/15*30/f. Sort -3, a, 1/4 in descending order.
+1/4, a, -3
+Let s = 22.397 - 0.397. Put -2/3, s, -1/4, -3/8 in decreasing order.
+s, -1/4, -3/8, -2/3
+Let m = -268 - -262. Put 3, -3, m in ascending order.
+m, -3, 3

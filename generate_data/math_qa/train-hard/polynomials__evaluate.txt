@@ -1,0 +1,6 @@
+Let p(v) = 38100 - 778*v. Give p(49).
+-22
+Let q(t) = -t**3 - 6*t**2 - 45*t - 185. Determine q(-15).
+2515
+Let u(j) = -20869*j**2 + 42*j - 15. Determine u(0).
+-15

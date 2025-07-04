@@ -1,0 +1,6 @@
+What is 101102332 (base 4) in base 12?
+34bba
+-42036523 (base 7) to base 2
+-1101100000000000110001
+What is -1157226 (base 10) in base 9?
+-2153366

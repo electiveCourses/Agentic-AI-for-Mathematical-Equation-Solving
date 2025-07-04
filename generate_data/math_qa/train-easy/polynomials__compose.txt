@@ -1,0 +1,6 @@
+Let r(c) = 9*c**2. Let m(t) be the first derivative of 2*t**3/3 + 1. Calculate r(m(w)).
+36*w**4
+Let u(i) = 2*i. Let n(w) be the first derivative of w**5/30 - 2*w**3/3 + 1. Let r(m) be the third derivative of n(m). What is u(r(h))?
+8*h
+Let m(r) = 0 + 0 + 5*r**2. Let p(x) = -2*x**2 - 3*x + 3. Let v(o) = -3*o**2 - 4*o + 4. Let w(f) = -4*p(f) + 3*v(f). Calculate w(m(z)).
+-25*z**4

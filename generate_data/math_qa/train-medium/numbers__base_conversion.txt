@@ -1,0 +1,6 @@
+What is -512a (base 14) in base 7?
+-55453
+2b5bb (base 13) to base 6
+1432544
+What is -41444 (base 6) in base 5?
+-134242

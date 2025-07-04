@@ -1,0 +1,6 @@
+Let s = 1.619 + -0.309. Is -0.2 bigger than s?
+False
+Let u = 1.2 + -0.2. Let h = -17.2 - -6.2. Let n = h - -13. Which is smaller: n or u?
+u
+Suppose -3*y + 3 = 3*h, 108*y - 2*h + 16 = 103*y. Let n(k) = 2*k**2 + k**3 - k - 3 + 0 - k**2. Let b be n(0). Is b > y?
+False

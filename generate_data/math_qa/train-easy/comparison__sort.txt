@@ -1,0 +1,6 @@
+Sort 0.2, 1/10, 1/2, -5 in decreasing order.
+1/2, 0.2, 1/10, -5
+Put 8/9, 3, 1/2, -0.2, -0.057 in decreasing order.
+3, 8/9, 1/2, -0.057, -0.2
+Sort -348, -5, -15 in ascending order.
+-348, -15, -5

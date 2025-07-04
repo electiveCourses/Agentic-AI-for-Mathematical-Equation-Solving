@@ -1,0 +1,6 @@
+Is 2/100484857 at least as big as 0?
+True
+Is -1 greater than -1/102475415?
+False
+Which is greater: -406230 or -406103?
+-406103

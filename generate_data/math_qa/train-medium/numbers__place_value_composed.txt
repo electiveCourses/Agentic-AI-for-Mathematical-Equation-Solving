@@ -1,0 +1,6 @@
+Let n(k) = k**3 + 10*k**2 + 9*k. Let r be n(-9). Suppose -5*b + 8*b = -15. What is the units digit of (2 - r)/(b/(-15))?
+6
+Suppose 6*b - 2218 = 4016. What is the hundreds digit of b?
+0
+Let p = 289 + 187. What is the tens digit of p?
+7

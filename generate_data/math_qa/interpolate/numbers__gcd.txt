@@ -1,0 +1,20 @@
+What is the highest common divisor of 5060 and 29480?
+220
+What is the greatest common divisor of 82 and 11837889?
+41
+Calculate the greatest common divisor of 117 and 288081.
+9
+Calculate the highest common divisor of 18360 and 9816.
+24
+Calculate the highest common factor of 282154 and 71532.
+3974
+Calculate the greatest common divisor of 215134 and 41309.
+409
+What is the highest common factor of 3026266 and 87?
+29
+What is the highest common factor of 119536 and 62000?
+496
+What is the greatest common divisor of 617448 and 138?
+6
+Calculate the greatest common factor of 7000227 and 36.
+9

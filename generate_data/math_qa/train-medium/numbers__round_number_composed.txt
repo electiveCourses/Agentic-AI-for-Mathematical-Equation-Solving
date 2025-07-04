@@ -1,0 +1,6 @@
+Let c = -1189 - -3314. What is c rounded to the nearest one hundred?
+2100
+Let d = 216.85578 - -0.04422. Let u = -207 + d. Let h = u + -10.174. What is h rounded to 2 dps?
+-0.27
+Let y(c) = 596*c - 31. Let g be y(12). Let p = -11221 + g. Round p to the nearest 1000.
+-4000

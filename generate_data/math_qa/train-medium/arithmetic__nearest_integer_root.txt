@@ -1,0 +1,6 @@
+What is the third root of 13677111 to the nearest integer?
+239
+What is the cube root of 17204223 to the nearest integer?
+258
+What is 473110 to the power of 1/5, to the nearest integer?
+14

@@ -1,0 +1,20 @@
+What is -6c5c (base 13) in base 12?
+-8a1b
+2153105 (base 6) to base 4
+122123201
+36b2a (base 15) to base 16
+2aa30
+Convert -1436662 (base 7) to base 4.
+-233132230
+Convert -23114 (base 6) to base 10.
+-3286
+Convert 3333104 (base 6) to base 7.
+1266265
+Convert 24761 (base 15) to base 3.
+12220200201
+Convert 1a419 (base 16) to base 15.
+21cea
+What is -22210210121 (base 3) in base 10?
+-173356
+What is 100001110000000100 (base 2) in base 3?
+21000122011

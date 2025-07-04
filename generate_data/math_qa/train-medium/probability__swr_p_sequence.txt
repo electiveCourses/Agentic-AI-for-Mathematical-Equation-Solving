@@ -1,0 +1,6 @@
+Two letters picked without replacement from bcxnzcc. What is prob of sequence nc?
+1/14
+Three letters picked without replacement from llclcclllllclc. What is prob of sequence cll?
+15/91
+Four letters picked without replacement from ppxppyyxgyxpxxyx. Give prob of sequence pgxx.
+5/1456

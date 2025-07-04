@@ -1,0 +1,6 @@
+Let x be (-2)/((40/4)/2). Let o = -3/15628 - -31289/171908. Which is the fourth biggest value?  (a) 0.1  (b) o  (c) x  (d) 1
+c
+Suppose 3*o = -2*i + 229 + 411, 5*i - 1618 = -3*o. Suppose f - i = -327. Which is the third biggest value?  (a) f  (b) 10  (c) 4
+a
+Let s = 2038 - 2037.95. Which is the second smallest value?  (a) s  (b) 9  (c) 2/7
+c

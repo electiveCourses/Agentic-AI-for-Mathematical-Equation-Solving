@@ -1,0 +1,6 @@
+What is b in -151/5*b**3 - 12/5*b + 16*b**2 + 0 - 12/5*b**5 + 19*b**4 = 0?
+0, 1/4, 2/3, 1, 6
+Let k(f) be the third derivative of f**6/40 - f**5/5 - f**4/8 + 2*f**3 - 24*f**2. Let k(m) = 0. What is m?
+-1, 1, 4
+Let v = -63 + 67. Let q(g) be the first derivative of -1/8*g**6 - 1/8*g**2 + 1/2*g**3 - 1/5*g**5 + 1/4*g**v + 5 - 1/2*g. Let q(o) = 0. Calculate o.
+-1, 2/3, 1

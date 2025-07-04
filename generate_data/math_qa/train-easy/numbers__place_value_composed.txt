@@ -1,0 +1,6 @@
+Let u be ((-6)/4)/((-12)/448). Suppose -u - 24 = -5*g. Let t = 22 - g. What is the units digit of t?
+6
+Suppose 0 = -7*l + 486 + 277. What is the units digit of l?
+9
+Let l be 2 + -1 - (-4 + 9). Let u be 6/8 + (-9)/l. Suppose -2*j - 4*a + 22 = a, 2*a + 14 = u*j. What is the units digit of j?
+6

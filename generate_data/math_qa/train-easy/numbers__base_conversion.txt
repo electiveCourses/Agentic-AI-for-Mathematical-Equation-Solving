@@ -1,0 +1,6 @@
+Convert 31 (base 8) to base 3.
+221
+4 (base 8) to base 2
+100
+-14 (base 15) to base 14
+-15

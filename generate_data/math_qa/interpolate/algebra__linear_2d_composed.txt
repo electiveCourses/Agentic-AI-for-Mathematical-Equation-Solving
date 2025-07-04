@@ -1,0 +1,20 @@
+Let l be -4 + (6/4)/(1/4). Suppose 4*r - 4*j = 8, -r + 0*r = -5*j + l. Solve 2*c = -2*h, 2*h - 5*h + r*c - 24 = 0 for h.
+-4
+Suppose -2 = 7*y - 12 - 11. Solve 3*n - 18 = y*p + 4*n, p - 3*n - 4 = 0 for p.
+-5
+Suppose -3*f - 3 = -4*k - 2*f, -4*k + 2*f = -6. Suppose 2*b - 37*l - 18 = -42*l, -2*b + 4*l = 0. Solve 0 = -h - 4*t + 1, b*h - 2*t + 6 + 8 = k for h.
+-3
+Suppose 21*p - 3*p = 180. Let u be (-282)/(-90) - p/75. Solve -2*m + 3*o - 4*o = -3, -u*m = 4*o - 12 for m.
+0
+Suppose -i = 4*l - l, -4*i + 5*l - 17 = 0. Let n be 43 - 12/(1 - i). Let y = n + -36. Solve 5*o = -5*p + p - 11, -3*o - 13 = y*p for p.
+-4
+Suppose -2*q - q = -12. Solve t + q*f - 18 + 6 = 0, -6 = t - 2*f for t.
+0
+Suppose -5*w - 3*c + 5 + 9 = 0, -2*c - 16 = -3*w. Solve -w*f + 5*a = -18, -f + 5*a = -5 - 7 for f.
+2
+Let d = 15 + -5. Let y(a) = a**3 - 2*a**2 - a - 2. Let p be 4 + (5 - 4 - 2). Let f be y(p). Solve d = 2*o + 2*m, -f*o + 5*m - 5 = o for o.
+2
+Let o be -2 - (-3)/(6/16). Suppose -o*s + 56 = -10*s. Let r = s - -15. Solve -2*z - 8 = 3*p, -5*z + 3*p + r = -0 for z.
+-1
+Let i be 36/(-27)*6/(-4). Suppose -3*a + i*d = -11, -2*a + 3*a = d + 3. Let u(r) = r**2 + 4*r. Let w be u(-4). Solve w = 5*x + 4*m + m - 20, 25 = a*m for x.
+-1

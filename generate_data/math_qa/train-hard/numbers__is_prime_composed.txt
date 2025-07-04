@@ -1,0 +1,6 @@
+Let f(o) = -o**2 + 9*o + 17. Let d be f(8). Suppose t - 8 = -0*t - z, -2*t + z = -d. Let n(b) = 8*b**2 - 21*b + 14. Is n(t) a prime number?
+True
+Suppose 26*t - 165048 = 14*t. Let j = 19735 - t. Is j a composite number?
+False
+Let s(c) = -50*c**3 - 7*c**2 + 8*c + 18. Let q be s(-5). Let k = q - -1124. Is k a prime number?
+True

@@ -1,0 +1,20 @@
+Let f = 91276 + -58625. Is f prime?
+False
+Let w be (-63)/(-5) - (-15)/(-25). Suppose 2*h - 13527 = -5*g, -w*h + 27047 = -8*h + 3*g. Is h prime?
+True
+Let y(n) be the third derivative of -127*n**7/2520 - 7*n**6/720 - 11*n**5/60 + 13*n**2. Let m(v) be the third derivative of y(v). Is m(-3) composite?
+True
+Let z = 13 + -8. Suppose -12 = -v - 4*b, -186*b = -185*b - 2. Suppose 5*x - 3387 = -4*f, -v*f + z*f - 2714 = -4*x. Is x a prime number?
+False
+Let o(n) = 12113*n**2 + 17*n - 35. Is o(2) a composite number?
+True
+Let b = -8 - -10. Suppose 14 = 2*y - 5*g, b*y + 4 = 6*y + 2*g. Is 4/12 - y*(-84)/9 a prime number?
+True
+Let w = -60 - -63. Suppose -1275 = -4*s - r, 0*s - 2*s + 641 = -w*r. Is s a prime number?
+False
+Let o = -69268 + 173907. Is o composite?
+False
+Is ((2/(-4))/((-10)/(-5)))/((-41)/8454364) composite?
+False
+Suppose 135*h - 3570412 = 1457393. Is h prime?
+True

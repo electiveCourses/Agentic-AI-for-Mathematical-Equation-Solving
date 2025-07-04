@@ -1,0 +1,20 @@
+Let p(r) = -27*r**3 + 16*r**2 + 54*r - 79. Let c be p(-21). What is c rounded to the nearest 10000?
+260000
+Let m = 247 + -170. Let t = m + -170. Let h = 93.00000212 + t. What is h rounded to 7 dps?
+0.0000021
+Let y = -2.465 + -1708.135. What is y rounded to the nearest ten?
+-1710
+Let m = -288014262.000113 + 288014414. Let t = 152 - m. Round t to five dps.
+0.00011
+Let z(q) = -5800*q**2 + 115*q - 40. Let k be z(16). Round k to the nearest 100000.
+-1500000
+Let x = 149 + -478. Let q = x + 328.9999743. What is q rounded to five decimal places?
+-0.00003
+Let n = 10484853647178744475 - 10484853713782812388.99999779. Let p = n - -66604067591. Let j = -323 - p. What is j rounded to 7 decimal places?
+-0.0000022
+Let i = -1.43 - -160.43. Let v = i - 158.9979. Round v to three decimal places.
+0.002
+Let b = 23.1 - 10.3. Let o = b - 12.7999995. What is o rounded to six dps?
+0.000001
+Let o = 38.4 - 36.6. Let s = -3470 - -3468.201. Let j = s + o. Round j to 3 decimal places.
+0.001

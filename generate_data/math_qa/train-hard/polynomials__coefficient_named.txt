@@ -1,0 +1,6 @@
+Rearrange 2*s**2 + s - 505 - s**4 + 22*s**3 - 11*s**3 - 14*s**3 + 976 to p*s**4 + x + c*s**2 + h*s**3 + y*s and give c.
+2
+Rearrange -4382*b**3 + 0*b**2 - 567 + 0*b + 4376*b**3 - b - b**2 to v*b + n + i*b**3 + y*b**2 and give y.
+-1
+Express -8708*n**2 - 3812*n**2 - 4027*n**2 in the form v*n**2 + o*n + a and give v.
+-16547

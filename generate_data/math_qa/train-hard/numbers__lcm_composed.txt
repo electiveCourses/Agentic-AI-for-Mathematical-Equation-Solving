@@ -1,0 +1,6 @@
+Suppose 2*q + 257 = -83. Let o = q - -218. Let s(d) = 2*d**2 + 4*d + 4. What is the lowest common multiple of s(-3) and o?
+240
+Let h = -1310 + 3390. Calculate the lowest common multiple of h and 728.
+14560
+Let o = -644/17 - -16315/476. What is the common denominator of 35/3 and o?
+84

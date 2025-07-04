@@ -1,0 +1,20 @@
+Simplify (r**(25/3)*r**(1/4)/(r*((r*r**(-3/7)/r*r*r)/r)/r))/(r**(-20)/((r/(r*r/(r*r*r/r**(-5)*r)))/(r**1*r))) assuming r is positive.
+r**(2857/84)
+Simplify (k**(-2/3)*k**(2/17))/(k**2/k**1)**(4/29) assuming k is positive.
+k**(-1016/1479)
+Simplify ((u*(u/(u/(u*u**(1/7))*u))/u)**39*u/(u**(-2/15)*u*u)*u/(u/(u/(u**(4/7)/u))))**(14/9) assuming u is positive.
+u**(1288/135)
+Simplify (((i**30)**(-34))**15)**34 assuming i is positive.
+i**(-520200)
+Simplify (w**3)**25/(((w*w*w*w**1*w)/w**(-2/7))/(w**(-4)*w**3)) assuming w is positive.
+w**(481/7)
+Simplify ((u/(u/(u**1*u)))/u)/(u/u**(-5))*u**(-30)*(u**2/u)/u*u*u**3/u*u*u**(2/3)*u*u/(u/(u*(u**(2/5)/u)/u*u)) assuming u is positive.
+u**(-434/15)
+Simplify (j**(-7)/(j*j**(-3/10))*j*j**(1/2)*j**(-2/11))**(-1/10) assuming j is positive.
+j**(351/550)
+Simplify (w/(w*w*(w*w**(2/7)/w)/w*w*w)*w**1)/w**13*w**5*(w/w**(-3/2)*w*w)/w*w**(-34) assuming w is positive.
+w**(-557/14)
+Simplify (j**10)**(-7/2)/(((j**(2/11)*j*j)/(j*j*j/(j**(-1/3)*j)*j))/j**(-34)) assuming j is positive.
+j**(-2239/33)
+Simplify ((((i**(-2)/i)/((i**(1/8)/i)/i))/i**(-6/7))**37)**(-9/5) assuming i is positive.
+i**(999/56)

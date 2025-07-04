@@ -1,0 +1,6 @@
+Calculate the lowest common multiple of 150 and 26530.
+397950
+Find the common denominator of -151/66 and -70/7491.
+14982
+What is the least common multiple of 125 and 27025?
+135125

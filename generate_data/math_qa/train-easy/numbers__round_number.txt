@@ -1,0 +1,6 @@
+Round 0.0002202 to 6 decimal places.
+0.00022
+What is 3.8068 rounded to two dps?
+3.81
+What is 1389800 rounded to the nearest one million?
+1000000

@@ -1,0 +1,6 @@
+Suppose 2*g = -2*p + 2960, g = 6*g - 2*p - 7400. Let f = g - 1022. What is the units digit of f?
+8
+Let t(z) = 6 - 12*z. Let c(b) = -b**3 + 9*b**2 - 15*b - 7. Suppose 0 = -d - 5*o - 18, -d + o + 16 = 4. Let y be c(d). What is the units digit of t(y)?
+4
+Let m(w) = -9*w**3 - 2*w**2 - 3*w - 13. Let n(x) = -x**2 + 7*x + 26. Let i be n(10). What is the tens digit of m(i)?
+4

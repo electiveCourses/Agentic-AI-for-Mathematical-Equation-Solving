@@ -1,0 +1,6 @@
+Solve -20*b + 128*b + 648 = 0 for b.
+-6
+Solve 0 = 20*g + 2*g - 198 for g.
+9
+Solve -x = 11 - 8 for x.
+-3

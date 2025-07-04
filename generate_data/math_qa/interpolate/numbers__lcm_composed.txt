@@ -1,0 +1,20 @@
+Let t = 384847/375480 - -1/18774. Find the common denominator of t and 29/10.
+40
+Suppose 0 = -o + 3*m + 281, -5*o + 2*m - 195 = -1561. What is the least common multiple of 578 and o?
+4624
+Let m = 5028 + -11754. Let i = -174797/26 - m. Find the common denominator of i and 57/4.
+52
+Let b = -223 + 225. Suppose -6*o + 3*o + 58 = -5*v, -2*o = b*v - 44. What is the least common multiple of 15 and o?
+105
+Let i be (-4)/12*822/5 - 3. Let v = -62 - i. Let s = 261 + -791/3. Find the common denominator of s and v.
+15
+Suppose -3*m + 4387 = -8195. Let v = -41981/10 + m. Find the common denominator of v and 14/33.
+330
+Let b = -1 - -17. Suppose 92*n - 200 = 90*n - 3*r, 0 = 5*n + 3*r - 518. What is the smallest common multiple of b and n?
+848
+Suppose -l = -8 - 44. Let h = -28393 + 28397. Calculate the lowest common multiple of h and l.
+52
+Let m = 55 - 30. Let b(r) = 569*r**2 - 1137*r + 2. Calculate the smallest common multiple of m and b(2).
+100
+Suppose -5*w + 103 = -447. Suppose 4*l = 5*u - w, -2*u - 2*u + 2*l + 82 = 0. Calculate the smallest common multiple of 18 and u.
+18

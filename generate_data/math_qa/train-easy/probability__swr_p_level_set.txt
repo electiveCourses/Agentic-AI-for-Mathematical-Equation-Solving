@@ -1,0 +1,6 @@
+Two letters picked without replacement from {g: 4, i: 1, z: 1, u: 1, h: 1}. Give prob of picking 2 h.
+0
+Three letters picked without replacement from ezgijue. What is prob of picking 1 z, 1 e and 1 u?
+2/35
+Four letters picked without replacement from rojjjojrorooorj. Give prob of picking 3 o and 1 r.
+16/273

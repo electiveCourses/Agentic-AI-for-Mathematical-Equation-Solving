@@ -1,0 +1,20 @@
+What is the tens digit of 21994533?
+3
+What is the millions digit of 10954880?
+0
+What is the units digit of 68483929?
+9
+What is the thousands digit of 22718519?
+8
+What is the millions digit of 98660789?
+8
+What is the units digit of 49988494?
+4
+What is the hundred thousands digit of 47267930?
+2
+What is the hundred thousands digit of 84042881?
+0
+What is the ten millions digit of 18937481?
+1
+What is the ten millions digit of 82329260?
+8

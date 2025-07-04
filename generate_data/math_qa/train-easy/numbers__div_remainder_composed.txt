@@ -1,0 +1,6 @@
+Suppose -3*m - 15 = -6*m. Suppose -m*z + 2*k - 28 = -114, 5*k = -5*z + 65. Calculate the remainder when z is divided by 9.
+7
+Suppose 0 = -x - 0 - 3. Let z be 0 - x - (-5 - -6). Suppose -z*o + 0*o = -20. What is the remainder when 17 is divided by o?
+7
+Suppose 2*g + 2*z - 201 + 77 = 0, -3*g + 162 = -5*z. What is the remainder when g is divided by 16?
+11

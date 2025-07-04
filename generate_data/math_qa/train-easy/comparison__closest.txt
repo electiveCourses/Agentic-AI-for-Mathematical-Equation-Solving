@@ -1,0 +1,6 @@
+Which is the closest to 1?  (a) -1  (b) 2  (c) -52
+b
+Which is the closest to 0.1?  (a) 0.2  (b) -3/26  (c) 4
+a
+What is the nearest to 161 in 4, 0.1, 0.4, -4?
+4

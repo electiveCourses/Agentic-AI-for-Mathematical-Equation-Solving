@@ -1,0 +1,6 @@
+Calculate the least common multiple of 100 and 132.
+3300
+Calculate the common denominator of 19/858 and -77/234.
+2574
+Calculate the lowest common multiple of 63 and 210.
+630

@@ -1,0 +1,6 @@
+Let g = 227 + -147. Let v = -77 + g. Which is smaller: 15/4 or v?
+v
+Let o = -264 + 264. Are -13/21 and o equal?
+False
+Let x be 33/(-44) + (-434)/8. Suppose 4*c - 188 = 2*w, 5*w - 128 + 565 = -c. Let q be (1 + -2)*x/w. Is -1 equal to q?
+False

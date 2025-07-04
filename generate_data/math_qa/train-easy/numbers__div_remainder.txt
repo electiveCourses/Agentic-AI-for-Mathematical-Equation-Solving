@@ -1,0 +1,6 @@
+Calculate the remainder when 3361 is divided by 86.
+7
+What is the remainder when 415 is divided by 30?
+25
+Calculate the remainder when 568 is divided by 190.
+188

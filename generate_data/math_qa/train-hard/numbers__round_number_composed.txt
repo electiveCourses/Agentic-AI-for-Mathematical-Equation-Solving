@@ -1,0 +1,6 @@
+Let z = -0.24579 + 0.07226. Let p = -0.166 - z. What is p rounded to four decimal places?
+0.0075
+Suppose 4*f + 2*n = 44, -5*n + 2*n = -12. Let v be 416/6 - 3/f. Let l = v - 213. Round l to the nearest ten.
+-140
+Let k = 110.441849 - -2.559321. Let g = k + -113. What is g rounded to four dps?
+0.0012

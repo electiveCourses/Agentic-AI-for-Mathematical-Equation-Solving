@@ -1,0 +1,6 @@
+Let n(j) = j**2 - 8*j + 5. Let x be n(8). Solve 24 = -4*k - 0*k - 4*z, -x*k + 3*z + 10 = 0 for k.
+-1
+Let w(r) = -r**3 + 2*r**2 - 1. Suppose -3*o - 2 = -c, -2*c - 1 = -2*o + c. Let a be w(o). Let p = a - -1. Solve 4*t + 3*h + 4 = -h, -5*t = -p*h + 37 for t.
+-5
+Suppose 7*m + 8 = 11*m. Suppose -20 = -3*v - m*v. Solve c - 2*f = -3*c - 12, -v*f = 4*c for c.
+-2

@@ -1,0 +1,6 @@
+Let o be 19/10 + 9/(-6). What is the third biggest value in -0.06, -4, o?
+-4
+Let o = 342232/2775 - -6/925. Let g = o - 122. What is the third smallest value in 0.5, g, 4?
+4
+Let w = -683.8 - -628. Let x = w + 61. Let q = -5 + x. Which is the second biggest value?  (a) -3  (b) q  (c) 2
+b

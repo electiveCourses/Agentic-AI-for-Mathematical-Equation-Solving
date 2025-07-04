@@ -1,0 +1,20 @@
+Let t be -4 - (-2 + 32)/(-5). Suppose 0 = 5*m - 4*b - 6, -m - t*b = -2*m. Suppose 4*g + 23 = m*g + 5*v, 2*g - 4*v + 18 = 0. Solve g = 5*w + 16 for w.
+-3
+Let z = -27 + -23. Let r be (z/60)/(2/(-12)). Solve 3 = 8*n - r*n for n.
+1
+Let s(z) = -z**3 + 13*z**2 - 10*z - 22. Let y = 43 + -31. Let c be s(y). Suppose c*k - 5 = 3*f - 19, -k - 8 = -2*f. Solve -f*g = 2*g - 8 for g.
+2
+Let n = 314 - 529. Let x = n + 221. Solve -20 = x*d - 2 for d.
+-3
+Let q(s) = 29 - 2*s. Let f = 152 + -139. Let l be q(f). Solve 2 = l*k - 4 for k.
+2
+Let q be 58*2/4 + (-64)/8. Solve 19 = -8*t - q for t.
+-5
+Let h be (3 + (0 - 0))/(15/(-20)). Let p = h + -1. Let w(k) = k**2 - 4. Let l be w(p). Solve 0 = -5*i - l + 1 for i.
+-4
+Let a(v) = v**2 - 40*v - 127. Let o be a(-3). Solve o*b = 26 - 18 for b.
+4
+Let b(t) = 2*t**2 + 2*t - 5. Let z be b(-3). Let o be 5 + (5 - z) - (-1 + -1). Suppose 38 = -2*k + o*k + y, -4*k + 50 = y. Solve k = -f + 4*f for f.
+4
+Let i = -22 - -24. Suppose 0*q = -i*q + 4. Let w(x) = -x**2 + 8*x - 11. Let h be w(5). Solve y + h = q*y for y.
+4

@@ -1,0 +1,6 @@
+Let f(a) = a**3 + 10*a**2 - 3*a + 7. Let n be f(-11). Let i = n + 125. Is 18 a factor of i?
+False
+Let a(d) = -d**2 - 1. Let p(i) = -i**3 - 7*i**2 + 6*i - 9. Let z(j) = 3*a(j) - p(j). Suppose 6*t + c = 3*t - 12, 2*t + 4*c - 2 = 0. Is 7 a factor of z(t)?
+False
+Suppose 2*f + 3*j = j + 14, -25 = -4*f - 5*j. Does 5 divide f?
+True

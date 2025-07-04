@@ -1,0 +1,6 @@
+Let d(q) = 15 + 2*q**2 + 8 - 23. Let n(a) = -25*a. Calculate d(n(b)).
+1250*b**2
+Let u(d) = -27*d**2. Let f(w) = 334*w + 2. Calculate f(u(z)).
+2 - 9018*z**2
+Let u(v) = 6*v. Let m = 51 + -44. Let d(p) = 16*p**2 - m*p**2 - 11*p**2. Determine d(u(h)).
+-72*h**2

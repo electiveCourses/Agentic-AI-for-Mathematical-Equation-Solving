@@ -1,0 +1,6 @@
+Calculate the remainder when 149605 is divided by 127.
+126
+What is the remainder when 92272 is divided by 68?
+64
+What is the remainder when 16224 is divided by 19?
+17

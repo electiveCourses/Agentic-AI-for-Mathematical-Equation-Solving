@@ -1,0 +1,6 @@
+Suppose -2*o = -o + 5*c + 19, -3*o - 2*c - 5 = 0. Let j(x) = 2*x + o + 0*x + 3*x**2 - 2*x**2. Calculate j(-1).
+0
+Suppose -2*n + 2*f + 16 = 0, -4*n + 5*f + 35 = -0*n. Let d(h) = 0*h + n - 4*h - 4. What is d(3)?
+-11
+Let f(g) = 2*g. Let h be 10*1*(-1 + 2). Suppose 3*t - h = -5*b, -b + 2 + 0 = 3*t. Suppose -b*q - 4 + 0 = 0. Determine f(q).
+-4

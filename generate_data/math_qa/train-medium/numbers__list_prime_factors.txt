@@ -1,0 +1,6 @@
+What are the prime factors of 550565?
+5, 29, 3797
+List the prime factors of 200014.
+2, 97, 1031
+List the prime factors of 9365525.
+5, 13, 28817

@@ -1,0 +1,6 @@
+In base 6, what is 12 - 1134?
+-1122
+In base 8, what is -1 - 225?
+-226
+In base 10, what is 6 - -1597?
+1603

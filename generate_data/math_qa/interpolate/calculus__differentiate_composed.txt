@@ -1,0 +1,20 @@
+Find the second derivative of 52*c - 2938*c**3 - 624*c**2 + 5871*c**3 - 2932*c**3 - 8 + 61*c**2 wrt c.
+6*c - 1126
+Let b(s) = -2. Let u(f) = -53*f - 5. Let a(v) = -3*b(v) + u(v). Let d(m) = 54*m - 3. Let g(r) = -6*a(r) - 5*d(r). What is the derivative of g(l) wrt l?
+48
+Let m(i) be the second derivative of 7*i**4/2 - i**3/6 - 745*i**2 + 23*i + 13. Find the first derivative of m(t) wrt t.
+84*t - 1
+Suppose -2*l + 17 = 5. Let y(h) = 2*h**2 - 6*h - 15. Let u be y(l). What is the derivative of 2*f**4 + 10*f**4 - 23 + u wrt f?
+48*f**3
+Find the third derivative of 2*m**2 - 10264 - 3*m**2 - 330*m**3 + 0*m**5 + 10297 + 2*m**5 - 147*m**3 wrt m.
+120*m**2 - 2862
+Differentiate -296*v**3 - 518 + 201 - 1052 - 378*v**3 - 550*v**3 with respect to v.
+-3672*v**2
+Let w be -1 + (-1 - -2 - 3). Let f be 4 + -2 + w + 6/2. Find the third derivative of -1 - 8*q**f + 1 + 13*q**5 - 8*q**2 wrt q.
+780*q**2
+Let j(w) be the third derivative of 653*w**8/168 + 67*w**4/6 + w**3/2 - 21*w**2 + 13. What is the second derivative of j(h) wrt h?
+26120*h**3
+Suppose -120 = -12*i + 84. Differentiate -i + 2*q - 39 - 27*q**3 + 21 wrt q.
+2 - 81*q**2
+Let k(g) = 1074*g**2 + 1511*g - 4. Let f(n) = -5*n**2 - n - 2. Let y(i) = -2*f(i) + k(i). What is the second derivative of y(s) wrt s?
+2168

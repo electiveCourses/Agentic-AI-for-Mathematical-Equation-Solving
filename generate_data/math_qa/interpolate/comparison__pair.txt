@@ -1,0 +1,20 @@
+Which is smaller: 0.1662 or -1348?
+-1348
+Is -3020 at most -5613?
+False
+Is 7445 smaller than 7683?
+True
+Which is bigger: -3/17973742 or 1?
+1
+Which is smaller: 0 or -963/27050?
+-963/27050
+Which is smaller: -685 or 2812?
+-685
+Is -4774/3 < 0.079?
+True
+Is 325072 != 325071?
+True
+Which is greater: -646207 or -646225?
+-646207
+Which is smaller: -1253563/4 or -313390?
+-1253563/4

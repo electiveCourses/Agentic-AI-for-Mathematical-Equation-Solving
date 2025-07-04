@@ -1,0 +1,6 @@
+Calculate -0.6*383.
+-229.8
+What is the product of 162 and 197?
+31914
+What is -0.1 times -4.19498?
+0.419498

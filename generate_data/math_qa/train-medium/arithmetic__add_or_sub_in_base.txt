@@ -1,0 +1,6 @@
+In base 16, what is 9f8e - -c?
+9f9a
+In base 10, what is 636 - 75?
+561
+In base 11, what is 2a05 + 1263?
+4168

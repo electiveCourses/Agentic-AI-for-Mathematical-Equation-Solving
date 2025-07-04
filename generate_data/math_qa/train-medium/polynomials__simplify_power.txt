@@ -1,0 +1,6 @@
+Simplify (a**(-2/17)*a*a*a**(-15))/(a**(1/7)/(a/(a/(a**4*a)))) assuming a is positive.
+a**(-983/119)
+Simplify ((m*m**(-3/13)*m)/m*((m*(m**(10/7)/m)/m)/m)/m)/((m*(m*((m*(m/m**(-3/2))/m)/m)/m*m)/m)/m**(-2/3)) assuming m is positive.
+m**(-2167/546)
+Simplify (n**(-1)*n**(-4/5)*n**(-4/3)/n**(-1))**28 assuming n is positive.
+n**(-896/15)

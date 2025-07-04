@@ -1,0 +1,6 @@
+Let l = -0.1 + 0.2. Let m = 155.2 - 154.2. Let q = -0.019 + -3.981. Which is the closest to l?  (a) 0.2  (b) m  (c) q
+a
+Let f = 6238 - 6253. Which is the nearest to -0.2?  (a) f  (b) 4  (c) -0.4  (d) 7
+c
+Let g = 0.097 + 48.403. Let y = 69 - g. Let k = -20 + y. What is the closest to 0.1 in k, 7, -0.1?
+-0.1

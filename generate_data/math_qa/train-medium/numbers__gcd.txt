@@ -1,0 +1,6 @@
+What is the greatest common factor of 1122 and 1518?
+66
+Calculate the greatest common divisor of 76752 and 702.
+234
+What is the greatest common factor of 194229 and 77?
+7

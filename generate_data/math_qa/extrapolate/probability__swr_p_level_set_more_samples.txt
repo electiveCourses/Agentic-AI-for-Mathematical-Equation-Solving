@@ -1,0 +1,20 @@
+Five letters picked without replacement from aamaaaaaaaapaa. Give prob of picking 1 p and 4 a.
+45/182
+What is prob of picking 1 r, 2 g and 2 e when five letters picked without replacement from egegeeegregeeggg?
+7/52
+Five letters picked without replacement from {i: 5, x: 2, l: 1, e: 1, k: 1, d: 2}. Give prob of picking 1 e, 1 k, 1 l and 2 i.
+5/396
+Five letters picked without replacement from nnnnenpjpnnnnbjnen. Give prob of picking 2 n, 1 e and 2 j.
+55/4284
+Five letters picked without replacement from qmqllqxliqqquxullqqx. What is prob of picking 2 q, 2 u and 1 x?
+7/1292
+Five letters picked without replacement from gxazaxzazxzgzaxzxz. Give prob of picking 1 a, 2 x, 1 g and 1 z.
+10/153
+Five letters picked without replacement from {d: 2, x: 2, u: 1, e: 1, t: 1, q: 5}. Give prob of picking 1 t, 1 e, 1 d, 1 x and 1 u.
+1/198
+Five letters picked without replacement from {l: 3, b: 12}. What is prob of picking 2 b and 3 l?
+2/91
+Five letters picked without replacement from {r: 6, c: 2, d: 1, m: 1, b: 2, j: 1}. What is prob of picking 1 b, 1 m, 2 r and 1 j?
+10/429
+Five letters picked without replacement from {d: 1, k: 2, f: 3, g: 2, r: 6, p: 2}. What is prob of picking 2 f, 2 g and 1 r?
+3/728

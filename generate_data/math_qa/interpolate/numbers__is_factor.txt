@@ -1,0 +1,20 @@
+Does 47 divide 18392481?
+False
+Does 61 divide 1035597?
+True
+Is 684 a factor of 14024052?
+True
+Does 1270 divide 47216539?
+False
+Does 89 divide 14034318?
+False
+Is 155 a factor of 9331194?
+False
+Is 25 a factor of 10961453?
+False
+Does 1305 divide 55122832?
+False
+Does 266 divide 11816460?
+False
+Is 7 a factor of 1771007?
+True

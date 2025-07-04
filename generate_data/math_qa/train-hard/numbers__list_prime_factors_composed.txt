@@ -1,0 +1,6 @@
+Suppose 4*i + 20 = 3*y, y + 5*i + 14 = 2*y. Suppose 0 = -5*s - 5, 4*s - 9*s - 5 = y*w. List the prime factors of (-8 - -7) + (w - -77).
+2, 19
+Let l(r) be the first derivative of -5/4*r**4 + 0*r**3 + r + 1/2*r**2 - 17. List the prime factors of l(-1).
+5
+Suppose 0 = 3*k + b - 116860, -9*b - 53556 = -5*k + 141200. What are the prime factors of k?
+38953

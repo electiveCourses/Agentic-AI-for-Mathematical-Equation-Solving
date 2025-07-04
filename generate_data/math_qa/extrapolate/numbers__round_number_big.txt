@@ -1,0 +1,20 @@
+What is 967336.785539 rounded to the nearest ten?
+967340
+Round -0.000013343624667 to six dps.
+-0.000013
+Round -3554.93822256 to the nearest 100.
+-3600
+Round -5134.15567854 to the nearest integer.
+-5134
+Round 0.014268153252 to three decimal places.
+0.014
+What is -194598.9135856 rounded to the nearest one thousand?
+-195000
+Round 40.823156495 to the nearest one hundred.
+0
+Round -0.0530092859729 to three decimal places.
+-0.053
+What is 0.00390144464252 rounded to 7 dps?
+0.0039014
+What is -0.0577198102416 rounded to two decimal places?
+-0.06

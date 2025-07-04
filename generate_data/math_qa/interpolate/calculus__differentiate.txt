@@ -1,0 +1,20 @@
+Differentiate 1357887*o - 15411724.
+1357887
+Find the second derivative of -1246*f*k**2 + 6*f*k + 280486*f + 5583*k**2 - 2*k wrt k.
+11166 - 2492*f
+What is the third derivative of -320*c**3*q**3 - 13073*c**3*q**2 - 4821407*c**2*q**3 + q**3 wrt c?
+-1920*q**3 - 78438*q**2
+Find the second derivative of -115*v**4 + v**3 + 445*v**2 - 81816*v + 3.
+-1380*v**2 + 6*v + 890
+Find the third derivative of -2*j*w**4 + 15*j*w**3 - 4112*j*w + 42585*w**3 - 159*w**2 wrt w.
+-48*j*w + 90*j + 255510
+What is the first derivative of 10472341*l*m**2*q**3 - l*m**2*q**2 - m**2 + 13511*q**3 - 54*q wrt l?
+10472341*m**2*q**3 - m**2*q**2
+Find the third derivative of -1755159*b**4 + 5*b**3 - 1190288*b**2 - 4*b.
+30 - 42123816*b
+What is the third derivative of 15022035*g**3 - 14839056*g**2 wrt g?
+90132210
+What is the first derivative of -127*i**3 - 50537*i**2 + 7614638 wrt i?
+-381*i**2 - 101074*i
+What is the second derivative of 3366122*v**2 - 6582776*v - 1?
+6732244

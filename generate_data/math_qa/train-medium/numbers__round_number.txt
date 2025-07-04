@@ -1,0 +1,6 @@
+What is -0.0010635997 rounded to four dps?
+-0.0011
+Round 3278.0515 to the nearest 1000.
+3000
+Round 0.2201368 to 3 decimal places.
+0.22

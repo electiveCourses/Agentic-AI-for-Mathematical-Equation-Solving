@@ -1,0 +1,6 @@
+Calculate the remainder when 525857 is divided by 6824.
+409
+What is the remainder when 1268043 is divided by 14388?
+1899
+What is the remainder when 1880151 is divided by 473?
+449

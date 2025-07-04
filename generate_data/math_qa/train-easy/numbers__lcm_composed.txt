@@ -1,0 +1,6 @@
+Let m(t) = -6*t - 3. Let o be m(-6). Let r = o - 79/2. Let h(n) = 3*n - 6. Find the common denominator of r and h(-4).
+2
+What is the common denominator of 127/12 and 55/36 + (-44)/(-198)?
+12
+Let m(f) = -f**2 + 7*f + 2. Let l be m(7). What is the common denominator of l*2/(-5)*1 and 1/2?
+10

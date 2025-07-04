@@ -1,0 +1,6 @@
+Simplify (-4 + sqrt(208)*-1)**2 + (-1 + sqrt(26)/sqrt(2))**2 + -3.
+30*sqrt(13) + 235
+Simplify sqrt(147) + (sqrt(147) + (sqrt(147) - (1 + sqrt(147))) + 5 + sqrt(147))**2 - ((0 + sqrt(12))**2 + sqrt(3) + (sqrt(9)/sqrt(3)*-5 - sqrt(3))).
+124*sqrt(3) + 592
+Simplify (((-4*sqrt(450))/sqrt(10))/sqrt(9))**2 + -4.
+76

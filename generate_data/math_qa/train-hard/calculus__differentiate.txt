@@ -1,0 +1,6 @@
+Find the second derivative of -39272*g*x*y**4 + 21*g*x + 3*g*y**2 - 6124*x*y - y wrt y.
+-471264*g*x*y**2 + 6*g
+Find the second derivative of 75976*m**2*z**2 - 1204*m**2*z - 28*m**2 - 486*z**2 - 301 wrt z.
+151952*m**2 - 972
+What is the second derivative of 758577*r**2*v**2 + 20354*r**2*v + 16*r**2 + 2*v wrt v?
+1517154*r**2

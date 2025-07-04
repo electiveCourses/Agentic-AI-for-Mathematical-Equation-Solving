@@ -1,0 +1,20 @@
+Factor -183/2*c + 189 - 3/2*c**2.
+-3*(c - 2)*(c + 63)/2
+Let o(p) be the second derivative of p**4/84 - 3*p**3/14 - 5*p**2/7 + 637*p. Factor o(t).
+(t - 10)*(t + 1)/7
+Let s(b) be the second derivative of b**6/105 + 9*b**5/35 - b**4/2 - 38*b**3/21 - 41*b - 1. What is y in s(y) = 0?
+-19, -1, 0, 2
+Let t(f) = -2*f**3 + 57*f**2 - 83*f + 21. Let r(a) = -a**3 + 29*a**2 - 40*a + 9. Let s(x) = 7*r(x) - 3*t(x). Factor s(d).
+-d*(d - 31)*(d - 1)
+Let u = -3624 - -3624. Let y(f) be the second derivative of -1/120*f**4 + 0*f**2 + 2*f + 1/100*f**5 + u*f**3 + 0 - 1/300*f**6. Determine g, given that y(g) = 0.
+0, 1
+Let g(o) be the third derivative of o**6/55 - 23*o**5/330 + 13*o**4/132 - 2*o**3/33 + 107*o**2. Find i such that g(i) = 0.
+1/4, 2/3, 1
+Factor 269378/9 + 2/9*i**2 - 1468/9*i.
+2*(i - 367)**2/9
+Let h(f) = -8*f**3 - 6*f**2 + 12*f - 2. Let k(v) = 7*v**3 + 6*v**2 - 12*v - 1. Let l(d) = -5*h(d) - 6*k(d). Factor l(n).
+-2*(n - 2)*(n + 1)*(n + 4)
+Let y = -4659 - -13982/3. Let i(x) be the second derivative of -y*x**4 + 17*x + 8*x**2 + 0 + 16/3*x**3. Factor i(m).
+-4*(m - 2)*(5*m + 2)
+Let v(l) = -l**3 + 7*l**2 - 7*l - 4. Let u be v(6). Let n = 14 + u. Let -101*z**4 - z**3 + 2*z**3 + 102*z**n = 0. What is z?
+-1, 0

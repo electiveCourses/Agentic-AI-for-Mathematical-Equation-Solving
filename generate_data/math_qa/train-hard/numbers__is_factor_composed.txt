@@ -1,0 +1,6 @@
+Suppose -2*i = i - 2*k - 16, 0 = -5*i - 5*k - 15. Suppose 587 = i*q + x, q + 3*x - 301 = x. Let a = -168 + q. Is 41 a factor of a?
+True
+Suppose -160*v + 183375 = -35*v. Is v a multiple of 10?
+False
+Suppose 14 + 6 = -4*n, 2*c - 3*n - 15 = 0. Suppose -3*k - 4497 = -3*p, c = 2*p - 4*k - 1742 - 1246. Is 16 a factor of p?
+True

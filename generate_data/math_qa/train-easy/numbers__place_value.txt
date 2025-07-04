@@ -1,0 +1,6 @@
+What is the hundreds digit of 19402?
+4
+What is the ten thousands digit of 13158?
+1
+What is the tens digit of 432?
+3

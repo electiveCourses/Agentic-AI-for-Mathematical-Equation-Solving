@@ -1,0 +1,6 @@
+Let g(p) = -p**3 - p**2 + 70*p + 17. Let k be g(8). Which is the closest to 3?  (a) -3/5  (b) -8  (c) k
+c
+Let t = 19.364 + -14.364. Let f = 0 - -1. Let g = -1 + f. Which is the nearest to 0.1?  (a) t  (b) g  (c) 2/17
+c
+Let m = 2.034 - 3.034. Which is the closest to 0.17?  (a) -2/15  (b) m  (c) -0.5
+a

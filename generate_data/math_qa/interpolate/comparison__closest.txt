@@ -1,0 +1,20 @@
+What is the closest to 2/3 in 1, -0.24, -0.3, 0.46, -439?
+0.46
+What is the closest to -1.25 in 1, -1, -5, 1.1, 7/6?
+-1
+What is the nearest to 3791 in -1.06, 1, 4?
+4
+What is the closest to 0.1 in 834, 0.11, 21/4?
+0.11
+Which is the nearest to -2/5?  (a) 0.117  (b) -4  (c) -0.26516
+c
+What is the closest to -1/9 in -4, -2, 1052/35?
+-2
+What is the nearest to 0.12 in 0.3, -0.1, -193885?
+0.3
+What is the closest to -1/7 in -3/5, -187, 0.93, -2, -3/8?
+-3/8
+Which is the nearest to 1?  (a) 0.11  (b) 3  (c) 2  (d) -3  (e) -9685
+a
+Which is the closest to 1/2?  (a) -83  (b) 0.047  (c) -7  (d) -0.5  (e) 0.37
+e

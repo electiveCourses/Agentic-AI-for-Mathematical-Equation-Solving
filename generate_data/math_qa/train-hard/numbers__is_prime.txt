@@ -1,0 +1,6 @@
+Is 34514965803 composite?
+True
+Is 670770223 a prime number?
+False
+Is 2163451061 prime?
+False

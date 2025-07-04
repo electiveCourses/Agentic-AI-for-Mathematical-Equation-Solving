@@ -1,0 +1,6 @@
+Let j = -32 + -10. Let h = j + 68. What is the highest common factor of h and 65?
+13
+Suppose 2*d = 3*b + 6, 6*b = 2*b - 3*d + 9. Let f be 19/(4 + -3 + b). Calculate the highest common factor of f and 57.
+19
+Let v be (15/(-6))/(3/(-12)). What is the highest common factor of v and 4?
+2

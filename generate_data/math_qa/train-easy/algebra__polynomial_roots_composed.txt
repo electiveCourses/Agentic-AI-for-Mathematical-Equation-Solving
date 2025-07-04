@@ -1,0 +1,6 @@
+Suppose 2*x**3 + 16*x**2 - 8*x**3 - 43*x - 12 + 53*x = 0. What is x?
+-1, 2/3, 3
+Let p be (-89)/3*(-64)/6. Let z = p + -316. Factor -14/9*o**4 + 2*o**3 + 0 + 0*o - z*o**2.
+-2*o**2*(o - 1)*(7*o - 2)/9
+Let k(v) be the third derivative of v**6/144 - 13*v**5/360 + v**4/36 + v**3/9 - v**2 + v. Find x such that k(x) = 0.
+-2/5, 1, 2

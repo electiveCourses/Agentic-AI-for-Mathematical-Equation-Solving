@@ -1,0 +1,20 @@
+Let y = -823 - -822. Which is smaller: 9/466 or y?
+y
+Suppose 147 = -8*v + 5*v. Let f = v - -295/6. Let x(b) = 9 - b. Let n be x(9). Is f less than or equal to n?
+False
+Let y(u) = u**3 - 3*u**2 + 3*u - 1. Suppose 15 = 3*z, h = 5*z - 16 - 8. Let f be y(h). Is f < -54?
+False
+Suppose 2*t + 2*a = 344, 2*t + a = 5*t - 516. Which is smaller: t or 512/3?
+512/3
+Suppose 13*t + 18 = 16*t. Suppose -t = -r - 6. Is r < 1/127?
+True
+Let s = -20518/9 - -2281. Let p be -1 + 1 + 6 + -4. Is p at least as big as s?
+True
+Let x(g) be the second derivative of g**4/12 - g**3/6 - 5*g**2 - 3*g. Let b(n) be the first derivative of x(n). Let l be b(0). Which is smaller: 1/8 or l?
+l
+Let n = -0.214 - -39.214. Let s = n - 33. Are s and -0.09 unequal?
+True
+Let u = -567.7 + 743. Let c = 162 - u. Let w = 13 + c. Is -2/3 >= w?
+False
+Let q = -956 - -955. Which is smaller: -4/1223 or q?
+q

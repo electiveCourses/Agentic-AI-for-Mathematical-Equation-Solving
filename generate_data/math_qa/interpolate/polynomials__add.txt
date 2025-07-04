@@ -1,0 +1,20 @@
+Let x(n) = 67 - 26*n. Let a(i) = 176 - 78*i. Give -4*a(m) + 11*x(m).
+26*m + 33
+Let t(c) = 36 - 4631*c. Let k(s) = 1543*s - 13. What is -11*k(x) - 4*t(x)?
+1551*x - 1
+Let n(d) = 5*d + 2. Let g(t) = -4*t - 60 - 62 + 254 - 67 - 66. Give 6*g(j) + 5*n(j).
+j + 4
+Let x(q) = 2 - 4*q. Let w(o) = 7 - 11*o. Let j be (28 - 38)/(2/(16/(-10))). Determine j*x(l) - 3*w(l).
+l - 5
+Let l(t) = 7*t**3 - 8*t**2 - 8*t. Let u(n) = -n**3 + n**2 + n. Let r be 7 + (4 - 12/4*3) + 3. Determine r*l(i) + 40*u(i).
+-5*i**3
+Let a(h) = -78*h - 52. Let o(v) = -v - 1. Suppose 0 = -7*j + 19 - 48 + 22. Give j*a(k) + 52*o(k).
+26*k
+Let m(k) = 2*k + 3 + k + 7*k**2 - 8*k**2 + 3*k**2. Let j = 66 - 74. Let h(c) = -6*c**2 - 8*c - 8. Give j*m(g) - 3*h(g).
+2*g**2
+Let w(i) = 149*i**3 - 5*i**2 + 13*i + 10. Let n(m) = -147*m**3 + 6*m**2 - 15*m - 12. What is -5*n(f) - 6*w(f)?
+-159*f**3 - 3*f
+Let n(d) = -2*d - 5. Let k be -1*-33*2/6. Let t(o) = 4*o + 9. Suppose a = -s - a, 4*s + 4*a = 12. Calculate k*n(v) + s*t(v).
+2*v - 1
+Let z(q) = 202 - 31*q. Let a(m) = 67 - 10*m. Calculate 7*a(w) - 2*z(w).
+65 - 8*w

@@ -1,0 +1,6 @@
+What is the greatest common factor of 13975 and 130?
+65
+What is the highest common factor of 20 and 365?
+5
+Calculate the greatest common factor of 34945 and 145.
+145

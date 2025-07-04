@@ -1,0 +1,20 @@
+What is 1428961.67 rounded to the nearest 100000?
+1400000
+Round -198.792 to the nearest ten thousand.
+0
+What is 784498990 rounded to the nearest 1000000?
+784000000
+What is 296.82509 rounded to one dp?
+296.8
+Round 5134.8982 to the nearest 10.
+5130
+What is 11521.0529 rounded to the nearest integer?
+11521
+Round 170843.798 to the nearest 10.
+170840
+Round -319.79823 to the nearest ten.
+-320
+Round -6.6029647 to one decimal place.
+-6.6
+What is -0.000014017659 rounded to five dps?
+-0.00001

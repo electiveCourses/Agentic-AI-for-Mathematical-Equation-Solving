@@ -1,0 +1,20 @@
+In base 3, what is -2011110222102 - -1?
+-2011110222101
+In base 8, what is 160771123 + 2?
+160771125
+In base 13, what is -64168a2 + -1?
+-64168a3
+In base 9, what is -2217 - -1144?
+-1063
+In base 6, what is -4 + -250143151?
+-250143155
+In base 4, what is 2003 - 102003032?
+-102001023
+In base 3, what is 10 - 1120022100010?
+-1120022100000
+In base 13, what is 5a2 - 1c3c?
+-166a
+In base 8, what is -136 - 470637?
+-470775
+In base 16, what is -1d + 82aa2?
+82a85

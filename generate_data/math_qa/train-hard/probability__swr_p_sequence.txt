@@ -1,0 +1,6 @@
+Three letters picked without replacement from oxlolk. Give prob of sequence xoo.
+1/60
+What is prob of sequence zu when two letters picked without replacement from {i: 1, v: 1, z: 1, u: 2}?
+1/10
+Three letters picked without replacement from {q: 12, k: 3, v: 2}. Give prob of sequence qvv.
+1/170

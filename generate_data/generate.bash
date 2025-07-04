@@ -1,0 +1,1 @@
+python -m mathematics_dataset.generate_to_file --output_dir=./data/math_qa --train_split=True

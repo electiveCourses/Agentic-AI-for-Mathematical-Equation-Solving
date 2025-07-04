@@ -1,0 +1,6 @@
+Let r(i) = 2*i**2 - 4*i - 18. Let k = -30 + 38. Calculate the lowest common multiple of r(6) and k.
+120
+Let a(f) be the third derivative of -7*f**4/8 - f**3/2 - f**2. Let q be a(-7). Calculate the common denominator of 44/q*66/(-3) and 15/8.
+72
+Find the common denominator of (-202)/(-72) - 5/2 and -26/5.
+180

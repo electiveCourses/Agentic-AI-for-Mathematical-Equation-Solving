@@ -1,0 +1,6 @@
+Let g(t) = 17*t**3 - 8*t**2 - 2*t + 11. Let b(m) = 2*m**3 - 83*m**2 - 42*m + 8. Let q be b(42). Let r(y) = -6*y**3 + 3*y**2 + y - 4. Calculate q*r(s) + 3*g(s).
+3*s**3 + 2*s + 1
+Let l(v) be the second derivative of v**4/3 + v**3/6 + 3*v**2/2 + 9*v - 36. Let k(y) = -y**2 - 1. What is -6*k(z) - l(z)?
+2*z**2 - z + 3
+Let p(f) be the first derivative of -6*f**2 + 14*f + 20. Let t(a) = 5*a + 32. Let u(l) = 2*l + 11. Let b(g) = 6*t(g) - 17*u(g). Give 14*b(x) - 5*p(x).
+4*x

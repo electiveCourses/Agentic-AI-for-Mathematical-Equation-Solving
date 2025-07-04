@@ -1,0 +1,6 @@
+Let h(j) = 4*j + j - j. Suppose 34 = -g - 0*g. Let o = -36 - g. Determine h(o).
+-8
+Let n = -14 - -69. Let w = -62 + n. Let m(z) = z**3 + 6*z**2 - 7*z - 2. What is m(w)?
+-2
+Let k(r) = -r**3 - r**2 + r - 1. Let a(p) = 7*p**2 - 2*p + 1. Let l be a(1). Suppose l*f = 5 + 1. Calculate k(f).
+-2

@@ -1,0 +1,6 @@
+Collect the terms in -5293251418 + 5293251418 - b**2.
+-b**2
+Collect the terms in -328039*v - 13 + 164023*v + 8*v**3 + 164016*v.
+8*v**3 - 13
+Collect the terms in -3*h**3 - 53*h**2 + 53*h**2 - 2278 + 16*h**3 - 6*h**3.
+7*h**3 - 2278

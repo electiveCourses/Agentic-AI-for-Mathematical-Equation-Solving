@@ -1,0 +1,6 @@
+Let i(w) = 1. Let l(j) = -3*j - 21. Let s(x) = -4*i(x) - l(x). Let o be s(-5). Suppose -2*k - 24 = -6*k. Calculate the highest common factor of o and k.
+2
+Suppose 2*z + d - 58 = 5*z, -5*d - 71 = 4*z. Let a(f) = 137 - 2*f. Let y be a(z). Calculate the greatest common divisor of 280 and y.
+35
+Suppose 0 = 4*q + 5*r - 1511, 48*r = 45*r + 9. Calculate the highest common factor of q and 1173.
+17

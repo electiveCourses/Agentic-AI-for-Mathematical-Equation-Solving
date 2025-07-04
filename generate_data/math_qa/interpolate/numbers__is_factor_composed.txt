@@ -1,0 +1,20 @@
+Let z(k) = 0*k**2 + 3*k**2 - 6*k**2 + k - 6. Let h be z(2). Let a = 89 + h. Is a a multiple of 43?
+False
+Let s be 21853/(-205) + (-4)/10. Let o = s + 127. Is 2 a factor of o?
+True
+Let t = -270 + 275. Let l(z) = 5 - 4*z. Let b be l(-4). Suppose 4*w = -4*d + 44, -t*w + b = -2*d - 62. Is w a multiple of 15?
+True
+Let m = 147 + -134. Suppose 10*k - m*k - 283 = -2*i, -i - 3*k = -137. Is i a multiple of 3?
+False
+Suppose 0 = -16*o + 4*f + 1548, 43*f + 510 = 5*o + 47*f. Is o a multiple of 7?
+True
+Is 7 a factor of 3044 - (-10 + 8 + 12)?
+False
+Let r(f) = 4*f**2 + 46*f - 94. Does 93 divide r(-30)?
+False
+Does 8 divide 866 - (-18)/4*(-16)/36?
+True
+Let c(x) = 23 - 8*x**2 + 7*x**2 - 18*x + 57 + 48*x. Does 16 divide c(32)?
+True
+Let p be (0 - (-1)/(-2))*-44. Let k = p + 18. Does 4 divide ((-10)/(-4))/(125/k + -3)?
+True

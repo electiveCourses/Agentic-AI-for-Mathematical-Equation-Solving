@@ -1,0 +1,6 @@
+Solve 4*b = -5*n - 21, -b - 3*n = b + 11 for b.
+-4
+Solve 13 = -2*a - 0*a - 3*u, 3*a + 2*u + 17 = 0 for a.
+-5
+Solve 0 = -3*i + 3*p + 12, -3 = -i - p - 9 for i.
+-1

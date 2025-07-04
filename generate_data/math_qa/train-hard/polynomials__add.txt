@@ -1,0 +1,6 @@
+Let v(p) = 2 - 3447*p. Let w(s) = 7 - 10344*s. Give -7*v(j) + 2*w(j).
+3441*j
+Let a(i) = i. Let p(d) = 1 + 73*d + 62*d - 178*d + 57*d. Let c be (12/36)/(2/6 - 0). Calculate c*p(f) - 6*a(f).
+8*f + 1
+Let o(p) = -5*p**2 - 6*p - 4. Let n = 12 - 18. Let i(t) = -4 + 6*t**2 + 6*t**2 - 5*t - 18*t**2 - 3*t + t. Give n*i(z) + 7*o(z).
+z**2 - 4

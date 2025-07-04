@@ -1,0 +1,6 @@
+Let k(w) be the third derivative of -w**6/90 + w**5/20 - w**4/24 + 6*w**2. Let x(h) be the second derivative of k(h). What is the derivative of x(i) wrt i?
+-8
+Let m(w) be the third derivative of w**7/42 + 5*w**3/6 - 4*w**2. Differentiate m(g) wrt g.
+20*g**3
+Find the first derivative of 1 - 11 - 7 + 4 - 15*u wrt u.
+-15
