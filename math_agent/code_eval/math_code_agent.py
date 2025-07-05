@@ -2,12 +2,12 @@ import os
 import re
 import json
 from typing import Dict, List, Tuple, Optional, Any
-from pathlib import Path
-
 from smolagents import CodeAgent, TransformersModel
-from huggingface_hub import login
 import platform
-
+from smolagents import InferenceClientModel
+from datasets import load_from_disk, Dataset
+from tqdm import tqdm
+from collections import defaultdict
 
 class MathCodeAgent:
     """
@@ -62,14 +62,12 @@ class MathCodeAgent:
                 )
                 print(f"Using TransformersModel with {model_name}")
         else:
-            # Use remote inference (fallback)
-            from smolagents import InferenceClientModel
             model = InferenceClientModel(model_name)
             print(f"Using remote inference with {model_name}")
         
         # Initialize the smolagents CodeAgent
         self.agent = CodeAgent(
-            tools=[],  # CodeAgent has built-in code execution, no custom tools needed
+            tools=[],
             model=model,
             verbosity_level=1,
             additional_authorized_imports=[
@@ -130,16 +128,6 @@ CRITICAL:
 - Keep the exact format expected by the problem (fractions, decimals, symbolic, etc.)"""
 
     def solve(self, problem: str) -> str:
-        """
-        Solve a mathematical problem by generating and executing Python code.
-        
-        Args:
-            problem: The mathematical problem to solve
-            
-        Returns:
-            The solution to the problem
-        """
-        # Create a detailed prompt for the agent
         prompt = f"""{self.math_system_prompt}
 
 Problem: {problem}
@@ -148,10 +136,7 @@ Please write Python code to solve this problem and execute it using the execute_
 Make sure to print the final answer in the exact format expected."""
         
         try:
-            # Run the agent
             result = self.agent.run(prompt)
-            
-            # Extract the answer from the agent's response
             if isinstance(result, dict) and 'output' in result:
                 return str(result['output']).strip()
             else:
@@ -160,34 +145,17 @@ Make sure to print the final answer in the exact format expected."""
             return f"Error solving problem: {str(e)}"
     
     def solve_with_code(self, problem: str) -> Tuple[str, str]:
-        """
-        Solve a mathematical problem and return both the code and the result.
-        
-        Args:
-            problem: The mathematical problem to solve
-            
-        Returns:
-            A tuple of (generated_code, result)
-        """
-        # For debugging and transparency, we'll capture the generated code
         prompt = f"""{self.math_system_prompt}
-
 Problem: {problem}
 
 Please write Python code to solve this problem. First, show the complete Python code, then execute it."""
-        
         try:
-            # Run the agent
             response = self.agent.run(prompt)
-            
-            # Try to extract code from the response
             code_match = re.search(r'```python\n(.*?)\n```', str(response), re.DOTALL)
             if code_match:
                 code = code_match.group(1)
             else:
                 code = "# Code extraction failed"
-            
-            # Get the result
             if isinstance(response, dict) and 'output' in response:
                 result = str(response['output']).strip()
             else:
@@ -296,9 +264,7 @@ def evaluate_agent(agent: MathCodeAgent, dataset_path: str, num_problems: int = 
                 'status': 'error'
             })
     
-    # Calculate accuracy
     results['accuracy'] = results['correct'] / results['total'] if results['total'] > 0 else 0
-    
     return results
 
 
@@ -335,6 +301,362 @@ def normalize_answer(answer: str) -> str:
     return answer
 
 
+def evaluate_solution(predicted_answer, ground_truth):
+    """
+    Evaluate if the predicted answer matches the ground truth.
+    
+    Args:
+        predicted_answer (str): The extracted answer from agent
+        ground_truth (str): The correct answer
+        
+    Returns:
+        bool: True if answers match, False otherwise
+    """
+    if not predicted_answer or not ground_truth:
+        return False
+    
+    # Clean both answers
+    def clean_answer(ans):
+        if ans is None:
+            return None
+        # Remove whitespace and convert to string
+        ans = str(ans).strip()
+        # Remove common formatting
+        ans = ans.replace(" ", "").replace(",", "")
+        return ans.lower()
+    
+    pred_clean = clean_answer(predicted_answer)
+    truth_clean = clean_answer(ground_truth)
+    
+    if pred_clean == truth_clean:
+        return True
+    
+    # Try to convert to numbers for comparison
+    try:
+        pred_num = float(pred_clean)
+        truth_num = float(truth_clean)
+        # Check if numbers are close (handle floating point precision)
+        return abs(pred_num - truth_num) < 1e-6
+    except (ValueError, TypeError):
+        # If conversion fails, do string comparison
+        return pred_clean == truth_clean
+
+
+def solve_math_problem(problem, agent, expected_answer=None):
+    """
+    Solve a math problem using the agent and parse the result.
+    
+    Args:
+        problem (str): The math problem to solve
+        agent: The MathCodeAgent instance
+        expected_answer (str, optional): The expected answer for evaluation
+        
+    Returns:
+        dict: Contains the parsed result and evaluation metrics
+    """
+    try:
+        # Solve the problem
+        answer = agent.solve(problem)
+        
+        # Parse the output - check if we got a meaningful answer
+        success = answer is not None and answer.strip() != "" and not answer.startswith("Error")
+        
+        result = {
+            'answer': answer.strip() if answer else None,
+            'success': success,
+            'raw_output': answer
+        }
+        
+        # Evaluate if expected answer is provided
+        if expected_answer is not None:
+            result['correct'] = evaluate_solution(result['answer'], expected_answer) if success else False
+            result['expected_answer'] = expected_answer
+        
+        return result
+        
+    except Exception as e:
+        return {
+            'answer': None,
+            'success': False,
+            'error': str(e),
+            'raw_output': f"Error: {str(e)}",
+            'correct': False,
+            'expected_answer': expected_answer
+        }
+
+
+def evaluate_agent_on_dataset(dataset, agent, max_problems=None, categories=None, verbose=True):
+    """
+    Evaluate the agent on a HuggingFace dataset with category-wise statistics.
+    
+    Args:
+        dataset: HuggingFace dataset with 'question', 'answer', and 'category' fields
+        agent: The MathCodeAgent instance
+        max_problems (int, optional): Maximum number of problems to evaluate
+        categories (list, optional): Specific categories to evaluate (if None, evaluate all)
+        verbose (bool): Whether to print detailed progress
+        
+    Returns:
+        dict: Evaluation results with overall and category-wise statistics
+    """
+    # Filter by categories if specified
+    if categories:
+        dataset = dataset.filter(lambda x: x['category'] in categories)
+    
+    # Limit the number of problems if specified
+    if max_problems:
+        dataset = dataset.select(range(min(max_problems, len(dataset))))
+    
+    # Initialize tracking variables
+    results = []
+    category_stats = defaultdict(lambda: {
+        'total': 0, 'correct': 0, 'parsed': 0, 'errors': 0
+    })
+    
+    total_problems = len(dataset)
+    print(f"Evaluating agent on {total_problems} problems...")
+    
+    # Process each problem
+    if not verbose:  # use tqdm only if not printing detailed output
+        tqdm_bar = tqdm(enumerate(dataset), total=total_problems, desc="Evaluating")
+    else:
+        tqdm_bar = enumerate(dataset)
+        
+    for i, example in tqdm_bar:
+        problem = example['question']
+        expected_answer = example['answer']
+        category = example['category']
+        
+        if not verbose:
+            tqdm_bar.set_description(f"Problem {i+1}/{total_problems} [{category}]")
+        else:
+            print(f"\nProblem {i+1}/{total_problems} [{category}]: {problem[:50]}...")
+        
+        # Update category total count
+        category_stats[category]['total'] += 1
+        
+        try:
+            result = solve_math_problem(problem, agent, expected_answer)
+            
+            if result['success']:
+                category_stats[category]['parsed'] += 1
+                if result['correct']:
+                    category_stats[category]['correct'] += 1
+                    if verbose:
+                        print(f"✅ CORRECT: {result['answer']}")
+                else:
+                    if verbose:
+                        print(f"❌ WRONG: Got {result['answer']}, Expected {expected_answer}")
+            else:
+                if verbose:
+                    print("⚠️ PARSING FAILED")
+            
+            results.append({
+                'problem': problem,
+                'expected_answer': expected_answer,
+                'predicted_answer': result['answer'],
+                'correct': result.get('correct', False),
+                'parsed_successfully': result['success'],
+                'category': category,
+                'raw_output': result['raw_output']
+            })
+            
+        except Exception as e:
+            category_stats[category]['errors'] += 1
+            if verbose:
+                print(f"❌ ERROR: {str(e)}")
+            results.append({
+                'problem': problem,
+                'expected_answer': expected_answer,
+                'predicted_answer': None,
+                'correct': False,
+                'parsed_successfully': False,
+                'category': category,
+                'error': str(e)
+            })
+    
+    # Calculate overall metrics
+    total_correct = sum(stats['correct'] for stats in category_stats.values())
+    total_parsed = sum(stats['parsed'] for stats in category_stats.values())
+    total_errors = sum(stats['errors'] for stats in category_stats.values())
+    
+    overall_parsing_accuracy = total_parsed / total_problems if total_problems > 0 else 0
+    overall_solving_accuracy = total_correct / total_problems if total_problems > 0 else 0
+    overall_conditional_accuracy = total_correct / total_parsed if total_parsed > 0 else 0
+    
+    # Calculate category-wise metrics
+    category_metrics = {}
+    for category, stats in category_stats.items():
+        parsing_acc = stats['parsed'] / stats['total'] if stats['total'] > 0 else 0
+        solving_acc = stats['correct'] / stats['total'] if stats['total'] > 0 else 0
+        conditional_acc = stats['correct'] / stats['parsed'] if stats['parsed'] > 0 else 0
+        
+        category_metrics[category] = {
+            'total_problems': stats['total'],
+            'correct_answers': stats['correct'],
+            'parsed_successfully': stats['parsed'],
+            'errors': stats['errors'],
+            'parsing_accuracy': parsing_acc,
+            'solving_accuracy': solving_acc,
+            'conditional_accuracy': conditional_acc
+        }
+    
+    # Create summary
+    summary = {
+        'overall_metrics': {
+            'total_problems': total_problems,
+            'parsed_successfully': total_parsed,
+            'correct_answers': total_correct,
+            'errors': total_errors,
+            'parsing_accuracy': overall_parsing_accuracy,
+            'solving_accuracy': overall_solving_accuracy,
+            'conditional_accuracy': overall_conditional_accuracy
+        },
+        'category_metrics': category_metrics,
+        'detailed_results': results
+    }
+    
+    # Print summary
+    if verbose:
+        print(f"\n{'='*80}")
+        print("EVALUATION SUMMARY")
+        print(f"{'='*80}")
+        print("Overall Results:")
+        print(f"  Total Problems: {total_problems}")
+        print(f"  Successfully Parsed: {total_parsed} ({overall_parsing_accuracy:.2%})")
+        print(f"  Correct Answers: {total_correct} ({overall_solving_accuracy:.2%})")
+        print(f"  Accuracy (given successful parsing): {overall_conditional_accuracy:.2%}")
+        print(f"  Errors: {total_errors}")
+        
+        print(f"\n{'='*80}")
+        print("CATEGORY-WISE RESULTS")
+        print(f"{'='*80}")
+        
+        # Create a nice table for category results
+        category_data = []
+        for category, metrics in category_metrics.items():
+            category_data.append([
+                category,
+                metrics['total_problems'],
+                metrics['correct_answers'],
+                f"{metrics['solving_accuracy']:.2%}",
+                f"{metrics['parsing_accuracy']:.2%}",
+                f"{metrics['conditional_accuracy']:.2%}"
+            ])
+        
+        # Sort by category name
+        category_data.sort(key=lambda x: x[0])
+        
+        # Print table header
+        print(f"{'Category':<15} {'Total':<7} {'Correct':<7} {'Solve%':<7} {'Parse%':<7} {'Cond%':<7}")
+        print("-" * 80)
+        
+        # Print category results
+        for row in category_data:
+            print(f"{row[0]:<15} {row[1]:<7} {row[2]:<7} {row[3]:<7} {row[4]:<7} {row[5]:<7}")
+    
+    return summary
+
+
+def save_evaluation_results(summary, filename="evaluation_results.json"):
+    """Save evaluation results to a JSON file."""
+    # Create a serializable version (remove non-serializable parts)
+    serializable_summary = {
+        'overall_metrics': summary['overall_metrics'],
+        'category_metrics': summary['category_metrics'],
+        'detailed_results': [{
+            'problem': r['problem'],
+            'expected_answer': r['expected_answer'],
+            'predicted_answer': r['predicted_answer'],
+            'correct': r['correct'],
+            'parsed_successfully': r['parsed_successfully'],
+            'category': r['category']
+        } for r in summary['detailed_results']]
+    }
+    
+    with open(filename, 'w') as f:
+        json.dump(serializable_summary, f, indent=2)
+    
+    print(f"Results saved to {filename}")
+
+
+def run_full_evaluation(dataset, agent, problems_per_category=10, verbose=False):
+    """
+    Run a comprehensive evaluation with balanced sampling from each category.
+    
+    Args:
+        dataset: The HuggingFace dataset
+        agent: The MathCodeAgent instance
+        problems_per_category: Number of problems to sample from each category
+        verbose (bool): Whether to print detailed progress
+        
+    Returns:
+        dict: Comprehensive evaluation results
+    """
+    print(f"Running comprehensive evaluation with {problems_per_category} problems per category...")
+    
+    # Get all categories
+    categories = list(set(dataset['category']))
+    print(f"Categories found: {categories}")
+    
+    # Sample problems from each category
+    sampled_examples = []
+    for category in categories:
+        category_data = dataset.filter(lambda x: x['category'] == category)
+        n_samples = min(problems_per_category, len(category_data))
+        category_samples = category_data.select(range(n_samples))
+        sampled_examples.extend(category_samples)
+    
+    # Create balanced dataset
+    balanced_dataset = Dataset.from_list(sampled_examples)
+    
+    print(f"Created balanced dataset with {len(balanced_dataset)} problems")
+    
+    # Run evaluation
+    results = evaluate_agent_on_dataset(balanced_dataset, agent, verbose=verbose)
+    
+    # Print detailed analysis
+    print("\n" + "="*80)
+    print("COMPREHENSIVE ANALYSIS")
+    print("="*80)
+    
+    # Sort categories by performance
+    category_performance = []
+    for category, metrics in results['category_metrics'].items():
+        category_performance.append((category, metrics['solving_accuracy']))
+    
+    category_performance.sort(key=lambda x: x[1], reverse=True)
+    
+    print("\nCATEGORY PERFORMANCE RANKING:")
+    print("-" * 50)
+    for i, (category, accuracy) in enumerate(category_performance, 1):
+        print(f"{i:2d}. {category:<15} {accuracy:.2%}")
+    
+    # Find best and worst categories
+    best_category = category_performance[0][0]
+    worst_category = category_performance[-1][0]
+    
+    print(f"\nBest performing category: {best_category} ({category_performance[0][1]:.2%})")
+    print(f"Worst performing category: {worst_category} ({category_performance[-1][1]:.2%})")
+    
+    # Identify parsing vs solving issues
+    parsing_issues = []
+    solving_issues = []
+    
+    for category, metrics in results['category_metrics'].items():
+        if metrics['parsing_accuracy'] < 0.8:  # Less than 80% parsing success
+            parsing_issues.append(category)
+        elif metrics['conditional_accuracy'] < 0.6:  # Less than 60% accuracy given successful parsing
+            solving_issues.append(category)
+    
+    if parsing_issues:
+        print(f"\nCategories with parsing issues: {parsing_issues}")
+    if solving_issues:
+        print(f"Categories with solving issues: {solving_issues}")
+    
+    return results
+
+
 def main():
     """
     Main function to demonstrate the Math Code Agent.
@@ -342,56 +664,52 @@ def main():
     # Initialize the agent with local inference
     print("Initializing Math Code Agent with local inference...")
     
-    # For local inference, you may still need to login to Hugging Face to download models
-    # login()
-    
-    # Create agent with local inference (default)
-    # For smaller/faster models, you can use:
-    # agent = MathCodeAgent(model_name="HuggingFaceTB/SmolLM-1.7B-Instruct")
-    # agent = MathCodeAgent(model_name="microsoft/DialoGPT-medium")
-    
     # Default uses a good balance between size and performance
     agent = MathCodeAgent(use_local=True)
     
-    # Test on some example problems
-    test_problems = [
-        "1.480219 - 0.2",
-        "What is 0.06 less than -0.2?",
-        "Solve -20*b + 128*b + 648 = 0 for b.",
-        "Sort 0.2, 1/10, 1/2, -5 in decreasing order.",
-        "What is 62.131 + -4?"
-    ]
+    # Evaluate on a dataset using comprehensive evaluation
+    print("\n\n=== Comprehensive Dataset Evaluation ===")
     
-    print("\n=== Testing Individual Problems ===")
-    for problem in test_problems:
-        print(f"\nProblem: {problem}")
-        try:
-            answer = agent.solve(problem)
-            print(f"Answer: {answer}")
-        except Exception as e:
-            print(f"Error: {e}")
-    
-    # Evaluate on a dataset
-    print("\n\n=== Evaluating on Dataset ===")
-    dataset_path = "/Users/sergeevnikita/Agentic-AI-for-Mathematical-Equation-Solving/data/math_qa/train-easy/arithmetic__add_or_sub.txt"
+    # Load the processed dataset
+    dataset_path = "../../data/processed/math_qa_dataset"
     
     if os.path.exists(dataset_path):
         try:
-            results = evaluate_agent(agent, dataset_path, num_problems=3)  # Reduced for local testing
+            print("Loading processed dataset...")
+            dataset = load_from_disk(dataset_path)
             
-            print("\n=== Evaluation Results ===")
-            print(f"Total problems: {results['total']}")
-            print(f"Correct: {results['correct']}")
-            print(f"Incorrect: {results['incorrect']}")
-            print(f"Errors: {results['errors']}")
-            print(f"Accuracy: {results['accuracy']:.2%}")
+            # Run comprehensive evaluation
+            full_results = run_full_evaluation(dataset, agent, problems_per_category=5, verbose=True)
             
             # Save results
-            with open('evaluation_results.json', 'w') as f:
-                json.dump(results, f, indent=2)
-            print("\nResults saved to evaluation_results.json")
+            save_evaluation_results(full_results, "comprehensive_evaluation_results.json")
+            
+            print("\n=== Evaluation Complete ===")
+            print("Full results saved to comprehensive_evaluation_results.json")
+            
         except Exception as e:
-            print(f"Evaluation error: {e}")
+            print(f"Comprehensive evaluation error: {e}")
+            print("Falling back to simple evaluation...")
+            
+            # Fallback to simple evaluation on text files
+            simple_dataset_path = "../../data/math_qa/train-easy/arithmetic__add_or_sub.txt"
+            if os.path.exists(simple_dataset_path):
+                try:
+                    results = evaluate_agent(agent, simple_dataset_path, num_problems=3)
+                    
+                    print("\n=== Simple Evaluation Results ===")
+                    print(f"Total problems: {results['total']}")
+                    print(f"Correct: {results['correct']}")
+                    print(f"Incorrect: {results['incorrect']}")
+                    print(f"Errors: {results['errors']}")
+                    print(f"Accuracy: {results['accuracy']:.2%}")
+                    
+                    # Save results
+                    with open('evaluation_results.json', 'w') as f:
+                        json.dump(results, f, indent=2)
+                    print("\nResults saved to evaluation_results.json")
+                except Exception as e:
+                    print(f"Simple evaluation error: {e}")
     else:
         print("Dataset not found. Testing with individual problems only.")
         
