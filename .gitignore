@@ -2,3 +2,4 @@
 .mypy_cache/
 cache*
 __pycache__/
+*.egg-info/
