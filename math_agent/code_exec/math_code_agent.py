@@ -370,6 +370,7 @@ def solve_math_problem(
     problem: str,
     expected_answer: Optional[str] = None,
     agent: Optional[MathCodeAgent] = None,
+    verbose: bool = False,
 ) -> Dict[str, Any]:
     """
     Solve a math problem using the agent and parse the result.
@@ -378,11 +379,16 @@ def solve_math_problem(
         problem (str): The math problem to solve
         expected_answer (str, optional): The expected answer for evaluation
         agent: The MathCodeAgent instance
+        verbose (bool): Whether to print verbose output
 
     Returns:
         dict: Contains the parsed result and evaluation metrics
     """
     try:
+        # Check if agent is provided
+        if agent is None:
+            raise ValueError("Agent instance is required")
+        
         # Solve the problem
         answer = agent.solve(problem)
 
@@ -402,8 +408,8 @@ def solve_math_problem(
         # Evaluate if expected answer is provided
         if expected_answer is not None:
             result["correct"] = (
-                evaluate_solution(result["answer"], expected_answer)
-                if success
+                evaluate_solution(str(result["answer"]), expected_answer)
+                if success and result["answer"] is not None
                 else False
             )
             result["expected_answer"] = expected_answer

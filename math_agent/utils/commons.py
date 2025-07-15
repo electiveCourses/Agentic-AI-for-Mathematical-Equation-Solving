@@ -64,7 +64,7 @@ def evaluate_agent_on_dataset(
         category_stats[category]["total"] += 1
 
         try:
-            result = solve_function(problem, expected_answer, **solve_function_args)
+            result = solve_function(problem, expected_answer, verbose=verbose, **solve_function_args)
 
             if result["success"]:
                 category_stats[category]["parsed"] += 1
