@@ -1,0 +1,1186 @@
+{
+  "total": 168,
+  "correct": 74,
+  "incorrect": 94,
+  "errors": 0,
+  "accuracy": 0.44047619047619047,
+  "details": [
+    {
+      "problem": "Find m such that 24/11 + 34/11*m**3 - 34/11*m - 34/11*m**2 + 10/11*m**4 = 0.",
+      "expected": "-4, -1, 3/5, 1",
+      "answer": "-4.00000000000000, -1.00000000000000, 0.600000000000000, 1.00000000000000",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let f be 6/(-27) - (-564)/108. Suppose -f*l - l = -l. Solve 9/7*o**3 + l*o + 0 + 0*o**2 + 6/7*o**5 + 15/7*o**4 = 0.",
+      "expected": "-3/2, -1, 0",
+      "answer": "0.0, -0.986013297183269*I, 0.986013297183269*I",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let j(a) be the first derivative of 4*a**5/5 + 3*a**4 + 8*a**3/3 - 238. Determine s, given that j(s) = 0.",
+      "expected": "-2, -1, 0",
+      "answer": "-2",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let i(w) = 1. Let l(j) = -3*j - 21. Let s(x) = -4*i(x) - l(x). Let o be s(-5). Suppose -2*k - 24 = -6*k. Calculate the highest common factor of o and k.",
+      "expected": "2",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.29 GiB. GPU 0 has a total capacity of 14.74 GiB of which 714.12 MiB is free. Process 2953 has 14.04 GiB memory in use. Of the allocated memory 13.17 GiB is allocated by PyTorch, and 761.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 2*z + d - 58 = 5*z, -5*d - 71 = 4*z. Let a(f) = 137 - 2*f. Let y be a(z). Calculate the greatest common divisor of 280 and y.",
+      "expected": "35",
+      "answer": "35",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 0 = 4*q + 5*r - 1511, 48*r = 45*r + 9. Calculate the highest common factor of q and 1173.",
+      "expected": "17",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.47 GiB. GPU 0 has a total capacity of 14.74 GiB of which 526.12 MiB is free. Process 2953 has 14.22 GiB memory in use. Of the allocated memory 13.39 GiB is allocated by PyTorch, and 727.41 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Work out -1726.8 * 0.02.",
+      "expected": "-34.536",
+      "answer": "-34.536",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 0.0323 times 8796?",
+      "expected": "284.1108",
+      "answer": "284.11080000000004",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -0.3*-0.88868758.",
+      "expected": "0.266606274",
+      "answer": "0.266606274",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Let x be (-2)/((40/4)/2). Let o = -3/15628 - -31289/171908. Which is the fourth biggest value?  (a) 0.1  (b) o  (c) x  (d) 1",
+      "expected": "c",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 7.18 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1014.12 MiB is free. Process 2953 has 13.75 GiB memory in use. Of the allocated memory 12.69 GiB is allocated by PyTorch, and 959.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Suppose 3*o = -2*i + 229 + 411, 5*i - 1618 = -3*o. Suppose f - i = -327. Which is the third biggest value?  (a) f  (b) 10  (c) 4",
+      "expected": "a",
+      "answer": "-1",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let s = 2038 - 2037.95. Which is the second smallest value?  (a) s  (b) 9  (c) 2/7",
+      "expected": "c",
+      "answer": "0.049999999999954525",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the next term in -167908, -167670, -167432, -167194, -166956, -166718?",
+      "expected": "-166480",
+      "answer": "-166718",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "What comes next: 17893, 21053, 24213, 27373?",
+      "expected": "30533",
+      "answer": "33693",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "What is next in -22996, -23370, -23756, -24160, -24588?",
+      "expected": "-25046",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.15 GiB. GPU 0 has a total capacity of 14.74 GiB of which 866.12 MiB is free. Process 2953 has 13.89 GiB memory in use. Of the allocated memory 13.01 GiB is allocated by PyTorch, and 774.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Expand (-103 - 33 + 58)*(3*o + o - 3*o)*(4 + 3 - 6).",
+      "expected": "-78*o",
+      "answer": null,
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Expand ((-1 - 3 + 7)*(-1 + 4 - 2) + 61 + 7 + 61)*(f - 4*f - 2*f).",
+      "expected": "-660*f",
+      "answer": "-660*f",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Expand (-3*d + d + 0*d)*(14 - 4 + 1) - 30 + 5*d + 15 + 17.",
+      "expected": "2 - 17*d",
+      "answer": "2.0 - 17.0*d",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Suppose 2*q + 257 = -83. Let o = q - -218. Let s(d) = 2*d**2 + 4*d + 4. What is the lowest common multiple of s(-3) and o?",
+      "expected": "240",
+      "answer": "240",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let h = -1310 + 3390. Calculate the lowest common multiple of h and 728.",
+      "expected": "14560",
+      "answer": "14560",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let o = -644/17 - -16315/476. What is the common denominator of 35/3 and o?",
+      "expected": "84",
+      "answer": "3",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let p(x) = 18244*x. Let n(r) = 53 - 4*r. Determine p(n(h)).",
+      "expected": "966932 - 72976*h",
+      "answer": "237172",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let x(k) be the first derivative of 0*k + 0*k**2 + 36 - 3/40*k**5 - 2*k**3 + 0*k**4. Let b(j) be the third derivative of x(j). Let m(t) = 5*t. What is b(m(l))?",
+      "expected": "-45*l",
+      "answer": "-112.5*l**2 - 12",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let v(u) = 124*u - 57055. Let t(c) = -10*c. Determine v(t(l)).",
+      "expected": "-1240*l - 57055",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 5.34 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1.66 GiB is free. Process 2953 has 13.08 GiB memory in use. Of the allocated memory 12.48 GiB is allocated by PyTorch, and 488.69 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Is 44 a factor of 1084824?",
+      "expected": "False",
+      "answer": "4",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Is 3 a factor of 114809181?",
+      "expected": "True",
+      "answer": "Yes",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Does 61 divide 210599137?",
+      "expected": "False",
+      "answer": "53",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is 202 minutes before 8:01 PM?",
+      "expected": "4:39 PM",
+      "answer": "04:39 PM",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "What is 628 minutes after 9:45 PM?",
+      "expected": "8:13 AM",
+      "answer": "08:13 AM",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "What is 539 minutes before 11:01 PM?",
+      "expected": "2:02 PM",
+      "answer": "02:02 PM",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "In base 8, what is 244 + 31551?",
+      "expected": "32015",
+      "answer": "32015",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "In base 9, what is 1054 + -56353?",
+      "expected": "-55288",
+      "answer": "-1000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "In base 7, what is 2060334 - -213?",
+      "expected": "2060550",
+      "answer": "10397867",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Find w, given that 7*w**5/2 + 2239*w**4/2 + 46559*w**3/2 - 284107*w**2/2 + 194451*w - 24948 = 0.",
+      "expected": "-297, -28, 1/7, 2, 3",
+      "answer": "-297, -28, 1/7, 2, 3",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Determine c so that -8*c**2/13 - 58558710*c/13 + 14639678/13 = 0.",
+      "expected": "-7319839, 1/4",
+      "answer": null,
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Factor 2*z**3/3 + 5156*z**2/3 + 4134130*z/3 + 1058245552/3.",
+      "expected": "2*(z + 637)**2*(z + 1304)/3",
+      "answer": "2*(z + 637)**2*(z + 1304)/3",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let f(o) = -o**2 + 9*o + 17. Let d be f(8). Suppose t - 8 = -0*t - z, -2*t + z = -d. Let n(b) = 8*b**2 - 21*b + 14. Is n(t) a prime number?",
+      "expected": "True",
+      "answer": "751",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 26*t - 165048 = 14*t. Let j = 19735 - t. Is j a composite number?",
+      "expected": "False",
+      "answer": "False",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let s(c) = -50*c**3 - 7*c**2 + 8*c + 18. Let q be s(-5). Let k = q - -1124. Is k a prime number?",
+      "expected": "True",
+      "answer": "True",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Collect the terms in -5293251418 + 5293251418 - b**2.",
+      "expected": "-b**2",
+      "answer": "-b**2",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Collect the terms in -328039*v - 13 + 164023*v + 8*v**3 + 164016*v.",
+      "expected": "8*v**3 - 13",
+      "answer": "8*v**3 - 13",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Collect the terms in -3*h**3 - 53*h**2 + 53*h**2 - 2278 + 16*h**3 - 6*h**3.",
+      "expected": "7*h**3 - 2278",
+      "answer": "7h**3 + -2278constant)",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "What is 1396.8714 rounded to the nearest integer?",
+      "expected": "1397",
+      "answer": "1397",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round 0.000124474185 to 7 decimal places.",
+      "expected": "0.0001245",
+      "answer": "0.0001245",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round -11.308732 to the nearest integer.",
+      "expected": "-11",
+      "answer": "-11",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the value of (-21 - -37) + -40 - -22 - 129?",
+      "expected": "-131",
+      "answer": "-131",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "-44 - 3 - (-2475 - -2555)",
+      "expected": "-127",
+      "answer": "-127",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "4 + -8 + 9 + -10 + -2 - -5",
+      "expected": "-2",
+      "answer": "-2",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Simplify (3*(sqrt(1377) + -1 + -1)*-3)**2 + 0 + 1 + -5 + 4.",
+      "expected": "111861 - 2916*sqrt(17)",
+      "answer": "111861 - 2916*sqrt(17)",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Simplify -2 + 4 + (((sqrt(605) - (0 + sqrt(605) + sqrt(605))*1 - sqrt(605)) + sqrt(605)*2*1 + sqrt(605))**2 - -4*sqrt(605)*-2*5).",
+      "expected": "607 - 440*sqrt(5)",
+      "answer": "607 - 440*sqrt(5)",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Simplify -2*(-5 + sqrt(300)*2)**2 + 3 + (-2*sqrt(3)*4 - (sqrt(3) - -1*sqrt(3)*-1)**2) + 1.",
+      "expected": "-2446 + 392*sqrt(3)",
+      "answer": "-2446 + 392*sqrt(3)",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Let p(v) = 38100 - 778*v. Give p(49).",
+      "expected": "-22",
+      "answer": "-22",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let q(t) = -t**3 - 6*t**2 - 45*t - 185. Determine q(-15).",
+      "expected": "2515",
+      "answer": "2515",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let u(j) = -20869*j**2 + 42*j - 15. Determine u(0).",
+      "expected": "-15",
+      "answer": "-15",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Four letters picked without replacement from fpppbfbbppbbflb. Give prob of picking 1 b, 1 p and 2 f.",
+      "expected": "6/91",
+      "answer": "0.0",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of picking 1 r, 1 t and 1 c when three letters picked without replacement from {t: 7, r: 3, m: 7, c: 2}?",
+      "expected": "14/323",
+      "answer": "0.043343653250773995",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of picking 1 c, 1 y and 2 u when four letters picked without replacement from cuyvyuzccc?",
+      "expected": "4/105",
+      "answer": "0.14285714285714285",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Solve -3357 = 42*b + 4774*b + 1179*b + 128533 for b.",
+      "expected": "-22",
+      "answer": "-22",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve 0 = -700*x + 10327 + 9273 for x.",
+      "expected": "28",
+      "answer": "28.0",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve 2892 - 1247 = -281*l + 556 - 8746 for l.",
+      "expected": "-35",
+      "answer": "l - 35",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve 0 = -3*s - 98*f + 674, 2*s + 3*s - 2*f + 54 = 20 for s.",
+      "expected": "-4",
+      "answer": "7, -4",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve -32 = 5*a + 2*i, 2*i - 16 - 21 + 45 = -a for a.",
+      "expected": "-6",
+      "answer": "a, i",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve -4*l = -4*n + 204, -7*l + 2*n + n = -n + 207 for l.",
+      "expected": "-1",
+      "answer": "-1, 50",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Suppose 4*i + 20 = 3*y, y + 5*i + 14 = 2*y. Suppose 0 = -5*s - 5, 4*s - 9*s - 5 = y*w. List the prime factors of (-8 - -7) + (w - -77).",
+      "expected": "2, 19",
+      "answer": "2, 5",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let l(r) be the first derivative of -5/4*r**4 + 0*r**3 + r + 1/2*r**2 - 17. List the prime factors of l(-1).",
+      "expected": "5",
+      "answer": "5",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 0 = 3*k + b - 116860, -9*b - 53556 = -5*k + 141200. What are the prime factors of k?",
+      "expected": "38953",
+      "answer": "38953",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is 101102332 (base 4) in base 12?",
+      "expected": "34bba",
+      "answer": "34BBA",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "-42036523 (base 7) to base 2",
+      "expected": "-1101100000000000110001",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.30 GiB. GPU 0 has a total capacity of 14.74 GiB of which 798.12 MiB is free. Process 2953 has 13.96 GiB memory in use. Of the allocated memory 13.19 GiB is allocated by PyTorch, and 656.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is -1157226 (base 10) in base 9?",
+      "expected": "-2153366",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.10 GiB. GPU 0 has a total capacity of 14.74 GiB of which 916.12 MiB is free. Process 2953 has 13.84 GiB memory in use. Of the allocated memory 12.96 GiB is allocated by PyTorch, and 775.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "List the prime factors of 60925221.",
+      "expected": "3, 7, 41, 103, 229",
+      "answer": "3, 7, 41, 103, 229",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "List the prime factors of 1975519714.",
+      "expected": "2, 7, 17, 8300503",
+      "answer": "2^1, 7^1, 17^1, 8300503^1",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What are the prime factors of 41985290?",
+      "expected": "2, 5, 4198529",
+      "answer": "2, 5, 4198529",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 2*g = -2*p + 2960, g = 6*g - 2*p - 7400. Let f = g - 1022. What is the units digit of f?",
+      "expected": "8",
+      "answer": "8",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let t(z) = 6 - 12*z. Let c(b) = -b**3 + 9*b**2 - 15*b - 7. Suppose 0 = -d - 5*o - 18, -d + o + 16 = 4. Let y be c(d). What is the units digit of t(y)?",
+      "expected": "4",
+      "answer": "y",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let m(w) = -9*w**3 - 2*w**2 - 3*w - 13. Let n(x) = -x**2 + 7*x + 26. Let i be n(10). What is the tens digit of m(i)?",
+      "expected": "4",
+      "answer": "7",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose -2*i = i - 2*k - 16, 0 = -5*i - 5*k - 15. Suppose 587 = i*q + x, q + 3*x - 301 = x. Let a = -168 + q. Is 41 a factor of a?",
+      "expected": "True",
+      "answer": "False",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose -160*v + 183375 = -35*v. Is v a multiple of 10?",
+      "expected": "False",
+      "answer": "No",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 14 + 6 = -4*n, 2*c - 3*n - 15 = 0. Suppose -3*k - 4497 = -3*p, c = 2*p - 4*k - 1742 - 1246. Is 16 a factor of p?",
+      "expected": "True",
+      "answer": "True",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the highest common factor of 32657 and 60690.",
+      "expected": "289",
+      "answer": "289",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the greatest common divisor of 484456 and 63511.",
+      "expected": "1477",
+      "answer": "1477",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the greatest common factor of 755 and 1510510.",
+      "expected": "5",
+      "answer": "5",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Which is the seventh biggest value?  (a) -8  (b) 5  (c) -3/2  (d) 1  (e) -56  (f) -4/99  (g) 2",
+      "expected": "e",
+      "answer": "-56",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the biggest value?  (a) -0.2  (b) -2/3  (c) -1  (d) -0.218807  (e) 4/7  (f) -7",
+      "expected": "e",
+      "answer": "4/7",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the third smallest value in -64, -0.1293, 17, -0.3, 1/3?",
+      "expected": "-0.1293",
+      "answer": "-0.1293",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Calculate the remainder when 525857 is divided by 6824.",
+      "expected": "409",
+      "answer": "409",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the remainder when 1268043 is divided by 14388?",
+      "expected": "1899",
+      "answer": "1899",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the remainder when 1880151 is divided by 473?",
+      "expected": "449",
+      "answer": "449",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the r'th term of -3928, -6627, -9330, -12037, -14748, -17463?",
+      "expected": "-2*r**2 - 2693*r - 1233",
+      "answer": "-17423",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "What is the u'th term of -1551803, -3103595, -4655387, -6207179, -7758971?",
+      "expected": "-1551792*u - 11",
+      "answer": "-7758971",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "What is the i'th term of 517, 1540, 3183, 5398, 8137, 11352, 14995, 19018?",
+      "expected": "-8*i**3 + 358*i**2 + 5*i + 162",
+      "answer": "7678",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Find the second derivative of -39272*g*x*y**4 + 21*g*x + 3*g*y**2 - 6124*x*y - y wrt y.",
+      "expected": "-471264*g*x*y**2 + 6*g",
+      "answer": "-471264*g*x*y**2 + 6*g",
+      "correct": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "Find the second derivative of 75976*m**2*z**2 - 1204*m**2*z - 28*m**2 - 486*z**2 - 301 wrt z.",
+      "expected": "151952*m**2 - 972",
+      "answer": "151952*m**2 - 972",
+      "correct": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "What is the second derivative of 758577*r**2*v**2 + 20354*r**2*v + 16*r**2 + 2*v wrt v?",
+      "expected": "1517154*r**2",
+      "answer": "1517154*r**2",
+      "correct": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "Let j(d) = -44*d - 2286. Let l be j(-52). Put l, -3047, 1 in increasing order.",
+      "expected": "-3047, 1, l",
+      "answer": "-3047, 1, 2",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let j(o) = -o**2 - 5*o - 4. Suppose 15*y + 17 = -28. Let l be j(y). Put l, -7, -1, -3 in decreasing order.",
+      "expected": "l, -1, -3, -7",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.60 GiB. GPU 0 has a total capacity of 14.74 GiB of which 394.12 MiB is free. Process 2953 has 14.35 GiB memory in use. Of the allocated memory 13.54 GiB is allocated by PyTorch, and 707.83 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let l be (-2)/(-6)*(3350/(-1) + (15 - 22)). Put -1, -4, l in increasing order.",
+      "expected": "l, -4, -1",
+      "answer": "-1119.0, -4, -1",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let m be (1 - -2)*(-5)/(-3). Let r = -19 + 28. Suppose m*n + 69 = z, 3*n + r = z - 52. What is the remainder when z is divided by 27?",
+      "expected": "22",
+      "answer": "22.0000000000000",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose -4*k + 254 + 50 = 4*d, 198 = 3*d - 3*k. Calculate the remainder when 490 is divided by d.",
+      "expected": "64",
+      "answer": "64",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the remainder when 791 is divided by 13764/279 + (-11)/(-3).",
+      "expected": "49",
+      "answer": "791",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Divide -5437 by -1510.",
+      "expected": "5437/1510",
+      "answer": "3.600662251655629",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Divide 21825 by -4359.",
+      "expected": "-7275/1453",
+      "answer": "-5.006882312456986",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Divide 956374352 by 239093588.",
+      "expected": "4",
+      "answer": "4.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate the lowest common multiple of 3489184 and 3925332.",
+      "expected": "31402656",
+      "answer": "31402656",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Calculate the lowest common multiple of 3468868 and 570.",
+      "expected": "52033020",
+      "answer": "52033020",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Find the common denominator of -29/77097720 and -139/32124050.",
+      "expected": "385488600",
+      "answer": "385488600",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Three letters picked without replacement from oxlolk. Give prob of sequence xoo.",
+      "expected": "1/60",
+      "answer": "0.016666666666666666",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of sequence zu when two letters picked without replacement from {i: 1, v: 1, z: 1, u: 2}?",
+      "expected": "1/10",
+      "answer": "0.16666666666666666",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Three letters picked without replacement from {q: 12, k: 3, v: 2}. Give prob of sequence qvv.",
+      "expected": "1/170",
+      "answer": "3/170",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Calculate ((-753)/(-1004))/(4/128).",
+      "expected": "24",
+      "answer": "24",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is (-31)/(-688 - -37) + 25/(-35)?",
+      "expected": "-2/3",
+      "answer": "-2/21",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of (10/6*(-166)/(-415) - (-22)/(-54))*-6?",
+      "expected": "-14/9",
+      "answer": "-1.5555555555555562",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the second derivative of -11382*f**2 + 29*f**3 + 5703*f**2 - 42*f**5 - 7*f + 5679*f**2 - 101 wrt f?",
+      "expected": "-840*f**3 + 174*f",
+      "answer": "-840*f**3 + 174*f",
+      "correct": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "Suppose -12*j + 6*j + 156 = 0. Find the third derivative of 2*m**6 + 45*m**2 - 4*m**2 + j*m**5 + 10*m**2 wrt m.",
+      "expected": "240*m**3 + 1560*m**2",
+      "answer": "240*m**3",
+      "correct": false,
+      "category": "calculus"
+    },
+    {
+      "problem": "Find the third derivative of -20*g**2 + 247*g - 29*g**2 + 166*g**4 + 256*g - 503*g wrt g.",
+      "expected": "3984*g",
+      "answer": "3984*g",
+      "correct": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "What is 0.9091582 nanograms in tonnes?",
+      "expected": "0.0000000000000009091582",
+      "answer": "9.091582e-13",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many months are there in thirteen eighths of a century?",
+      "expected": "1950",
+      "answer": "1950.0",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many millilitres are there in seven eighths of a litre?",
+      "expected": "875",
+      "answer": "875.0",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "Is 2/100484857 at least as big as 0?",
+      "expected": "True",
+      "answer": "True",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Is -1 greater than -1/102475415?",
+      "expected": "False",
+      "answer": "False",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is greater: -406230 or -406103?",
+      "expected": "-406103",
+      "answer": "-406230",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Suppose 2046*c - 2121*c = -825. Solve -14*r + 16 = 4*k - c*r, 2*k = -r + 6 for k.",
+      "expected": "1",
+      "answer": "1, 4",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let p(m) = -4*m - 3. Suppose -3*i - i - 16 = -2*u, -u + 14 = -5*i. Let b be p(i). Solve 4*y + 5*f = -18, 3*f = b*f + 4 for y.",
+      "expected": "-2",
+      "answer": "18",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Suppose -2*d = -0*d. Suppose 10 + d = 2*w. Let j be 0/w - (-2)/1. Solve 2*h + 6 = 0, -k - 2*h - 8 = j*h for k.",
+      "expected": "4",
+      "answer": "-3.0, -1.0",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let s(m) = -m**2 - 5*m - 11. Let r be s(-4). Let l be (-6 - r)/(-5) - (-87)/(-15). Let u(o) = 3*o + 3. Calculate u(l).",
+      "expected": "-15",
+      "answer": "-15.0000000000000",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let b be (-2 - (-14)/6)*(-8 + 8)/(-13). Let k(i) = i**3 + i**2 - i + 11. Give k(b).",
+      "expected": "11",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.16 GiB. GPU 0 has a total capacity of 14.74 GiB of which 844.12 MiB is free. Process 2953 has 13.91 GiB memory in use. Of the allocated memory 13.03 GiB is allocated by PyTorch, and 775.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let x(d) be the first derivative of 34*d**3 + 2*d**2 - 3*d - 1215. Determine x(1).",
+      "expected": "103",
+      "answer": "103",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Rearrange 2*s**2 + s - 505 - s**4 + 22*s**3 - 11*s**3 - 14*s**3 + 976 to p*s**4 + x + c*s**2 + h*s**3 + y*s and give c.",
+      "expected": "2",
+      "answer": "2",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Rearrange -4382*b**3 + 0*b**2 - 567 + 0*b + 4376*b**3 - b - b**2 to v*b + n + i*b**3 + y*b**2 and give y.",
+      "expected": "-1",
+      "answer": "-1, -567, -6, -1",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Express -8708*n**2 - 3812*n**2 - 4027*n**2 in the form v*n**2 + o*n + a and give v.",
+      "expected": "-16547",
+      "answer": "-16547",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "What is the cube root of 65988664 to the nearest integer?",
+      "expected": "404",
+      "answer": "404",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the third root of 19948412 to the nearest integer?",
+      "expected": "271",
+      "answer": "271",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 412117798 to the power of 1/6, to the nearest integer?",
+      "expected": "27",
+      "answer": "27",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Let v be (-7)/(-49) + 622/7. Suppose -79*a = -v*a + 30. Let w = 0 + 2. Solve w*i - a = i for i.",
+      "expected": "3",
+      "answer": "-3.0",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let h be ((-12)/114)/((-23)/1311). Let d(f) = f + 7. Let g be d(-7). Solve z - 5 + h = g for z.",
+      "expected": "-1",
+      "answer": "-1.0",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Suppose -2*u + 26 = 4*s, 3 - 6 = u. Suppose -s*g - 79 = 113. Let h = -24 - g. Solve h = -3*q - 1 - 2 for q.",
+      "expected": "-1",
+      "answer": "-3.00000000000000",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Which is the closest to -6?  (a) -55/6  (b) -4.4  (c) -8  (d) 2/25",
+      "expected": "b",
+      "answer": "b",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the closest to -5/3 in 37/5, 193, 1/4?",
+      "expected": "1/4",
+      "answer": "1/4",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the closest to -1/4?  (a) 0.1  (b) 2/5069  (c) -0.007",
+      "expected": "c",
+      "answer": "-0.007",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the ten thousands digit of 6789997318?",
+      "expected": "9",
+      "answer": "9",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundreds digit of 101111084?",
+      "expected": "0",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.12 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1.37 GiB is free. Process 2953 has 13.37 GiB memory in use. Of the allocated memory 12.20 GiB is allocated by PyTorch, and 1.04 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the ten millions digit of 82609263?",
+      "expected": "8",
+      "answer": "0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Simplify ((x*x*x**(4/5)*x*x*x**1)/(x**1)**(-4/29))/((x*(x*x*x**(-2/3)/x)/x*x*x)/x*((x**5*x)/x)/x*x*x**(-1/5)*x**(-2)*x) assuming x is positive.",
+      "expected": "x**(70/87)",
+      "answer": "x**1.80459770114942",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Simplify ((n**5)**34*(((n/(n*n**(-12)/n*n))/n)/n)/n**(2/5))**19 assuming n is positive.",
+      "expected": "n**(17062/5)",
+      "answer": "n**3412.4",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Simplify (j/(j**(-37)*j*j*j))**(-25)/((j*(j**(-7/6)*j)/j)/(j**37/j)) assuming j is positive.",
+      "expected": "j**(-5033/6)",
+      "answer": "j**(-838.833333333333)",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Put -5, 3, -2, 10629, 2 in decreasing order.",
+      "expected": "10629, 3, 2, -2, -5",
+      "answer": "10629, 3, 2, -2, -5",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Sort 6, 2, -5, -1, -3, -47469, -2 in increasing order.",
+      "expected": "-47469, -5, -3, -2, -1, 2, 6",
+      "answer": "-47469, -5, -3, -2, -1, 2, 6",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put -1/2, -23772, -14 in ascending order.",
+      "expected": "-23772, -14, -1/2",
+      "answer": "-23772, -14, -0.5",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let s = 1.619 + -0.309. Is -0.2 bigger than s?",
+      "expected": "False",
+      "answer": "True",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let u = 1.2 + -0.2. Let h = -17.2 - -6.2. Let n = h - -13. Which is smaller: n or u?",
+      "expected": "u",
+      "answer": "u",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Suppose -3*y + 3 = 3*h, 108*y - 2*h + 16 = 103*y. Let n(k) = 2*k**2 + k**3 - k - 3 + 0 - k**2. Let b be n(0). Is b > y?",
+      "expected": "False",
+      "answer": "False",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Is 34514965803 composite?",
+      "expected": "True",
+      "answer": "composite",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Is 670770223 a prime number?",
+      "expected": "False",
+      "answer": "False",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Is 2163451061 prime?",
+      "expected": "False",
+      "answer": "False",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let z = -0.24579 + 0.07226. Let p = -0.166 - z. What is p rounded to four decimal places?",
+      "expected": "0.0075",
+      "answer": "(0.0798-0.2383j)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Suppose 4*f + 2*n = 44, -5*n + 2*n = -12. Let v be 416/6 - 3/f. Let l = v - 213. Round l to the nearest ten.",
+      "expected": "-140",
+      "answer": "-140",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Let k = 110.441849 - -2.559321. Let g = k + -113. What is g rounded to four dps?",
+      "expected": "0.0012",
+      "answer": "0.0012",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "((-24)/(-480)*28)/(131/1965)",
+      "expected": "21",
+      "answer": "21.0000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is (27/42)/(2/(-8))?",
+      "expected": "-18/7",
+      "answer": "-18/7",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of -7*5/(-210)*6*-1?",
+      "expected": "-1",
+      "answer": "-1.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Let v(p) = 2 - 3447*p. Let w(s) = 7 - 10344*s. Give -7*v(j) + 2*w(j).",
+      "expected": "3441*j",
+      "answer": "3441*j",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let a(i) = i. Let p(d) = 1 + 73*d + 62*d - 178*d + 57*d. Let c be (12/36)/(2/6 - 0). Calculate c*p(f) - 6*a(f).",
+      "expected": "8*f + 1",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.44 GiB. GPU 0 has a total capacity of 14.74 GiB of which 558.12 MiB is free. Process 2953 has 14.19 GiB memory in use. Of the allocated memory 13.35 GiB is allocated by PyTorch, and 739.22 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let o(p) = -5*p**2 - 6*p - 4. Let n = 12 - 18. Let i(t) = -4 + 6*t**2 + 6*t**2 - 5*t - 18*t**2 - 3*t + t. Give n*i(z) + 7*o(z).",
+      "expected": "z**2 - 4",
+      "answer": "z**2 - 4",
+      "correct": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let l = -0.1 + 0.2. Let m = 155.2 - 154.2. Let q = -0.019 + -3.981. Which is the closest to l?  (a) 0.2  (b) m  (c) q",
+      "expected": "a",
+      "answer": "0.1",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let f = 6238 - 6253. Which is the nearest to -0.2?  (a) f  (b) 4  (c) -0.4  (d) 7",
+      "expected": "c",
+      "answer": "-0.4",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Let g = 0.097 + 48.403. Let y = 69 - g. Let k = -20 + y. What is the closest to 0.1 in k, 7, -0.1?",
+      "expected": "-0.1",
+      "answer": "0.1",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Work out 191519.6411 + -4332.",
+      "expected": "187187.6411",
+      "answer": "187187.6411",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Work out 0.2766 + 1972226064.",
+      "expected": "1972226064.2766",
+      "answer": "1972226064.2766",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Work out 595 - 2732402296.4.",
+      "expected": "-2732401701.4",
+      "answer": "-2732401701.4",
+      "correct": true,
+      "category": "arithmetic"
+    }
+  ],
+  "device": "cuda"
+}
