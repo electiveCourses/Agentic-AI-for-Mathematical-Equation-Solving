@@ -1,6 +1,7 @@
 import platform
 import re
 import os
+import sys
 from typing import Any, Dict, List, Optional, Tuple
 
 from datasets import load_from_disk
@@ -80,7 +81,7 @@ class MathCodeAgentWithEvaluation:
         self.agent = CodeAgent(
             tools=[],
             model=model,
-            verbosity_level=1,
+            verbosity_level=0,
             additional_authorized_imports=[
                 "numpy",
                 "sympy",
@@ -123,6 +124,7 @@ Your answer can be in various formats:
 - Symbolic expressions: "x^2 + 3*x + 2", "sqrt(2)", "2*pi"
 - Lists/sets: "[1, 2, 3]", "{2, 4, 6}"
 - Complex expressions: "2 + 3*I", "sqrt(5) + 2"
+- Option for multiple choise answers (b)
 
 Available libraries:
 - numpy: For numerical computations and arrays
@@ -159,6 +161,10 @@ Consider these criteria in order of importance:
 5. ERRORS: Are there any critical runtime errors?
 
 DEFAULT TO PASS unless there are obvious critical errors or the output format completely doesn't match the task requirements.
+
+EXAMPLES OF FIXES SUGGESTIONS:
+1. answer is in decimal format (for example 0.1), but expected as a fraction from the task (1/10)
+2. answer is in numeric format, but in the task it is multiple choise with given options -> return one of the options 
 
 Provide feedback in this format:
 EVALUATION: [PASS/FAIL]
@@ -280,11 +286,21 @@ Please evaluate this solution:"""
         try:
             # Use the underlying model directly for evaluation (no code execution)
             # Format messages correctly for smolagents model
-            messages = [    
-                {"role": "user", "content": [{"type": "text", "text": eval_prompt}]}
-            ]
-            evaluation_response = self.agent.model(messages)
 
+            # specific mssages format for MLX model
+            if not (isinstance(self.agent.model, TransformersModel) or isinstance(self.agent.model, InferenceClientModel)):
+                messages = [    
+                    {"role": "user", "content": [{"type": "text", "text": eval_prompt}]}
+                ]
+            else:
+                # костыль для TransformersModel, который не поддерживает нормальный формат сообщений
+                from pydantic import BaseModel
+                class Message(BaseModel):
+                    role: str
+                    content: list[dict[str, str]]
+                messages = [Message(role="user", content=[{"type": "text", "text": eval_prompt}])]
+
+            evaluation_response = self.agent.model(messages)
             # Parse LLM evaluation
             eval_text = str(evaluation_response)
 
@@ -293,6 +309,10 @@ Please evaluate this solution:"""
             # Extract confidence
             confidence_match = re.search(r"CONFIDENCE:\s*(\d+)", eval_text)
             confidence = int(confidence_match.group(1)) if confidence_match else 50
+            
+            # Override passed if confidence > 60
+            if confidence >= 60:
+                passed = True
 
             # Extract issues
             issues_match = re.search(
@@ -331,7 +351,7 @@ Please evaluate this solution:"""
                 "confidence": confidence,
                 "issues": issues,
                 "suggestions": suggestions,
-                "needs_retry": not passed or confidence < 50,  # Lowered from 50 to 30
+                "needs_retry": not passed or confidence < 60,
             }
 
         except Exception as e:
@@ -584,7 +604,39 @@ Make sure to address any previous issues and print the final answer in the exact
         return str(final_answer) if final_answer is not None else "Error: Failed to solve"
 
 
-# Enhanced solve function for commons.py compatibility
+def verify_answer(answer: Optional[str], expected_answer: str) -> bool:
+    """Verify if the answer is correct."""
+    def try_convert_to_number(value: str) -> Any:
+        """Try to convert a string to a number (int or float)."""
+        try:
+            # Try integer first
+            if '.' not in value:
+                return int(value)
+            else:
+                return float(value)
+        except ValueError:
+            return value
+    
+    # Handle None answer
+    if answer is None:
+        return False
+    
+    # Convert both to numbers if possible
+    answer_num = try_convert_to_number(str(answer).strip())
+    expected_num = try_convert_to_number(str(expected_answer).strip())
+    
+    # If both are numbers, compare numerically
+    if isinstance(answer_num, (int, float)) and isinstance(expected_num, (int, float)):
+        return abs(float(answer_num) - float(expected_num)) < 1e-6
+    
+    # If both are strings, compare as strings
+    elif isinstance(answer_num, str) and isinstance(expected_num, str):
+        return answer_num == expected_num
+    
+    # Mixed types - convert both to strings and compare
+    else:
+        return str(answer_num) == str(expected_num)
+
 def solve_math_problem_with_evaluation(
     problem: str,
     expected_answer: Optional[str] = None,
@@ -625,7 +677,7 @@ def solve_math_problem_with_evaluation(
 
         # Evaluate if expected answer is provided
         if expected_answer is not None:
-            result["correct"] = (answer == expected_answer)
+            result["correct"] = verify_answer(answer, expected_answer)
             result["expected_answer"] = expected_answer
 
         return result
@@ -647,7 +699,7 @@ def main() -> None:
     print("Initializing Enhanced Math Code Agent with Evaluation...")
 
     # Initialize the enhanced agent
-    agent = MathCodeAgentWithEvaluation(use_local=True, max_retries=3)
+    agent = MathCodeAgentWithEvaluation(use_local=True, max_retries=3, use_mlx=False)
 
     # Evaluate on a dataset using comprehensive evaluation
     print("\n\n=== Comprehensive Dataset Evaluation ===")
@@ -666,7 +718,7 @@ def main() -> None:
                 "agent": agent,
             }
             full_results = run_full_evaluation(
-                dataset, solve_function, solve_function_args, verbose=True
+                dataset, solve_function, solve_function_args, verbose=False, problems_per_category=1000
             )
 
             # Save results

@@ -13,6 +13,10 @@
     "category": {
       "dtype": "string",
       "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
     }
   },
   "homepage": "",
