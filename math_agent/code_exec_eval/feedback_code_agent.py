@@ -123,6 +123,7 @@ Your answer can be in various formats:
 - Symbolic expressions: "x^2 + 3*x + 2", "sqrt(2)", "2*pi"
 - Lists/sets: "[1, 2, 3]", "{2, 4, 6}"
 - Complex expressions: "2 + 3*I", "sqrt(5) + 2"
+- Option for multiple choise answers (b)
 
 Available libraries:
 - numpy: For numerical computations and arrays
@@ -159,6 +160,10 @@ Consider these criteria in order of importance:
 5. ERRORS: Are there any critical runtime errors?
 
 DEFAULT TO PASS unless there are obvious critical errors or the output format completely doesn't match the task requirements.
+
+EXAMPLES OF FIXES SUGGESTIONS:
+1. answer is in decimal format (for example 0.1), but expected as a fraction from the task (1/10)
+2. answer is in numeric format, but in the task it is multiple choise with given options -> return one of the options 
 
 Provide feedback in this format:
 EVALUATION: [PASS/FAIL]
