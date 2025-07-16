@@ -1,5 +1,6 @@
-#пример для запуска python3 eval_agent/get_error_statistic.py train_
+#пример для запуска python3 eval_agent/batch_results_analyzer.py results/code_eval train_
 #train_ - начало названий файлов, которые необходимо проверить
+#results/code_eval - название папки, в которой смотрим файлы
 import os
 import json
 import sys
@@ -79,9 +80,7 @@ def analyze_file(filepath):
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 batch_results_analyzer.py <file_prefix | all>")
-        print("Example: python3 batch_results_analyzer.py train_")
-        print("         python3 batch_results_analyzer.py math_eval_")
-        print("         python3 batch_results_analyzer.py all")
+        print("Example: python3 eval_agent/batch_results_analyzer.py results/code_eval train_")
         sys.exit(1)
     prefix = sys.argv[1]
     results_dir = 'results'
