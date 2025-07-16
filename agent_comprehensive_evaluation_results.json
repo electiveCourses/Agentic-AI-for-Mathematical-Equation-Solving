@@ -1,0 +1,151 @@
+{
+  "overall_metrics": {
+    "total_problems": 8,
+    "parsed_successfully": 8,
+    "correct_answers": 7,
+    "errors": 0,
+    "parsing_accuracy": 1.0,
+    "solving_accuracy": 0.875,
+    "conditional_accuracy": 0.875
+  },
+  "category_metrics": {
+    "calculus": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "polynomials": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "comparison": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "arithmetic": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "numbers": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "algebra": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "probability": {
+      "total_problems": 1,
+      "correct_answers": 1,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    "measurement": {
+      "total_problems": 1,
+      "correct_answers": 0,
+      "parsed_successfully": 1,
+      "errors": 0,
+      "parsing_accuracy": 1.0,
+      "solving_accuracy": 0.0,
+      "conditional_accuracy": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "problem": "Differentiate -b*l + 156*b + 2*l - 239 wrt b.",
+      "expected_answer": "156 - l",
+      "predicted_answer": "156 - l",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "calculus"
+    },
+    {
+      "problem": "Let q(l) = -9*l - 14. Let i(m) = -3*m - 5. Give -17*i(j) + 6*q(j).",
+      "expected_answer": "1 - 3*j",
+      "predicted_answer": "1 - 3*j",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "polynomials"
+    },
+    {
+      "problem": "Let u(f) = -f - 4. Let g be u(-4). Let j = 1.2 - 0.2. Let s = j - 0. Which is the closest to s?  (a) -3/4  (b) -1/10  (c) g",
+      "expected_answer": "c",
+      "predicted_answer": "c",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Simplify (-4 + sqrt(208)*-1)**2 + (-1 + sqrt(26)/sqrt(2))**2 + -3.",
+      "expected_answer": "30*sqrt(13) + 235",
+      "predicted_answer": "30*sqrt(13) + 235",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the greatest common factor of 13975 and 130?",
+      "expected_answer": "65",
+      "predicted_answer": "65",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Solve 4*b = -5*n - 21, -b - 3*n = b + 11 for b.",
+      "expected_answer": "-4",
+      "predicted_answer": "-4",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Two letters picked without replacement from {g: 4, i: 1, z: 1, u: 1, h: 1}. Give prob of picking 2 h.",
+      "expected_answer": "0",
+      "predicted_answer": "0",
+      "correct": true,
+      "parsed_successfully": true,
+      "category": "probability"
+    },
+    {
+      "problem": "How many nanoseconds are there in 8083.277 minutes?",
+      "expected_answer": "484996620000000",
+      "predicted_answer": "484996620000000.0",
+      "correct": false,
+      "parsed_successfully": true,
+      "category": "measurement"
+    }
+  ]
+}

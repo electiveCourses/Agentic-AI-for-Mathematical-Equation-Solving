@@ -666,7 +666,7 @@ def main() -> None:
                 "agent": agent,
             }
             full_results = run_full_evaluation(
-                dataset, solve_function, solve_function_args, verbose=True
+                dataset, solve_function, solve_function_args, verbose=True, problems_per_category=1
             )
 
             # Save results

@@ -54,11 +54,12 @@ def evaluate_agent_on_dataset(
         problem = example["question"]
         expected_answer = example["answer"]
         category = example["category"]
+        split = example["split"]
 
         if not verbose:
             tqdm_bar.set_description(f"Problem {i + 1}/{total_problems} [{category}]")
         else:
-            print(f"\nProblem {i + 1}/{total_problems} [{category}]: {problem}")
+            print(f"\nProblem {i + 1}/{total_problems} [{category}, {split}]: {problem}")
 
         # Update category total count
         category_stats[category]["total"] += 1
@@ -89,6 +90,7 @@ def evaluate_agent_on_dataset(
                     "correct": result.get("correct", False),
                     "parsed_successfully": result["success"],
                     "category": category,
+                    "split": split,
                     "raw_output": result["raw_output"],
                 }
             )
@@ -105,6 +107,7 @@ def evaluate_agent_on_dataset(
                     "correct": False,
                     "parsed_successfully": False,
                     "category": category,
+                    "split": split,
                     "error": str(e),
                 }
             )
@@ -224,6 +227,7 @@ def save_evaluation_results(
                 "correct": r["correct"],
                 "parsed_successfully": r["parsed_successfully"],
                 "category": r["category"],
+                "split": r["split"]
             }
             for r in summary["detailed_results"]
         ],
