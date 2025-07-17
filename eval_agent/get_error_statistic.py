@@ -1,4 +1,4 @@
-#пример для запуска python3 eval_agent/batch_results_analyzer.py results/code_eval train_
+#пример для запуска python3 eval_agent/get_error_statistic.py results/code_eval train_
 #train_ - начало названий файлов, которые необходимо проверить
 #results/code_eval - название папки, в которой смотрим файлы
 import os
@@ -78,13 +78,15 @@ def analyze_file(filepath):
     return category_stats, cuda_oom_count, too_many_steps_count, digits_error_count
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python3 batch_results_analyzer.py <file_prefix | all>")
-        print("Example: python3 eval_agent/batch_results_analyzer.py results/code_eval train_")
+    if len(sys.argv) < 3:
+        print("Usage: python3 get_error_statistic.py <folder> <file_prefix | all>")
+        print("Example: python3 eval_agent/get_error_statistic.py results/code_eval train_")
+        print("         python3 eval_agent/get_error_statistic.py results/code_eval all")
         sys.exit(1)
-    prefix = sys.argv[1]
-    results_dir = 'results'
-    pattern = os.path.join(results_dir, f'{prefix}*.json') if prefix != 'all' else os.path.join(results_dir, '*.json')
+    folder = sys.argv[1]
+    prefix = sys.argv[2]
+    pattern = os.path.join(folder, f'{prefix}*.json') if prefix != 'all' else os.path.join(folder, '*.json')
+    print(f"Looking for files with pattern: {pattern}")
     files = glob.glob(pattern)
     if not files:
         print(f'No files found for pattern: {pattern}')
