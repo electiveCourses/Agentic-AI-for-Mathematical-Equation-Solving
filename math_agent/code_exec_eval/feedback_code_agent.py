@@ -82,6 +82,7 @@ class MathCodeAgentWithEvaluation:
             tools=[],
             model=model,
             verbosity_level=0,
+            max_steps=5,
             additional_authorized_imports=[
                 "numpy",
                 "sympy",
