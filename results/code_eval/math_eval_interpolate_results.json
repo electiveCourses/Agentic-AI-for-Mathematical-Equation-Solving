@@ -1,0 +1,2413 @@
+{
+  "metadata": {
+    "evaluation_date": "2025-07-17T19:10:59.374293",
+    "model": "gemini-1.5-flash-latest",
+    "api_key_fingerprint": "AIza...z9AA",
+    "batch_size": 50,
+    "environment": {
+      "python_version": "3.11.13 (main, Jun  4 2025, 08:57:29) [GCC 11.4.0]",
+      "platform": "linux"
+    }
+  },
+  "statistics": {
+    "total": 299,
+    "correct": 225,
+    "incorrect": 74,
+    "no_answer": 0,
+    "api_errors": 1,
+    "details": [
+      {
+        "problem": "Factor -183/2*c + 189 - 3/2*c**2.",
+        "category": "algebra",
+        "expected": "-3*(c - 2)*(c + 63)/2",
+        "predicted": "-1.5*c**2 - 91.5*c + 189",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510773"
+      },
+      {
+        "problem": "Let o(p) be the second derivative of p**4/84 - 3*p**3/14 - 5*p**2/7 + 637*p. Factor o(t).",
+        "category": "algebra",
+        "expected": "(t - 10)*(t + 1)/7",
+        "predicted": "(p**2 - 9*p - 10)/7",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510791"
+      },
+      {
+        "problem": "Let s(b) be the second derivative of b**6/105 + 9*b**5/35 - b**4/2 - 38*b**3/21 - 41*b - 1. What is y in s(y) = 0?",
+        "category": "algebra",
+        "expected": "-19, -1, 0, 2",
+        "predicted": "-19, -1, 0, 2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510797"
+      },
+      {
+        "problem": "Let t(f) = -2*f**3 + 57*f**2 - 83*f + 21. Let r(a) = -a**3 + 29*a**2 - 40*a + 9. Let s(x) = 7*r(x) - 3*t(x). Factor s(d).",
+        "category": "algebra",
+        "expected": "-d*(d - 31)*(d - 1)",
+        "predicted": "-x*(x - 31)*(x - 1)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510802"
+      },
+      {
+        "problem": "Let u = -3624 - -3624. Let y(f) be the second derivative of -1/120*f**4 + 0*f**2 + 2*f + 1/100*f**5 + u*f**3 + 0 - 1/300*f**6. Determine g, given that y(g) = 0.",
+        "category": "algebra",
+        "expected": "0, 1",
+        "predicted": "0.0, 1.00000000000000",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510806"
+      },
+      {
+        "problem": "Let g(o) be the third derivative of o**6/55 - 23*o**5/330 + 13*o**4/132 - 2*o**3/33 + 107*o**2. Find i such that g(i) = 0.",
+        "category": "algebra",
+        "expected": "1/4, 2/3, 1",
+        "predicted": "1/4, 2/3, 1",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510811"
+      },
+      {
+        "problem": "Factor 269378/9 + 2/9*i**2 - 1468/9*i.",
+        "category": "algebra",
+        "expected": "2*(i - 367)**2/9",
+        "predicted": "(29930.666666666668-163.11111111111111j)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510816"
+      },
+      {
+        "problem": "Let h(f) = -8*f**3 - 6*f**2 + 12*f - 2. Let k(v) = 7*v**3 + 6*v**2 - 12*v - 1. Let l(d) = -5*h(d) - 6*k(d). Factor l(n).",
+        "category": "algebra",
+        "expected": "-2*(n - 2)*(n + 1)*(n + 4)",
+        "predicted": "-(d + 1)*(5*d - 2)*(7*d + 1)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510826"
+      },
+      {
+        "problem": "Let y = -4659 - -13982/3. Let i(x) be the second derivative of -y*x**4 + 17*x + 8*x**2 + 0 + 16/3*x**3. Factor i(m).",
+        "category": "algebra",
+        "expected": "-4*(m - 2)*(5*m + 2)",
+        "predicted": "-32.0*(0.624999999999999*m**2 - 1.0*m - 0.5)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510831"
+      },
+      {
+        "problem": "Let v(l) = -l**3 + 7*l**2 - 7*l - 4. Let u be v(6). Let n = 14 + u. Let -101*z**4 - z**3 + 2*z**3 + 102*z**n = 0. What is z?",
+        "category": "algebra",
+        "expected": "-1, 0",
+        "predicted": "-1, 0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510835"
+      },
+      {
+        "problem": "Suppose -o + 466 = 3*d - 524, 5*d - 1650 = -5*o. Calculate the highest common divisor of d and 462.",
+        "category": "numbers",
+        "expected": "66",
+        "predicted": "66",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510839"
+      },
+      {
+        "problem": "Let a = 59 + -59. Suppose a = 21*q - 5*q - 160. Calculate the highest common divisor of 110 and q.",
+        "category": "numbers",
+        "expected": "10",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 7.63 GiB. GPU 0 has a total capacity of 15.89 GiB of which 7.61 GiB is free. Process 2954 has 8.28 GiB memory in use. Of the allocated memory 6.94 GiB is allocated by PyTorch, and 1.05 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510843"
+      },
+      {
+        "problem": "Suppose 4*h - 9 = -g, -2*h + 4*g + 11 = -7. Let w(p) = 27 - 3*p. Let z be w(h). What is the greatest common divisor of z and 24?",
+        "category": "numbers",
+        "expected": "6",
+        "predicted": "6",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510846"
+      },
+      {
+        "problem": "Let n = 170 - 159. Suppose -n*d + 18 = -2*d. Calculate the greatest common factor of 12 and d.",
+        "category": "numbers",
+        "expected": "2",
+        "predicted": "2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510850"
+      },
+      {
+        "problem": "Let j = -41 - -59. Let f be -1*(-3)/(-2)*-146. Suppose 4*w - 3*b = f, w + 0*b - 2*b = 56. What is the highest common factor of j and w?",
+        "category": "numbers",
+        "expected": "18",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 994.00 MiB. GPU 0 has a total capacity of 15.89 GiB of which 367.12 MiB is free. Process 2954 has 15.53 GiB memory in use. Of the allocated memory 14.20 GiB is allocated by PyTorch, and 1.04 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510854"
+      },
+      {
+        "problem": "Let m(g) be the third derivative of 155*g**4/24 + g**3/6 - 3*g**2 + 3. Let l be m(1). What is the highest common factor of 24 and l?",
+        "category": "numbers",
+        "expected": "12",
+        "predicted": "12",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510858"
+      },
+      {
+        "problem": "Suppose 17*g + 15 = 20*g. Suppose g*c + 84 = d, -14*d + 13*d + 3*c + 84 = 0. What is the greatest common divisor of d and 7?",
+        "category": "numbers",
+        "expected": "7",
+        "predicted": "7",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510862"
+      },
+      {
+        "problem": "Suppose i = u + 3*i - 16, 4*u = -3*i + 44. Let y(j) = 28 - 12*j. Let b be y(-3). Calculate the greatest common divisor of u and b.",
+        "category": "numbers",
+        "expected": "8",
+        "predicted": "64/19",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510866"
+      },
+      {
+        "problem": "Let k = 31 - 25. Suppose 0 = 3*q - k. Let m be 37/q + 9/18. Calculate the highest common divisor of m and 152.",
+        "category": "numbers",
+        "expected": "19",
+        "predicted": "2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510870"
+      },
+      {
+        "problem": "Suppose 0*j = -118*j + 13216. Calculate the greatest common factor of 176 and j.",
+        "category": "numbers",
+        "expected": "16",
+        "predicted": "16",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510874"
+      },
+      {
+        "problem": "-4.7*-139147",
+        "category": "arithmetic",
+        "expected": "653990.9",
+        "predicted": "653990.9",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510878"
+      },
+      {
+        "problem": "Work out -2118813 * -6.",
+        "category": "arithmetic",
+        "expected": "12712878",
+        "predicted": "12712878",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510882"
+      },
+      {
+        "problem": "1 * 3962009",
+        "category": "arithmetic",
+        "expected": "3962009",
+        "predicted": "3962009",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510885"
+      },
+      {
+        "problem": "What is the product of -0.18 and 354260?",
+        "category": "arithmetic",
+        "expected": "-63766.8",
+        "predicted": "-63766.799999999996",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510889"
+      },
+      {
+        "problem": "What is the product of 470.15 and -0.021?",
+        "category": "arithmetic",
+        "expected": "-9.87315",
+        "predicted": "-9.87315",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510893"
+      },
+      {
+        "problem": "-3010044 times 0.2",
+        "category": "arithmetic",
+        "expected": "-602008.8",
+        "predicted": "-602008.8",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510897"
+      },
+      {
+        "problem": "What is -0.2 times -1842531?",
+        "category": "arithmetic",
+        "expected": "368506.2",
+        "predicted": "368506.2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510901"
+      },
+      {
+        "problem": "Product of -0.09 and -2410.25.",
+        "category": "arithmetic",
+        "expected": "216.9225",
+        "predicted": "216.92249999999999",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510905"
+      },
+      {
+        "problem": "What is -13834 times 0.0759?",
+        "category": "arithmetic",
+        "expected": "-1050.0006",
+        "predicted": "-1050.0005999999998",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510909"
+      },
+      {
+        "problem": "Product of 0 and -2721960.",
+        "category": "arithmetic",
+        "expected": "0",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510913"
+      },
+      {
+        "problem": "Let l = -168 - -151. Let k = l - -17.4. Let z = -6 + 10. Which is the smallest value?  (a) 3  (b) k  (c) 2/9  (d) z",
+        "category": "comparison",
+        "expected": "c",
+        "predicted": "-17",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510917"
+      },
+      {
+        "problem": "Let k = 14.18 + -1.38. Let l = 12.4 - k. What is the biggest value in -3/2, 0, l?",
+        "category": "comparison",
+        "expected": "0",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510920"
+      },
+      {
+        "problem": "Let p = 153 + -124. Suppose 4*j - 30 = 5*w - j, -4*w - p = -5*j. What is the third smallest value in -0.2, w, -6?",
+        "category": "comparison",
+        "expected": "-0.2",
+        "predicted": "-0.2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510924"
+      },
+      {
+        "problem": "Let n = 282 - 78.2. Let h = 204 - n. Let q = -1/3 - 1/6. Which is the third smallest value?  (a) h  (b) q  (c) -3  (d) 0.5",
+        "category": "comparison",
+        "expected": "a",
+        "predicted": "0.19999999999998863",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510929"
+      },
+      {
+        "problem": "Let u(s) = 6*s**2 - 6*s - 9. Let f be u(6). Let i be f*(-3 - (-12)/3). Let x = i - 1205/7. Which is the second biggest value?  (a) x  (b) 0  (c) 0.1  (d) -1/6",
+        "category": "comparison",
+        "expected": "b",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510932"
+      },
+      {
+        "problem": "Let s = -53/68 - -9/17. Let n(q) = q + 14. Let h be n(-7). Let r(m) = -m**3 + 6*m**2 + 7*m. Let i be r(h). What is the third smallest value in s, 0.4, i?",
+        "category": "comparison",
+        "expected": "0.4",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 5.02 GiB. GPU 0 has a total capacity of 15.89 GiB of which 2.97 GiB is free. Process 2954 has 12.91 GiB memory in use. Of the allocated memory 11.59 GiB is allocated by PyTorch, and 1.04 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510936"
+      },
+      {
+        "problem": "Let q be 12/16 - ((-8309)/5060 - -2). Let h = -2/253 - q. What is the third biggest value in -29, 0.1, h?",
+        "category": "comparison",
+        "expected": "-29",
+        "predicted": "-29",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510940"
+      },
+      {
+        "problem": "Let g(p) = 4*p**2 + 37*p + 39. Let v be g(-8). Which is the smallest value?  (a) 0  (b) -0.5  (c) v  (d) -18  (e) 0.5",
+        "category": "comparison",
+        "expected": "d",
+        "predicted": "-18",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510944"
+      },
+      {
+        "problem": "Let d = -4 - -4. Suppose d*k - 15 = 3*k. Let x = 0.209 + -0.109. What is the smallest value in k, x, -1/3, -0.2?",
+        "category": "comparison",
+        "expected": "k",
+        "predicted": "-10.0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510947"
+      },
+      {
+        "problem": "Let l be -4 + 10 + (-4 - -44)/(-5). Which is the biggest value?  (a) -4  (b) -1  (c) -18  (d) l",
+        "category": "comparison",
+        "expected": "b",
+        "predicted": "-2.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510950"
+      },
+      {
+        "problem": "What comes next: 114903, 229840, 344777, 459714, 574651?",
+        "category": "algebra",
+        "expected": "689588",
+        "predicted": "699558",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510954"
+      },
+      {
+        "problem": "What is the next term in -6685, -26835, -60443, -107509, -168033, -242015?",
+        "category": "algebra",
+        "expected": "-329455",
+        "predicted": "-262165",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510957"
+      },
+      {
+        "problem": "What is the next term in -1531, -6380, -14467, -25792, -40355, -58156, -79195?",
+        "category": "algebra",
+        "expected": "-103472",
+        "predicted": "-100220.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510960"
+      },
+      {
+        "problem": "What comes next: 72, 199, 460, 927, 1672, 2767?",
+        "category": "algebra",
+        "expected": "4284",
+        "predicted": "4096",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510963"
+      },
+      {
+        "problem": "What comes next: 174116, 174100, 174086, 174074, 174064, 174056, 174050?",
+        "category": "algebra",
+        "expected": "174046",
+        "predicted": "174046",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510966"
+      },
+      {
+        "problem": "What is the next term in -18375, -73711, -166007, -295263, -461479, -664655?",
+        "category": "algebra",
+        "expected": "-904791",
+        "predicted": "-934331",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510970"
+      },
+      {
+        "problem": "What is the next term in 4086905, 4086907, 4086911, 4086917, 4086925?",
+        "category": "algebra",
+        "expected": "4086935",
+        "predicted": "4086935",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:33.510973"
+      },
+      {
+        "problem": "What comes next: 5268, 5178, 5068, 4932, 4764, 4558, 4308, 4008?",
+        "category": "algebra",
+        "expected": "3652",
+        "predicted": "4899",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510976"
+      },
+      {
+        "problem": "What is next in 391, 916, 1843, 3178, 4927, 7096, 9691, 12718?",
+        "category": "algebra",
+        "expected": "16183",
+        "predicted": "13156",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510979"
+      },
+      {
+        "problem": "What comes next: -8454, -17076, -25700, -34326?",
+        "category": "algebra",
+        "expected": "-42954",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 958.00 MiB. GPU 0 has a total capacity of 15.89 GiB of which 495.12 MiB is free. Process 2954 has 15.40 GiB memory in use. Of the allocated memory 13.90 GiB is allocated by PyTorch, and 1.22 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:33.510982"
+      },
+      {
+        "problem": "Expand (3*m - 5*m + 0*m)*(1525*m + 9*m**2 - 3012*m + 1505*m) + (-m + 0*m - m)*(m**2 - 2*m**2 + 2*m**2).",
+        "category": "polynomials",
+        "expected": "-20*m**3 - 36*m**2",
+        "predicted": "m**2*(-20*m - 36)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274878"
+      },
+      {
+        "problem": "Expand (41*p - 4 + 4)*(-1 + 0 + 2)*(-3 - 4 + 2).",
+        "category": "polynomials",
+        "expected": "-205*p",
+        "predicted": "-205*p",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274890"
+      },
+      {
+        "problem": "Expand (0*a**3 - 2*a**3 - 3*a**3)*(a**2 - 2*a + 2*a) + 55 - 10*a**5 - 107 + 50.",
+        "category": "polynomials",
+        "expected": "-15*a**5 - 2",
+        "predicted": "-1500002",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274893"
+      },
+      {
+        "problem": "Expand (5 - 5 - s**2)*(0 + 0 - 1)*(-6 - 3 + 4)*((10 - 8 + 9)*(-3*s + 3*s + s) - 8*s + 3*s - 4*s).",
+        "category": "polynomials",
+        "expected": "-10*s**3",
+        "predicted": "-10*s**3",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274896"
+      },
+      {
+        "problem": "Expand (562*w + 355 - 768 + 416)*(-4*w**3 + 4*w**3 + w**3).",
+        "category": "polynomials",
+        "expected": "562*w**4 + 3*w**3",
+        "predicted": "562*w**4 + 3*w**3",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274900"
+      },
+      {
+        "problem": "Expand (f**3 - 7*f**3 + f**3)*(3 - 3*f - 3) - 8 + 8 - 7*f**4 + f**4 - f**4 - 3*f**4 + (-2*f**2 - f**3 + 2*f**2)*(-1 - 2*f + 1) - 2*f**4 + 3*f**4 + f**4.",
+        "category": "polynomials",
+        "expected": "9*f**4",
+        "predicted": "9*f**4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274902"
+      },
+      {
+        "problem": "Expand 31*v**4 + 13*v**4 - 13*v**4 + v**4 + 6*v**2 - 6*v**2 + (-2*v**2 - 2*v**2 + v**2)*(3*v**2 - 6*v**2 + v**2) - 3*v**4 + 2*v**4 - v**4.",
+        "category": "polynomials",
+        "expected": "36*v**4",
+        "predicted": "36*v**4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274905"
+      },
+      {
+        "problem": "Expand (2*a**2 - a**2 - 3*a**2)*(3*a**2 - 2*a**2 - 4*a**2 + (-4*a + 3*a - a)*(5*a - a - 3*a) - 5*a**2 - 27*a**2 + 13*a**2 + (-a - a + 0*a)*(-2 - a + 2)).",
+        "category": "polynomials",
+        "expected": "44*a**4",
+        "predicted": "44*a**4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274908"
+      },
+      {
+        "problem": "Expand -l**3 + 0*l**2 + 0*l**2 + 656*l**2 + 1 + 2*l**3 - 239*l + 415*l - 174*l + (-2*l + 2 - 2)*(-l**2 - 3*l**2 + 2*l**2).",
+        "category": "polynomials",
+        "expected": "5*l**3 + 656*l**2 + 2*l + 1",
+        "predicted": "5*l**3 + 656*l**2 + 2*l + 1",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274911"
+      },
+      {
+        "problem": "Let t = 384847/375480 - -1/18774. Find the common denominator of t and 29/10.",
+        "category": "numbers",
+        "expected": "40",
+        "predicted": "40",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274914"
+      },
+      {
+        "problem": "Suppose 0 = -o + 3*m + 281, -5*o + 2*m - 195 = -1561. What is the least common multiple of 578 and o?",
+        "category": "numbers",
+        "expected": "4624",
+        "predicted": "4624",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274916"
+      },
+      {
+        "problem": "Let m = 5028 + -11754. Let i = -174797/26 - m. Find the common denominator of i and 57/4.",
+        "category": "numbers",
+        "expected": "52",
+        "predicted": "52",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274919"
+      },
+      {
+        "problem": "Let b = -223 + 225. Suppose -6*o + 3*o + 58 = -5*v, -2*o = b*v - 44. What is the least common multiple of 15 and o?",
+        "category": "numbers",
+        "expected": "105",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.75 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.01 GiB is free. Process 2954 has 14.87 GiB memory in use. Of the allocated memory 13.65 GiB is allocated by PyTorch, and 951.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274922"
+      },
+      {
+        "problem": "Let i be (-4)/12*822/5 - 3. Let v = -62 - i. Let s = 261 + -791/3. Find the common denominator of s and v.",
+        "category": "numbers",
+        "expected": "15",
+        "predicted": "1",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274925"
+      },
+      {
+        "problem": "Suppose -3*m + 4387 = -8195. Let v = -41981/10 + m. Find the common denominator of v and 14/33.",
+        "category": "numbers",
+        "expected": "330",
+        "predicted": "1",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274927"
+      },
+      {
+        "problem": "Let b = -1 - -17. Suppose 92*n - 200 = 90*n - 3*r, 0 = 5*n + 3*r - 518. What is the smallest common multiple of b and n?",
+        "category": "numbers",
+        "expected": "848",
+        "predicted": "848",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274930"
+      },
+      {
+        "problem": "Suppose -l = -8 - 44. Let h = -28393 + 28397. Calculate the lowest common multiple of h and l.",
+        "category": "numbers",
+        "expected": "52",
+        "predicted": "52",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274933"
+      },
+      {
+        "problem": "Let m = 55 - 30. Let b(r) = 569*r**2 - 1137*r + 2. Calculate the smallest common multiple of m and b(2).",
+        "category": "numbers",
+        "expected": "100",
+        "predicted": "100",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274935"
+      },
+      {
+        "problem": "Suppose -5*w + 103 = -447. Suppose 4*l = 5*u - w, -2*u - 2*u + 2*l + 82 = 0. Calculate the smallest common multiple of 18 and u.",
+        "category": "numbers",
+        "expected": "18",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.66 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.09 GiB is free. Process 2954 has 14.79 GiB memory in use. Of the allocated memory 13.56 GiB is allocated by PyTorch, and 964.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274938"
+      },
+      {
+        "problem": "Let u(d) = 80*d + 18. Let a(t) = -2*t**2 - 38*t. What is a(u(k))?",
+        "category": "polynomials",
+        "expected": "-12800*k**2 - 8800*k - 1332",
+        "predicted": "-100",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274941"
+      },
+      {
+        "problem": "Let h(s) = -15*s. Let y(i) = 238*i. Let a(p) = -63*h(p) - 4*y(p). Let b(x) = 9*x. Let v(f) = -7*a(f) - 5*b(f). Let l(u) = 10*u. What is l(v(d))?",
+        "category": "polynomials",
+        "expected": "40*d",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.89 GiB. GPU 0 has a total capacity of 15.89 GiB of which 877.12 MiB is free. Process 2954 has 15.03 GiB memory in use. Of the allocated memory 13.82 GiB is allocated by PyTorch, and 940.58 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274944"
+      },
+      {
+        "problem": "Let p(o) = 3*o. Let s(z) = -1029676*z - 2. What is p(s(f))?",
+        "category": "polynomials",
+        "expected": "-3089028*f - 6",
+        "predicted": "-3089034",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274946"
+      },
+      {
+        "problem": "Let y(v) = -23*v - 1. Let a(m) = -2006*m**2. Give y(a(r)).",
+        "category": "polynomials",
+        "expected": "46138*r**2 - 1",
+        "predicted": "46138*m**2 - 1",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274949"
+      },
+      {
+        "problem": "Let r(x) = -2*x. Let i(m) = -4338734*m**2. Give i(r(a)).",
+        "category": "polynomials",
+        "expected": "-17354936*a**2",
+        "predicted": "-17354936*a**2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274952"
+      },
+      {
+        "problem": "Let y(t) = 1950*t**2 + 7*t + 0*t - 1952*t**2 + 13*t. Let s(g) = g**2. Let m(d) = 3*d**2. Let v(c) = -m(c) + 5*s(c). Calculate v(y(b)).",
+        "category": "polynomials",
+        "expected": "8*b**4 - 160*b**3 + 800*b**2",
+        "predicted": "-3*d**2 + 5*g**2",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274954"
+      },
+      {
+        "problem": "Let c(y) = -2*y**2. Let b(j) = -940*j - 12. Let d(q) = 3240180*q + 41360. Let z(g) = -10340*b(g) - 3*d(g). Give z(c(x)).",
+        "category": "polynomials",
+        "expected": "1880*x**2",
+        "predicted": "1880*x**2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274957"
+      },
+      {
+        "problem": "Let c(g) = -9*g**2 - 2. Let h(o) = 5*o + 8856. Calculate h(c(d)).",
+        "category": "polynomials",
+        "expected": "8846 - 45*d**2",
+        "predicted": "-44991154",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274960"
+      },
+      {
+        "problem": "Suppose j = -4*l - 3, 4*j + 3*l = j + 18. Let o(h) = 6*h - h - j*h + 3*h. Let x(s) = 8*s**2 + 2. Determine x(o(q)).",
+        "category": "polynomials",
+        "expected": "8*q**2 + 2",
+        "predicted": "8*q**2 + 2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274963"
+      },
+      {
+        "problem": "Let b(k) = k. Let z(f) be the second derivative of 36*f**4 - f**2/2 - 4*f - 87. What is b(z(n))?",
+        "category": "polynomials",
+        "expected": "432*n**2 - 1",
+        "predicted": "288.0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274965"
+      },
+      {
+        "problem": "Does 47 divide 18392481?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "No",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274968"
+      },
+      {
+        "problem": "Does 61 divide 1035597?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Yes",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274971"
+      },
+      {
+        "problem": "Is 684 a factor of 14024052?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "True",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274974"
+      },
+      {
+        "problem": "Does 1270 divide 47216539?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274976"
+      },
+      {
+        "problem": "Does 89 divide 14034318?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "No",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274979"
+      },
+      {
+        "problem": "Is 155 a factor of 9331194?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274981"
+      },
+      {
+        "problem": "Is 25 a factor of 10961453?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274985"
+      },
+      {
+        "problem": "Does 1305 divide 55122832?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "No",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274988"
+      },
+      {
+        "problem": "Does 266 divide 11816460?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274991"
+      },
+      {
+        "problem": "Is 7 a factor of 1771007?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Yes",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.274993"
+      },
+      {
+        "problem": "How many minutes are there between 10:29 PM and 5:44 AM?",
+        "category": "measurement",
+        "expected": "435",
+        "predicted": "-1005.0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.274997"
+      },
+      {
+        "problem": "What is 632 minutes after 9:06 PM?",
+        "category": "measurement",
+        "expected": "7:38 AM",
+        "predicted": "07:38 AM",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275000"
+      },
+      {
+        "problem": "How many minutes are there between 8:12 PM and 6:13 AM?",
+        "category": "measurement",
+        "expected": "601",
+        "predicted": "1035",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.275002"
+      },
+      {
+        "problem": "How many minutes are there between 12:53 AM and 4:00 AM?",
+        "category": "measurement",
+        "expected": "187",
+        "predicted": "187.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275005"
+      },
+      {
+        "problem": "What is 161 minutes after 7:34 AM?",
+        "category": "measurement",
+        "expected": "10:15 AM",
+        "predicted": "10:15 AM",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275009"
+      },
+      {
+        "problem": "How many minutes are there between 2:19 PM and 2:41 PM?",
+        "category": "measurement",
+        "expected": "22",
+        "predicted": "22.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275011"
+      },
+      {
+        "problem": "How many minutes are there between 1:10 PM and 6:45 PM?",
+        "category": "measurement",
+        "expected": "335",
+        "predicted": "335.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275014"
+      },
+      {
+        "problem": "How many minutes are there between 1:01 PM and 10:15 PM?",
+        "category": "measurement",
+        "expected": "554",
+        "predicted": "554.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275017"
+      },
+      {
+        "problem": "How many minutes are there between 3:05 PM and 6:18 PM?",
+        "category": "measurement",
+        "expected": "193",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.97 GiB. GPU 0 has a total capacity of 15.89 GiB of which 551.12 MiB is free. Process 2954 has 15.35 GiB memory in use. Of the allocated memory 9.33 GiB is allocated by PyTorch, and 5.72 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.275019"
+      },
+      {
+        "problem": "What is 108 minutes after 8:56 AM?",
+        "category": "measurement",
+        "expected": "10:44 AM",
+        "predicted": "10:44 AM",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:37.275022"
+      },
+      {
+        "problem": "In base 3, what is -2011110222102 - -1?",
+        "category": "arithmetic",
+        "expected": "-2011110222101",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.82 GiB. GPU 0 has a total capacity of 15.89 GiB of which 2.78 GiB is free. Process 2954 has 13.11 GiB memory in use. Of the allocated memory 12.11 GiB is allocated by PyTorch, and 724.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:37.275025"
+      },
+      {
+        "problem": "In base 8, what is 160771123 + 2?",
+        "category": "arithmetic",
+        "expected": "160771125",
+        "predicted": "160771125",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430008"
+      },
+      {
+        "problem": "In base 13, what is -64168a2 + -1?",
+        "category": "arithmetic",
+        "expected": "-64168a3",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.69 GiB. GPU 0 has a total capacity of 15.89 GiB of which 97.12 MiB is free. Process 2954 has 15.79 GiB memory in use. Of the allocated memory 14.73 GiB is allocated by PyTorch, and 792.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430025"
+      },
+      {
+        "problem": "In base 9, what is -2217 - -1144?",
+        "category": "arithmetic",
+        "expected": "-1063",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.75 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.03 GiB is free. Process 2954 has 14.85 GiB memory in use. Of the allocated memory 13.66 GiB is allocated by PyTorch, and 927.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430029"
+      },
+      {
+        "problem": "In base 6, what is -4 + -250143151?",
+        "category": "arithmetic",
+        "expected": "-250143155",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.70 GiB. GPU 0 has a total capacity of 15.89 GiB of which 87.12 MiB is free. Process 2954 has 15.80 GiB memory in use. Of the allocated memory 14.74 GiB is allocated by PyTorch, and 791.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430034"
+      },
+      {
+        "problem": "In base 4, what is 2003 - 102003032?",
+        "category": "arithmetic",
+        "expected": "-102001023",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.04 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.07 GiB is free. Process 2954 has 14.81 GiB memory in use. Of the allocated memory 13.99 GiB is allocated by PyTorch, and 547.19 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430038"
+      },
+      {
+        "problem": "In base 3, what is 10 - 1120022100010?",
+        "category": "arithmetic",
+        "expected": "-1120022100000",
+        "predicted": "-1000000000000",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430042"
+      },
+      {
+        "problem": "In base 13, what is 5a2 - 1c3c?",
+        "category": "arithmetic",
+        "expected": "-166a",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.92 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.19 GiB is free. Process 2954 has 14.69 GiB memory in use. Of the allocated memory 13.85 GiB is allocated by PyTorch, and 563.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430045"
+      },
+      {
+        "problem": "In base 8, what is -136 - 470637?",
+        "category": "arithmetic",
+        "expected": "-470775",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.05 GiB. GPU 0 has a total capacity of 15.89 GiB of which 745.12 MiB is free. Process 2954 has 15.16 GiB memory in use. Of the allocated memory 14.01 GiB is allocated by PyTorch, and 880.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430049"
+      },
+      {
+        "problem": "In base 16, what is -1d + 82aa2?",
+        "category": "arithmetic",
+        "expected": "82a85",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.45 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.34 GiB is free. Process 2954 has 14.55 GiB memory in use. Of the allocated memory 13.31 GiB is allocated by PyTorch, and 972.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430053"
+      },
+      {
+        "problem": "Solve 3*h**2/5 - 534963*h/5 - 5884956/5 = 0 for h.",
+        "category": "algebra",
+        "expected": "-11, 178332",
+        "predicted": "100000.0, -100000.0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430058"
+      },
+      {
+        "problem": "Find x such that -3*x**3/2 + 1592877*x**2/2 - 211435705425*x/2 - 634321452249/2 = 0.",
+        "category": "algebra",
+        "expected": "-3, 265481",
+        "predicted": "-3.00000000000000, 265481.000000000",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430062"
+      },
+      {
+        "problem": "Determine n so that -2*n**4/19 - 4544*n**3/19 + 96266*n**2/19 - 91720*n/19 = 0.",
+        "category": "algebra",
+        "expected": "-2293, 0, 1, 20",
+        "predicted": "-2293, 0, 1, 20",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430066"
+      },
+      {
+        "problem": "Factor -2*d**2/9 - 1540942*d/9 - 1540940/9.",
+        "category": "algebra",
+        "expected": "-2*(d + 1)*(d + 770470)/9",
+        "predicted": "-171215.777777778*(1.2979073839249e-6*d**2 + 1.0*d + 0.999998702092616)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430070"
+      },
+      {
+        "problem": "Suppose 3*v**3 - 29439*v**2 - 235803*v + 972279 = 0. Calculate v.",
+        "category": "algebra",
+        "expected": "-11, 3, 9821",
+        "predicted": "-11, 3, 9821",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430074"
+      },
+      {
+        "problem": "Solve 81*i**4 + 33540516*i**3 + 3472125396484*i**2 + 1543161873920*i + 171462246400 = 0 for i.",
+        "category": "algebra",
+        "expected": "-207040, -2/9",
+        "predicted": "-100",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430078"
+      },
+      {
+        "problem": "Let 9*b**3 + 3030159*b**2 + 4040200*b + 1346732 = 0. Calculate b.",
+        "category": "algebra",
+        "expected": "-336683, -2/3",
+        "predicted": "-336683, -2/3",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430082"
+      },
+      {
+        "problem": "Find g such that -2*g**5 + 96*g**4 + 4280*g**3 - 1120*g**2 - 52608*g - 68096 = 0.",
+        "category": "algebra",
+        "expected": "-28, -2, 4, 76",
+        "predicted": "-28, -2, 4, 76",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430087"
+      },
+      {
+        "problem": "Factor o**2/7 + 138892*o/7 - 39684.",
+        "category": "algebra",
+        "expected": "(o - 2)*(o + 138894)/7",
+        "predicted": "-138894, 2",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430090"
+      },
+      {
+        "problem": "Determine g, given that -5*g**4 + 12530*g**3 - 6538740*g**2 + 976264270*g - 969738055 = 0.",
+        "category": "algebra",
+        "expected": "1, 323, 1859",
+        "predicted": "1, 323, 1859",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430094"
+      },
+      {
+        "problem": "Let f = 91276 + -58625. Is f prime?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "True",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430098"
+      },
+      {
+        "problem": "Let w be (-63)/(-5) - (-15)/(-25). Suppose 2*h - 13527 = -5*g, -w*h + 27047 = -8*h + 3*g. Is h prime?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.08 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.02 GiB is free. Process 2954 has 14.86 GiB memory in use. Of the allocated memory 14.03 GiB is allocated by PyTorch, and 552.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430102"
+      },
+      {
+        "problem": "Let y(n) be the third derivative of -127*n**7/2520 - 7*n**6/720 - 11*n**5/60 + 13*n**2. Let m(v) be the third derivative of y(v). Is m(-3) composite?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430106"
+      },
+      {
+        "problem": "Let z = 13 + -8. Suppose -12 = -v - 4*b, -186*b = -185*b - 2. Suppose 5*x - 3387 = -4*f, -v*f + z*f - 2714 = -4*x. Is x a prime number?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430110"
+      },
+      {
+        "problem": "Let o(n) = 12113*n**2 + 17*n - 35. Is o(2) a composite number?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "composite",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430114"
+      },
+      {
+        "problem": "Let b = -8 - -10. Suppose 14 = 2*y - 5*g, b*y + 4 = 6*y + 2*g. Is 4/12 - y*(-84)/9 a prime number?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.75 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.02 GiB is free. Process 2954 has 14.87 GiB memory in use. Of the allocated memory 13.66 GiB is allocated by PyTorch, and 946.21 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430117"
+      },
+      {
+        "problem": "Let w = -60 - -63. Suppose -1275 = -4*s - r, 0*s - 2*s + 641 = -w*r. Is s a prime number?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.73 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.37 GiB is free. Process 2954 has 14.51 GiB memory in use. Of the allocated memory 13.64 GiB is allocated by PyTorch, and 598.45 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430121"
+      },
+      {
+        "problem": "Let o = -69268 + 173907. Is o composite?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430125"
+      },
+      {
+        "problem": "Is ((2/(-4))/((-10)/(-5)))/((-41)/8454364) composite?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "51551.0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430128"
+      },
+      {
+        "problem": "Suppose 135*h - 3570412 = 1457393. Is h prime?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 1.42 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.36 GiB is free. Process 2954 has 14.52 GiB memory in use. Of the allocated memory 13.28 GiB is allocated by PyTorch, and 982.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430132"
+      },
+      {
+        "problem": "Collect the terms in 2995*t**2 + 1505 - 1505.",
+        "category": "polynomials",
+        "expected": "2995*t**2",
+        "predicted": "t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2t**2",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430137"
+      },
+      {
+        "problem": "Collect the terms in -848 - 892 + 2529 - 839 + 4*k.",
+        "category": "polynomials",
+        "expected": "4*k - 50",
+        "predicted": "-50, 4*k",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430141"
+      },
+      {
+        "problem": "Collect the terms in -14807*r**2 + 4*r - 4 - r + 15171*r**2.",
+        "category": "polynomials",
+        "expected": "364*r**2 + 3*r - 4",
+        "predicted": "364*r**2 + 3*r - 4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430145"
+      },
+      {
+        "problem": "Collect the terms in 64 + 94 - 24 - 33 - 21*w**2.",
+        "category": "polynomials",
+        "expected": "101 - 21*w**2",
+        "predicted": "101 - 21w^2",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430149"
+      },
+      {
+        "problem": "Collect the terms in 181*z - 62*z - 57*z + 951 + 962 - 1913 - 59*z.",
+        "category": "polynomials",
+        "expected": "3*z",
+        "predicted": "3*z + 0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430153"
+      },
+      {
+        "problem": "Collect the terms in -283*q - 134*q - 114*q + 344*q.",
+        "category": "polynomials",
+        "expected": "-187*q",
+        "predicted": "-187*q",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430156"
+      },
+      {
+        "problem": "Collect the terms in -9*q**2 + 3*q - 94*q**2 + 110*q**2.",
+        "category": "polynomials",
+        "expected": "7*q**2 + 3*q",
+        "predicted": "q*(7*q + 3)",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430160"
+      },
+      {
+        "problem": "Collect the terms in -18*i**2 + 7*i**2 + 13*i**2 - 63 - 84 - 15 + 91.",
+        "category": "polynomials",
+        "expected": "2*i**2 - 71",
+        "predicted": "2*i**2 - 71",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430163"
+      },
+      {
+        "problem": "Collect the terms in -485*r + 449 + 124*r + 119*r + 122*r + 119*r.",
+        "category": "polynomials",
+        "expected": "449 - r",
+        "predicted": "-1r + 449",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430167"
+      },
+      {
+        "problem": "Collect the terms in 9399*f + 11007*f + 14458*f - 11203*f.",
+        "category": "polynomials",
+        "expected": "23661*f",
+        "predicted": "23661*f",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430170"
+      },
+      {
+        "problem": "What is 1428961.67 rounded to the nearest 100000?",
+        "category": "numbers",
+        "expected": "1400000",
+        "predicted": "1400000.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430174"
+      },
+      {
+        "problem": "Round -198.792 to the nearest ten thousand.",
+        "category": "numbers",
+        "expected": "0",
+        "predicted": "-198.792",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430177"
+      },
+      {
+        "problem": "What is 784498990 rounded to the nearest 1000000?",
+        "category": "numbers",
+        "expected": "784000000",
+        "predicted": "784000000",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430181"
+      },
+      {
+        "problem": "What is 296.82509 rounded to one dp?",
+        "category": "numbers",
+        "expected": "296.8",
+        "predicted": "296.8",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430184"
+      },
+      {
+        "problem": "Round 5134.8982 to the nearest 10.",
+        "category": "numbers",
+        "expected": "5130",
+        "predicted": "5130.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430187"
+      },
+      {
+        "problem": "What is 11521.0529 rounded to the nearest integer?",
+        "category": "numbers",
+        "expected": "11521",
+        "predicted": "11521",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430191"
+      },
+      {
+        "problem": "Round 170843.798 to the nearest 10.",
+        "category": "numbers",
+        "expected": "170840",
+        "predicted": "170840.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430194"
+      },
+      {
+        "problem": "Round -319.79823 to the nearest ten.",
+        "category": "numbers",
+        "expected": "-320",
+        "predicted": "-319.8",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430197"
+      },
+      {
+        "problem": "Round -6.6029647 to one decimal place.",
+        "category": "numbers",
+        "expected": "-6.6",
+        "predicted": "-6.6",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430200"
+      },
+      {
+        "problem": "What is -0.000014017659 rounded to five dps?",
+        "category": "numbers",
+        "expected": "-0.00001",
+        "predicted": "-1e-05",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:44.430203"
+      },
+      {
+        "problem": "-17 + (-19 - -30 - 16)",
+        "category": "arithmetic",
+        "expected": "-22",
+        "predicted": "10",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:44.430207"
+      },
+      {
+        "problem": "Calculate -11 - (-18 + 16 - 8) - -43.",
+        "category": "arithmetic",
+        "expected": "42",
+        "predicted": "42",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987139"
+      },
+      {
+        "problem": "What is 12 + 4 + -8 + (2 + 28 - 25)?",
+        "category": "arithmetic",
+        "expected": "13",
+        "predicted": "13",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987150"
+      },
+      {
+        "problem": "(6 + (2 - 3) - -1) + (-298 - -188) + 139",
+        "category": "arithmetic",
+        "expected": "35",
+        "predicted": "35",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987153"
+      },
+      {
+        "problem": "Evaluate -4 + 4 + (0 + 13 - 8 - 1) + -31.",
+        "category": "arithmetic",
+        "expected": "-27",
+        "predicted": "-27",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987155"
+      },
+      {
+        "problem": "(-29 - ((-26 - 3) + 9)) + 0 + 9",
+        "category": "arithmetic",
+        "expected": "0",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987157"
+      },
+      {
+        "problem": "Calculate -46 + 76 - 33 - (2 + 0 + -10).",
+        "category": "arithmetic",
+        "expected": "5",
+        "predicted": "49",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987159"
+      },
+      {
+        "problem": "Evaluate -2 + -2 + -14 + (-4 + 6 - -1).",
+        "category": "arithmetic",
+        "expected": "-15",
+        "predicted": "-15",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987162"
+      },
+      {
+        "problem": "What is 27 - (-23 - -29 - -5)?",
+        "category": "arithmetic",
+        "expected": "16",
+        "predicted": "26",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987164"
+      },
+      {
+        "problem": "-21 + 15 + 54 - (23 + -1)",
+        "category": "arithmetic",
+        "expected": "26",
+        "predicted": "26",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987166"
+      },
+      {
+        "problem": "Simplify ((sqrt(12) - sqrt(132)/(1*sqrt(11))) + (2*sqrt(432) - sqrt(432)))/((sqrt(384) - -2*sqrt(384))*-5*1).",
+        "category": "arithmetic",
+        "expected": "-sqrt(2)/20",
+        "predicted": "-sqrt(2)/24 - sqrt(22)/1320",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987168"
+      },
+      {
+        "problem": "Simplify (-6*((sqrt(300) + 1)*-4 + 1*(-1 + sqrt(300)))*5)**2.",
+        "category": "arithmetic",
+        "expected": "270000*sqrt(3) + 2452500",
+        "predicted": "270000*sqrt(3) + 2452500",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987170"
+      },
+      {
+        "problem": "Simplify (sqrt(1700) + -2)*-5*1 + (-2 + 6*2*sqrt(68))**2.",
+        "category": "arithmetic",
+        "expected": "9806 - 146*sqrt(17)",
+        "predicted": "9806 - 146*sqrt(17)",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987173"
+      },
+      {
+        "problem": "Simplify 3 + ((sqrt(1000)*1)/((sqrt(66)/sqrt(3))/sqrt(11)) + (2*sqrt(405) + 3 - sqrt(405))*-4)**2.",
+        "category": "arithmetic",
+        "expected": "624*sqrt(5) + 3527",
+        "predicted": "51 + 154*sqrt(5)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987175"
+      },
+      {
+        "problem": "Simplify (4 + (0 + sqrt(171) + -1 + sqrt(171) + -3)*-6 + 5 + -5)**2.",
+        "category": "arithmetic",
+        "expected": "25408 - 2016*sqrt(19)",
+        "predicted": "100",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987177"
+      },
+      {
+        "problem": "Simplify (sqrt(550)/(sqrt(11)*3) + sqrt(450) + 1 + sqrt(450))**2 + (-2 + sqrt(300)/sqrt(6) + sqrt(350)/(sqrt(7)*3 - sqrt(7)))**2.",
+        "category": "arithmetic",
+        "expected": "100*sqrt(2)/3 + 38215/18",
+        "predicted": "(100*sqrt(2)/3 + 38215/18)**2",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987180"
+      },
+      {
+        "problem": "Simplify (1 + (sqrt(637)*-1 + -1 + -3 - (-5 + 4 + sqrt(637)*-2)))**2*-5.",
+        "category": "arithmetic",
+        "expected": "-3205 + 140*sqrt(13)",
+        "predicted": "-2700.222821435041",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987182"
+      },
+      {
+        "problem": "Simplify (4 + -1*(sqrt(612) + 2) + (-1*-1*sqrt(612) - (0 + sqrt(612)*-1)))**2 + -2.",
+        "category": "arithmetic",
+        "expected": "24*sqrt(17) + 614",
+        "predicted": "24*sqrt(17) + 614",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987184"
+      },
+      {
+        "problem": "Simplify (-6*((sqrt(5500) - sqrt(5500)*1) + sqrt(5500))*-6)/(sqrt(180) + (sqrt(180) - sqrt(180)*2 - sqrt(180))*2 + sqrt(180)).",
+        "category": "arithmetic",
+        "expected": "-30*sqrt(11)",
+        "predicted": "5*sqrt(11)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987187"
+      },
+      {
+        "problem": "Simplify 3 + 3*sqrt(405)*-1 + (-3*(sqrt(405) + 2))**2 + 3 + 0.",
+        "category": "arithmetic",
+        "expected": "297*sqrt(5) + 3687",
+        "predicted": "297*sqrt(5) + 3687",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987189"
+      },
+      {
+        "problem": "Let l(s) = 2*s**2 + 41*s - 21671. What is l(-115)?",
+        "category": "polynomials",
+        "expected": "64",
+        "predicted": "64",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987190"
+      },
+      {
+        "problem": "Let a(h) = 8306*h - 323938. Determine a(39).",
+        "category": "polynomials",
+        "expected": "-4",
+        "predicted": "-4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987193"
+      },
+      {
+        "problem": "Let t(m) = m**3 + 8*m**2 - 204*m - 1791. Determine t(-11).",
+        "category": "polynomials",
+        "expected": "90",
+        "predicted": "90",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987195"
+      },
+      {
+        "problem": "Let v(i) = 4*i**3 - 4*i**2 - 87*i - 302. Calculate v(-4).",
+        "category": "polynomials",
+        "expected": "-274",
+        "predicted": "-274",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987197"
+      },
+      {
+        "problem": "Let q(u) = -32*u**2 - 482*u + 50. Calculate q(-14).",
+        "category": "polynomials",
+        "expected": "526",
+        "predicted": "526",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987200"
+      },
+      {
+        "problem": "Let a(m) = 3*m**2 + 90*m + 108. Determine a(0).",
+        "category": "polynomials",
+        "expected": "108",
+        "predicted": "108",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987202"
+      },
+      {
+        "problem": "Let u(j) = -2*j**3 + 108*j**2 + 713*j + 8. Determine u(-6).",
+        "category": "polynomials",
+        "expected": "50",
+        "predicted": "50",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987204"
+      },
+      {
+        "problem": "Let g(s) = 54*s**2 - 22245*s - 1236. Calculate g(412).",
+        "category": "polynomials",
+        "expected": "0",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987206"
+      },
+      {
+        "problem": "Let x(j) = -1003*j**3 - 17*j**2 - 24*j - 7. Calculate x(-1).",
+        "category": "polynomials",
+        "expected": "1003",
+        "predicted": "1003",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987209"
+      },
+      {
+        "problem": "Let c(y) = 31*y**2 - 304*y + 458. Give c(8).",
+        "category": "polynomials",
+        "expected": "10",
+        "predicted": "10",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987211"
+      },
+      {
+        "problem": "Four letters picked without replacement from {s: 12, k: 8}. Give prob of picking 2 k and 2 s.",
+        "category": "probability",
+        "expected": "616/1615",
+        "predicted": "0.3814241486068111",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987213"
+      },
+      {
+        "problem": "Calculate prob of picking 3 d and 1 x when four letters picked without replacement from xxdadnnaddddcd.",
+        "category": "probability",
+        "expected": "10/143",
+        "predicted": "10/143",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987215"
+      },
+      {
+        "problem": "Three letters picked without replacement from lqqqqqqqqqqqqqlqq. Give prob of picking 3 q.",
+        "category": "probability",
+        "expected": "91/136",
+        "predicted": "0.8571428571428571",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987218"
+      },
+      {
+        "problem": "Two letters picked without replacement from yggwwkyvg. What is prob of picking 1 g and 1 y?",
+        "category": "probability",
+        "expected": "1/6",
+        "predicted": "0.16666666666666666",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987220"
+      },
+      {
+        "problem": "Three letters picked without replacement from lpfpplllplpplvv. Give prob of picking 3 l.",
+        "category": "probability",
+        "expected": "4/91",
+        "predicted": "0.04395604395604396",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987221"
+      },
+      {
+        "problem": "Three letters picked without replacement from {t: 1, h: 1, k: 1, a: 3, o: 2, g: 2}. What is prob of picking 2 g and 1 a?",
+        "category": "probability",
+        "expected": "1/40",
+        "predicted": "3/56",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987224"
+      },
+      {
+        "problem": "Three letters picked without replacement from {s: 9, p: 4}. Give prob of picking 2 s and 1 p.",
+        "category": "probability",
+        "expected": "72/143",
+        "predicted": "0.5034965034965035",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987226"
+      },
+      {
+        "problem": "Two letters picked without replacement from klkkkkkokookokk. Give prob of picking 2 k.",
+        "category": "probability",
+        "expected": "3/7",
+        "predicted": "0.4285714285714286",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987227"
+      },
+      {
+        "problem": "What is prob of picking 1 w and 1 q when two letters picked without replacement from sqwwwqwiwiwwi?",
+        "category": "probability",
+        "expected": "7/39",
+        "predicted": "0.1794871794871795",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987230"
+      },
+      {
+        "problem": "What is prob of picking 1 b and 1 h when two letters picked without replacement from {g: 2, b: 10, h: 1}?",
+        "category": "probability",
+        "expected": "5/39",
+        "predicted": "5/39",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987232"
+      },
+      {
+        "problem": "Solve 0 = -135*v - 457*v - 83*v + 86*v + 11780 for v.",
+        "category": "algebra",
+        "expected": "20",
+        "predicted": "20",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987234"
+      },
+      {
+        "problem": "Solve -5756 + 4209 = -422*j + 5891 + 6488 for j.",
+        "category": "algebra",
+        "expected": "33",
+        "predicted": "-10",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987236"
+      },
+      {
+        "problem": "Solve 3480 = 70*c - 68*c - 234*c for c.",
+        "category": "algebra",
+        "expected": "-15",
+        "predicted": "-3596*y**2/117 + 35264*y/117 - 54868/117",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987239"
+      },
+      {
+        "problem": "Solve -15000*t + 15085*t - 2720 = 0 for t.",
+        "category": "algebra",
+        "expected": "32",
+        "predicted": "-32.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987241"
+      },
+      {
+        "problem": "Solve -2239 - 7153 - 44867 = -1871*d for d.",
+        "category": "algebra",
+        "expected": "29",
+        "predicted": "29.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987243"
+      },
+      {
+        "problem": "Solve -1802*k = -842*k + 1565*k - 73225 for k.",
+        "category": "algebra",
+        "expected": "29",
+        "predicted": "29",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987246"
+      },
+      {
+        "problem": "Solve 0 = 317*d - 2471 + 13033 + 3069 for d.",
+        "category": "algebra",
+        "expected": "-43",
+        "predicted": "43.0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987248"
+      },
+      {
+        "problem": "Solve -440 = -7059476*w + 7059465*w for w.",
+        "category": "algebra",
+        "expected": "40",
+        "predicted": "40",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:47.987250"
+      },
+      {
+        "problem": "Solve 170*i + 220*i - 3144 = 448*i - 189*i for i.",
+        "category": "algebra",
+        "expected": "24",
+        "predicted": "0",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987253"
+      },
+      {
+        "problem": "Solve 528*i + 6980 = -170*i for i.",
+        "category": "algebra",
+        "expected": "-10",
+        "predicted": "i/528 - 3485/264",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987255"
+      },
+      {
+        "problem": "Solve -16 + 3 = -9*d + 10*d - 2*j, -7*d + 5*j - 91 = 0 for d.",
+        "category": "algebra",
+        "expected": "-13",
+        "predicted": "{d: -13, j: 0}",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:47.987258"
+      },
+      {
+        "problem": "Solve -4*t + 18230*u - 1 = 18243*u, 0 = 2*u - 6 for t.",
+        "category": "algebra",
+        "expected": "-10",
+        "predicted": "-10, 3",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760387"
+      },
+      {
+        "problem": "Solve 14350*z - 14354*z + 2*h + 4 = 0, 0 = 6*z - 4*h - 10 for z.",
+        "category": "algebra",
+        "expected": "-1",
+        "predicted": "h, z",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760411"
+      },
+      {
+        "problem": "Solve -344*t + 3 = -342*t + v, 0 = -t + 2*v + 14 for t.",
+        "category": "algebra",
+        "expected": "4",
+        "predicted": "4",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760416"
+      },
+      {
+        "problem": "Solve 4*l + 24 = -h + 15, 8*h - 4*l + l + 142 = 0 for h.",
+        "category": "algebra",
+        "expected": "-17",
+        "predicted": "{h: -17, l: 2}",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760421"
+      },
+      {
+        "problem": "Solve 0 = 2*w + 3*a - 7, -5*w + 8*w - 22 = a + 5 for w.",
+        "category": "algebra",
+        "expected": "8",
+        "predicted": "a, w",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760425"
+      },
+      {
+        "problem": "Solve 0 = -4*y + 5*q + 42, 15589*y + 4*q + 30 = 15591*y for y.",
+        "category": "algebra",
+        "expected": "3",
+        "predicted": "{q: -6, y: 3}",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760429"
+      },
+      {
+        "problem": "Solve -3*a - a - 6 = -11*i, a - 7*a + 10*a + 28 = 0 for i.",
+        "category": "algebra",
+        "expected": "-2",
+        "predicted": "-7, -2",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760432"
+      },
+      {
+        "problem": "Solve -10*c + 0*h + 4*h + 40 = 0, c - 331*h + 3 = -332*h for c.",
+        "category": "algebra",
+        "expected": "2",
+        "predicted": "6626/1653",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760436"
+      },
+      {
+        "problem": "Solve -5*h + 5 = -5*f, 5*f - 1413*h + 23 = -1417*h for f.",
+        "category": "algebra",
+        "expected": "-3",
+        "predicted": "-2, -3",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760440"
+      },
+      {
+        "problem": "Suppose 28994 = -59*w + 549374. List the prime factors of w.",
+        "category": "numbers",
+        "expected": "2, 3, 5, 7",
+        "predicted": "2:4, 3:2, 5:2",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760444"
+      },
+      {
+        "problem": "Suppose -25*u + 132116 + 2434 = 0. List the prime factors of u.",
+        "category": "numbers",
+        "expected": "2, 3, 13, 23",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.11 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.53 GiB is free. Process 5412 has 12.21 GiB memory in use. Of the allocated memory 9.45 GiB is allocated by PyTorch, and 2.63 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760448"
+      },
+      {
+        "problem": "Let z = -21545 - -30234. List the prime factors of z.",
+        "category": "numbers",
+        "expected": "8689",
+        "predicted": "8689",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760452"
+      },
+      {
+        "problem": "Let c(r) = r**3 + 27*r**2 + 26*r + 10. Let t be c(-26). Suppose -i - 4*w + 419 = 0, t*i - w - 2200 = 5*i. What are the prime factors of i?",
+        "category": "numbers",
+        "expected": "439",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.03 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1.87 GiB is free. Process 5412 has 12.87 GiB memory in use. Of the allocated memory 9.37 GiB is allocated by PyTorch, and 3.37 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760455"
+      },
+      {
+        "problem": "Suppose 2*s - 22*q + 19*q = 12173, -q = -s + 6089. What are the prime factors of s?",
+        "category": "numbers",
+        "expected": "2, 11, 277",
+        "predicted": "2, 11, 277",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760459"
+      },
+      {
+        "problem": "Suppose -3*c - 3*v + 4 = 13, -v - 7 = 5*c. What are the prime factors of c + (13 - -6) + 5?",
+        "category": "numbers",
+        "expected": "23",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.78 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.53 GiB is free. Process 5412 has 12.21 GiB memory in use. Of the allocated memory 10.21 GiB is allocated by PyTorch, and 1.87 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760463"
+      },
+      {
+        "problem": "List the prime factors of -389*-1*(5 - (-12)/(-3)).",
+        "category": "numbers",
+        "expected": "389",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.80 GiB. GPU 0 has a total capacity of 14.74 GiB of which 1.87 GiB is free. Process 5412 has 12.87 GiB memory in use. Of the allocated memory 10.23 GiB is allocated by PyTorch, and 2.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760467"
+      },
+      {
+        "problem": "Let l(m) = 2476*m**2 + 11*m - 7. List the prime factors of l(1).",
+        "category": "numbers",
+        "expected": "2, 5, 31",
+        "predicted": "2, 5, 31",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760471"
+      },
+      {
+        "problem": "List the prime factors of 5870 - 10*(1 + 0).",
+        "category": "numbers",
+        "expected": "2, 5, 293",
+        "predicted": "2, 5, 293",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760475"
+      },
+      {
+        "problem": "Suppose -2 = 2*f, 16*f - 19*f = 4*n - 2221. What are the prime factors of n?",
+        "category": "numbers",
+        "expected": "2, 139",
+        "predicted": "2, 139",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760479"
+      },
+      {
+        "problem": "What is -6c5c (base 13) in base 12?",
+        "category": "numbers",
+        "expected": "-8a1b",
+        "predicted": "None",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760485"
+      },
+      {
+        "problem": "2153105 (base 6) to base 4",
+        "category": "numbers",
+        "expected": "122123201",
+        "predicted": "122123201",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760489"
+      },
+      {
+        "problem": "36b2a (base 15) to base 16",
+        "category": "numbers",
+        "expected": "2aa30",
+        "predicted": "2AA30",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760493"
+      },
+      {
+        "problem": "Convert -1436662 (base 7) to base 4.",
+        "category": "numbers",
+        "expected": "-233132230",
+        "predicted": "-11132233312",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760497"
+      },
+      {
+        "problem": "Convert -23114 (base 6) to base 10.",
+        "category": "numbers",
+        "expected": "-3286",
+        "predicted": "3286",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760501"
+      },
+      {
+        "problem": "Convert 3333104 (base 6) to base 7.",
+        "category": "numbers",
+        "expected": "1266265",
+        "predicted": "1266265",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760504"
+      },
+      {
+        "problem": "Convert 24761 (base 15) to base 3.",
+        "category": "numbers",
+        "expected": "12220200201",
+        "predicted": "12220200201",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760508"
+      },
+      {
+        "problem": "Convert 1a419 (base 16) to base 15.",
+        "category": "numbers",
+        "expected": "21cea",
+        "predicted": "21CEA",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760512"
+      },
+      {
+        "problem": "What is -22210210121 (base 3) in base 10?",
+        "category": "numbers",
+        "expected": "-173356",
+        "predicted": "-173356",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760515"
+      },
+      {
+        "problem": "What is 100001110000000100 (base 2) in base 3?",
+        "category": "numbers",
+        "expected": "21000122011",
+        "predicted": "138244",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760518"
+      },
+      {
+        "problem": "What are the prime factors of 4089490?",
+        "category": "numbers",
+        "expected": "2, 5, 101, 4049",
+        "predicted": "2, 5, 101, 4049",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760521"
+      },
+      {
+        "problem": "What are the prime factors of 93760429?",
+        "category": "numbers",
+        "expected": "7, 13394347",
+        "predicted": "7, 13394347",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760524"
+      },
+      {
+        "problem": "What are the prime factors of 55521424?",
+        "category": "numbers",
+        "expected": "2, 7, 337, 1471",
+        "predicted": "2, 7, 337, 1471",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760528"
+      },
+      {
+        "problem": "What are the prime factors of 75619718?",
+        "category": "numbers",
+        "expected": "2, 37809859",
+        "predicted": "2, 37809859",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760530"
+      },
+      {
+        "problem": "List the prime factors of 38383603.",
+        "category": "numbers",
+        "expected": "17, 2257859",
+        "predicted": "17^1, 2257859^1",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760534"
+      },
+      {
+        "problem": "List the prime factors of 45500653.",
+        "category": "numbers",
+        "expected": "11, 17, 31, 47, 167",
+        "predicted": "11^1, 17^1, 31^1, 47^1, 167^1",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760537"
+      },
+      {
+        "problem": "List the prime factors of 4701268.",
+        "category": "numbers",
+        "expected": "2, 11, 13, 8219",
+        "predicted": "2:2, 11:1, 13:1, 8219:1",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760540"
+      },
+      {
+        "problem": "What are the prime factors of 57376371?",
+        "category": "numbers",
+        "expected": "3, 13, 19, 77431",
+        "predicted": "3, 13, 19, 77431",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760543"
+      },
+      {
+        "problem": "List the prime factors of 9055495.",
+        "category": "numbers",
+        "expected": "5, 19, 199, 479",
+        "predicted": "5^1, 19^1, 199^1, 479^1",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760546"
+      },
+      {
+        "problem": "What are the prime factors of 30268179?",
+        "category": "numbers",
+        "expected": "3, 3363131",
+        "predicted": "3, 3363131",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760549"
+      },
+      {
+        "problem": "Let g = 12874 - 7587. What is the tens digit of g?",
+        "category": "numbers",
+        "expected": "8",
+        "predicted": "8",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760552"
+      },
+      {
+        "problem": "Let c(z) = -14*z**3 + 9*z**2 + 13*z - 17. What is the units digit of c(-5)?",
+        "category": "numbers",
+        "expected": "3",
+        "predicted": "3",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760556"
+      },
+      {
+        "problem": "Suppose -n = 3*o + 4 - 26, 0 = 4*o + 4*n - 24. Suppose o*y + 4 = 6*y, -4*y = 2*s - 504. What is the hundreds digit of s?",
+        "category": "numbers",
+        "expected": "2",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 3.38 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.53 GiB is free. Process 5412 has 12.21 GiB memory in use. Of the allocated memory 9.76 GiB is allocated by PyTorch, and 2.32 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760559"
+      },
+      {
+        "problem": "Let c = 4629 + 267. What is the units digit of c?",
+        "category": "numbers",
+        "expected": "6",
+        "predicted": "6",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760562"
+      },
+      {
+        "problem": "Suppose 4*d = 18 - 10. Suppose -13 - 13 = -d*z. Suppose l + 7 = k - z, k + 4*l - 30 = 0. What is the units digit of k?",
+        "category": "numbers",
+        "expected": "2",
+        "predicted": "2",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760565"
+      },
+      {
+        "problem": "Suppose -f = -4*h + 2*f + 277, -f + 71 = h. What is the tens digit of (h + -8)*13/2?",
+        "category": "numbers",
+        "expected": "0",
+        "predicted": "6",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760568"
+      },
+      {
+        "problem": "Let h(b) = 194*b + 2. Let m(w) = 2*w - 4. Let v be m(3). What is the units digit of h(v)?",
+        "category": "numbers",
+        "expected": "0",
+        "predicted": "0",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760571"
+      },
+      {
+        "problem": "Let p = 24753 + -15606. What is the units digit of p?",
+        "category": "numbers",
+        "expected": "7",
+        "predicted": "7",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760574"
+      },
+      {
+        "problem": "Let n = -164 - -170. What is the hundreds digit of (-24)/36 - (-2512)/n?",
+        "category": "numbers",
+        "expected": "4",
+        "predicted": "4",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760578"
+      },
+      {
+        "problem": "Suppose 41 - 74 = -3*j. Suppose 1730 = 5*t + 2*l, -1371 = -4*t - 10*l + j*l. What is the tens digit of t?",
+        "category": "numbers",
+        "expected": "4",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 2.76 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.53 GiB is free. Process 5412 has 12.21 GiB memory in use. Of the allocated memory 9.06 GiB is allocated by PyTorch, and 3.02 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760581"
+      },
+      {
+        "problem": "Let z(k) = 0*k**2 + 3*k**2 - 6*k**2 + k - 6. Let h be z(2). Let a = 89 + h. Is a a multiple of 43?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "API_ERROR",
+        "timestamp": "2025-07-17T19:10:53.760584"
+      },
+      {
+        "problem": "Let s be 21853/(-205) + (-4)/10. Let o = s + 127. Is 2 a factor of o?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "True",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353467"
+      },
+      {
+        "problem": "Let t = -270 + 275. Let l(z) = 5 - 4*z. Let b be l(-4). Suppose 4*w = -4*d + 44, -t*w + b = -2*d - 62. Is w a multiple of 15?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 6.85 GiB. GPU 0 has a total capacity of 15.89 GiB of which 1.23 GiB is free. Process 4357 has 14.65 GiB memory in use. Of the allocated memory 13.62 GiB is allocated by PyTorch, and 763.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353484"
+      },
+      {
+        "problem": "Let m = 147 + -134. Suppose 10*k - m*k - 283 = -2*i, -i - 3*k = -137. Is i a multiple of 3?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353488"
+      },
+      {
+        "problem": "Suppose 0 = -16*o + 4*f + 1548, 43*f + 510 = 5*o + 47*f. Is o a multiple of 7?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "True",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353491"
+      },
+      {
+        "problem": "Is 7 a factor of 3044 - (-10 + 8 + 12)?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353496"
+      },
+      {
+        "problem": "Let r(f) = 4*f**2 + 46*f - 94. Does 93 divide r(-30)?",
+        "category": "numbers",
+        "expected": "False",
+        "predicted": "False",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353500"
+      },
+      {
+        "problem": "Does 8 divide 866 - (-18)/4*(-16)/36?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "0.009259259259259259",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353504"
+      },
+      {
+        "problem": "Let c(x) = 23 - 8*x**2 + 7*x**2 - 18*x + 57 + 48*x. Does 16 divide c(32)?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "16, True",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353508"
+      },
+      {
+        "problem": "Let p be (0 - (-1)/(-2))*-44. Let k = p + 18. Does 4 divide ((-10)/(-4))/(125/k + -3)?",
+        "category": "numbers",
+        "expected": "True",
+        "predicted": "Yes",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353512"
+      },
+      {
+        "problem": "What is the highest common divisor of 5060 and 29480?",
+        "category": "numbers",
+        "expected": "220",
+        "predicted": "220",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353515"
+      },
+      {
+        "problem": "What is the greatest common divisor of 82 and 11837889?",
+        "category": "numbers",
+        "expected": "41",
+        "predicted": "41",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353519"
+      },
+      {
+        "problem": "Calculate the greatest common divisor of 117 and 288081.",
+        "category": "numbers",
+        "expected": "9",
+        "predicted": "9",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353523"
+      },
+      {
+        "problem": "Calculate the highest common divisor of 18360 and 9816.",
+        "category": "numbers",
+        "expected": "24",
+        "predicted": "24",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353527"
+      },
+      {
+        "problem": "Calculate the highest common factor of 282154 and 71532.",
+        "category": "numbers",
+        "expected": "3974",
+        "predicted": "3974",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353531"
+      },
+      {
+        "problem": "Calculate the greatest common divisor of 215134 and 41309.",
+        "category": "numbers",
+        "expected": "409",
+        "predicted": "409",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353534"
+      },
+      {
+        "problem": "What is the highest common factor of 3026266 and 87?",
+        "category": "numbers",
+        "expected": "29",
+        "predicted": "29",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353538"
+      },
+      {
+        "problem": "What is the highest common factor of 119536 and 62000?",
+        "category": "numbers",
+        "expected": "496",
+        "predicted": "496",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353542"
+      },
+      {
+        "problem": "What is the greatest common divisor of 617448 and 138?",
+        "category": "numbers",
+        "expected": "6",
+        "predicted": "6",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353546"
+      },
+      {
+        "problem": "Calculate the greatest common factor of 7000227 and 36.",
+        "category": "numbers",
+        "expected": "9",
+        "predicted": "9",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353549"
+      },
+      {
+        "problem": "Which is the second biggest value?  (a) -2/23  (b) -0.09  (c) 11248  (d) 0.4  (e) 2/9",
+        "category": "comparison",
+        "expected": "d",
+        "predicted": "0.4",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353554"
+      },
+      {
+        "problem": "What is the second biggest value in 0.5, -165, -5, 4, -2/11, 0.3, -3/29?",
+        "category": "comparison",
+        "expected": "0.5",
+        "predicted": "0.5",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353559"
+      },
+      {
+        "problem": "Which is the fourth smallest value?  (a) 0.7  (b) -5/6  (c) -14/3  (d) 2/231",
+        "category": "comparison",
+        "expected": "a",
+        "predicted": "0.7",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353563"
+      },
+      {
+        "problem": "What is the fourth biggest value in -1, 1.9, -16652, -8?",
+        "category": "comparison",
+        "expected": "-16652",
+        "predicted": "-16652",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353567"
+      },
+      {
+        "problem": "Which is the sixth biggest value?  (a) -0.2  (b) 3  (c) -0.16  (d) -1  (e) -0.75  (f) -2/19",
+        "category": "comparison",
+        "expected": "d",
+        "predicted": "-0.10526315789473684",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353570"
+      },
+      {
+        "problem": "Which is the biggest value?  (a) -1  (b) -0.1  (c) -253  (d) 274",
+        "category": "comparison",
+        "expected": "d",
+        "predicted": "274",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353574"
+      },
+      {
+        "problem": "Which is the biggest value?  (a) 3  (b) -0.0642  (c) 6.111",
+        "category": "comparison",
+        "expected": "c",
+        "predicted": "6.111",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353578"
+      },
+      {
+        "problem": "Which is the sixth smallest value?  (a) 1/2  (b) 12  (c) -1/6  (d) -1/3  (e) -7/2  (f) 3  (g) -25",
+        "category": "comparison",
+        "expected": "f",
+        "predicted": "3",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353583"
+      },
+      {
+        "problem": "Which is the third smallest value?  (a) -66  (b) 1/62  (c) -0.5  (d) 0  (e) 4",
+        "category": "comparison",
+        "expected": "d",
+        "predicted": "0",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353586"
+      },
+      {
+        "problem": "Which is the second biggest value?  (a) -23  (b) -0.1996  (c) -0.5  (d) 0",
+        "category": "comparison",
+        "expected": "b",
+        "predicted": "-0.1996",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353590"
+      },
+      {
+        "problem": "Calculate the remainder when 565971 is divided by 27.",
+        "category": "numbers",
+        "expected": "24",
+        "predicted": "24",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353594"
+      },
+      {
+        "problem": "What is the remainder when 492899 is divided by 1463?",
+        "category": "numbers",
+        "expected": "1331",
+        "predicted": "1331",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353598"
+      },
+      {
+        "problem": "What is the remainder when 761114 is divided by 5249?",
+        "category": "numbers",
+        "expected": "9",
+        "predicted": "9",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353601"
+      },
+      {
+        "problem": "Calculate the remainder when 337288 is divided by 331.",
+        "category": "numbers",
+        "expected": "330",
+        "predicted": "330",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353605"
+      },
+      {
+        "problem": "What is the remainder when 84999 is divided by 792?",
+        "category": "numbers",
+        "expected": "255",
+        "predicted": "255",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353608"
+      },
+      {
+        "problem": "What is the remainder when 17461 is divided by 1033?",
+        "category": "numbers",
+        "expected": "933",
+        "predicted": "933",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353612"
+      },
+      {
+        "problem": "What is the remainder when 164503 is divided by 697?",
+        "category": "numbers",
+        "expected": "11",
+        "predicted": "11",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353616"
+      },
+      {
+        "problem": "What is the remainder when 408254 is divided by 408194?",
+        "category": "numbers",
+        "expected": "60",
+        "predicted": "60",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353619"
+      },
+      {
+        "problem": "Calculate the remainder when 42647 is divided by 1187.",
+        "category": "numbers",
+        "expected": "1102",
+        "predicted": "1102",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353623"
+      },
+      {
+        "problem": "Calculate the remainder when 1037148 is divided by 50.",
+        "category": "numbers",
+        "expected": "48",
+        "predicted": "48",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353644"
+      },
+      {
+        "problem": "What is the o'th term of -235793, -235756, -235719, -235682?",
+        "category": "algebra",
+        "expected": "37*o - 235830",
+        "predicted": "-235793",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353649"
+      },
+      {
+        "problem": "What is the p'th term of -64371, -257549, -579509, -1030245, -1609751, -2318021?",
+        "category": "algebra",
+        "expected": "p**3 - 64397*p**2 + 6*p + 19",
+        "predicted": "201159376",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353653"
+      },
+      {
+        "problem": "What is the n'th term of -2424, -2644, -2834, -2982, -3076, -3104, -3054?",
+        "category": "algebra",
+        "expected": "2*n**3 + 3*n**2 - 243*n - 2186",
+        "predicted": "-3294",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353658"
+      },
+      {
+        "problem": "What is the j'th term of 1066141, 2132261, 3198361, 4264435, 5330477?",
+        "category": "algebra",
+        "expected": "-j**3 - 4*j**2 + 1066139*j + 7",
+        "predicted": "5330477",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353661"
+      },
+      {
+        "problem": "What is the j'th term of 420482, 420484, 420488, 420494, 420502?",
+        "category": "algebra",
+        "expected": "j**2 - j + 420482",
+        "predicted": "420486",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353665"
+      },
+      {
+        "problem": "What is the y'th term of 12335, 12920, 13505, 14090, 14675?",
+        "category": "algebra",
+        "expected": "585*y + 11750",
+        "predicted": "14675",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353668"
+      },
+      {
+        "problem": "What is the y'th term of -1, -168, -617, -1486, -2913, -5036, -7993, -11922?",
+        "category": "algebra",
+        "expected": "-23*y**3 - 3*y**2 + 3*y + 22",
+        "predicted": "-1129",
+        "verdict": "CORRECT",
+        "timestamp": "2025-07-17T19:10:57.353672"
+      },
+      {
+        "problem": "What is the h'th term of 7465232, 14930467, 22395702, 29860937?",
+        "category": "algebra",
+        "expected": "7465235*h - 3",
+        "predicted": "29860937",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353675"
+      },
+      {
+        "problem": "What is the i'th term of 226853, 226882, 226911?",
+        "category": "algebra",
+        "expected": "29*i + 226824",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 7.40 GiB. GPU 0 has a total capacity of 15.89 GiB of which 449.12 MiB is free. Process 4357 has 15.45 GiB memory in use. Of the allocated memory 14.23 GiB is allocated by PyTorch, and 952.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353679"
+      },
+      {
+        "problem": "What is the r'th term of 121840, 121858, 121876, 121894, 121912, 121930?",
+        "category": "algebra",
+        "expected": "18*r + 121822",
+        "predicted": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 5.93 GiB. GPU 0 has a total capacity of 15.89 GiB of which 2.59 GiB is free. Process 4357 has 13.30 GiB memory in use. Of the allocated memory 12.61 GiB is allocated by PyTorch, and 415.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "verdict": "INCORRECT",
+        "timestamp": "2025-07-17T19:10:57.353683"
+      }
+    ]
+  }
+}
