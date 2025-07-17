@@ -1,0 +1,1060 @@
+{
+  "total": 150,
+  "correct": 57,
+  "incorrect": 93,
+  "errors": 0,
+  "accuracy": 0.38,
+  "details": [
+    {
+      "problem": "What is ((-2)/(-4))/(((-336)/80)/21)*(-5)/((-125)/20)*7/(224/2512)?",
+      "expected": "-157",
+      "answer": "-157.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate ((5/(-10))/((2280/8680)/57))/(((-6)/(-3))/(8/(-3)*9/(-6))).",
+      "expected": "-217",
+      "answer": "-217.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "4/(10/56*-2*(482560/2600)/(-116)*(-3)/(-1146)*14)",
+      "expected": "191",
+      "answer": "1.0808070117916908e-08",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Evaluate 24781575/849654*((-4)/2)/1*(2/1)/(4/9*3)*-2.",
+      "expected": "175",
+      "answer": "175.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "(-327*465/50685*17/(-6))/(((((-6)/(-22))/(-3))/1)/(5/((-5)/(-2))))",
+      "expected": "-187",
+      "answer": "-46.7500000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Evaluate 2/(30/9)*5*(-12)/((-10)/(-105)*3)*(-21)/(-42).",
+      "expected": "-63",
+      "answer": "-63.0000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Evaluate (-7)/((-630)/(-9))*1/((-2)/(-732))*(1605/(-214))/(18/4).",
+      "expected": "61",
+      "answer": "61.0000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate (-1)/((-1)/(-7))*(70/(-35))/2*((456/(-35))/19)/(21/(-35)).",
+      "expected": "8",
+      "answer": "8.00000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Evaluate (((1729/(-1183)*(-26)/16)/(15/36))/((-12)/10))/((-4)/144*(-1)/(-1)).",
+      "expected": "171",
+      "answer": "171",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate 10/14*(-218253)/(-103930)*536/(-10)*(-10*(-3)/12)/(18/12).",
+      "expected": "-134",
+      "answer": "-134",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate (10/25)/(5/(-25)) + (603/(-45) + 11)/((-14658)/1830 + 8).",
+      "expected": "242",
+      "answer": "1543/244",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is ((-1179)/315 - 164/410 - -5)/((-1 - (-24)/25)*(44/14 - 3))?",
+      "expected": "-150",
+      "answer": "-150.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate 8391/27 + (6/14)/(((-98698)/(-6832) + -13)/(-3*1/(-4))).",
+      "expected": "311",
+      "answer": "311.172839506173",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "(-31)/(-2)*(-4)/1*-46*(-112)/(-37352)*29 - 2*-6",
+      "expected": "260",
+      "answer": "260.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate (6517/(-60) + 10*17/(-510))*(10 + -6) - ((-826)/945 + (-20)/(-270)).",
+      "expected": "-435",
+      "answer": "-108.14999999999999",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is ((-184)/60 - (-5*(-8)/25 - 2))*(2475/(-4125))/(4/190)?",
+      "expected": "76",
+      "answer": "76.0000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate (6/10)/((-306)/(-172890)) - -9*35/150*5*15/((-630)/(-12)).",
+      "expected": "342",
+      "answer": "25426/75",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "(-77 + 98 + (-10658)/511 - (-12)/14)*(1 + (1 - 2) + 18)",
+      "expected": "18",
+      "answer": "17.99999999999999",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is ((-8)/(-10) - 16412/(-110))*(-20)/(-24) - (2/(-8) - (-33)/132)?",
+      "expected": "125",
+      "answer": "125.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "2/8 - (8/(-34)*(-3)/6 + 7/(-4) + ((-8972640)/(-527))/(-135))",
+      "expected": "128",
+      "answer": "128.000000000000",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 967336.785539 rounded to the nearest ten?",
+      "expected": "967340",
+      "answer": "967340.0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round -0.000013343624667 to six dps.",
+      "expected": "-0.000013",
+      "answer": "-1.3e-05",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round -3554.93822256 to the nearest 100.",
+      "expected": "-3600",
+      "answer": "-3600.0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round -5134.15567854 to the nearest integer.",
+      "expected": "-5134",
+      "answer": "-5134",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round 0.014268153252 to three decimal places.",
+      "expected": "0.014",
+      "answer": "0.014",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is -194598.9135856 rounded to the nearest one thousand?",
+      "expected": "-195000",
+      "answer": "-195000.0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round 40.823156495 to the nearest one hundred.",
+      "expected": "0",
+      "answer": "40.82",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "Round -0.0530092859729 to three decimal places.",
+      "expected": "-0.053",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 7.83 GiB. GPU 0 has a total capacity of 14.74 GiB of which 7.17 GiB is free. Process 4433 has 7.57 GiB memory in use. Of the allocated memory 6.96 GiB is allocated by PyTorch, and 493.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is 0.00390144464252 rounded to 7 dps?",
+      "expected": "0.0039014",
+      "answer": "0.0039014",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is -0.0577198102416 rounded to two decimal places?",
+      "expected": "-0.06",
+      "answer": "-0.06",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "Put 7, 2, 55, 9, 0, -1, 1, 230, -4 in ascending order.",
+      "expected": "-4, -1, 0, 1, 2, 7, 9, 55, 230",
+      "answer": "-4, -1, 0, 1, 2, 7, 9, 55, 230",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Sort 2, 8, -5, 5, -9, 4, 3, -41, 10.",
+      "expected": "-41, -9, -5, 2, 3, 4, 5, 8, 10",
+      "answer": "-41, -9, -5, 2, 3, 4, 5, 8, 10",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put -3, 1042, 3, 8, -5, 4, 1, 7, 6 in decreasing order.",
+      "expected": "1042, 8, 7, 6, 4, 3, 1, -3, -5",
+      "answer": "1042, 8, 7, 6, 4, 3, 1, -3, -5",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put 2, 4, -56, 1, 0, 3, -4, 36, -9 in ascending order.",
+      "expected": "-56, -9, -4, 0, 1, 2, 3, 4, 36",
+      "answer": "-56, -9, -4, 0, 1, 2, 3, 4, 36",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Sort 6, 4, 468, 7, 1, 0, 3, 39, -3 in increasing order.",
+      "expected": "-3, 0, 1, 3, 4, 6, 7, 39, 468",
+      "answer": "-3, 0, 1, 3, 4, 6, 7, 39, 468",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put 0, -9, 5, 7, 85, 2, 3, 12, 1 in decreasing order.",
+      "expected": "85, 12, 7, 5, 3, 2, 1, 0, -9",
+      "answer": "85, 12, 7, 5, 3, 2, 1, 0, -9",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put -5, 2, 5, 3, 4, -771, 77, 7, 0 in decreasing order.",
+      "expected": "77, 7, 5, 4, 3, 2, 0, -5, -771",
+      "answer": "77, 7, 5, 4, 3, 2, 0, -5, -771",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put -3, 36, 1, 54, -2, 5, 49, 3, 0 in increasing order.",
+      "expected": "-3, -2, 0, 1, 3, 5, 36, 49, 54",
+      "answer": "-3, -2, 0, 1, 3, 5, 36, 49, 54",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Put 1, 5, 30, 2, -6, -4, -5, 8, 44 in decreasing order.",
+      "expected": "44, 30, 8, 5, 2, 1, -4, -5, -6",
+      "answer": "44, 30, 8, 5, 2, 1, -4, -5, -6",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Sort 0, -4, 5, 18, -5, 59, 2, 6, -6 in descending order.",
+      "expected": "59, 18, 6, 5, 2, 0, -4, -5, -6",
+      "answer": "59, 18, 6, 5, 2, 0, -4, -5, -6",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "9097.781 times 0.068",
+      "expected": "618.649108",
+      "answer": "618.6491080000001",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -619158275*-1.4.",
+      "expected": "866821585",
+      "answer": "866821585.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "351.22 times 26.3384",
+      "expected": "9250.572848",
+      "answer": "9250.572848000002",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Product of -1993910820 and 3.",
+      "expected": "-5981732460",
+      "answer": "-5981732460",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Work out 207 * 187930110.",
+      "expected": "38901532770",
+      "answer": "38901532770",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "-68.3*0.0992085",
+      "expected": "-6.77594055",
+      "answer": "-17179050210636597866077999463037/2535301200456458802993406410752",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 18.5361 times 2.64?",
+      "expected": "48.935304",
+      "answer": "48.935304",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is -262670791 times 0.026?",
+      "expected": "-6829440.566",
+      "answer": "-6829440.566",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the product of -37347064 and -14?",
+      "expected": "522858896",
+      "answer": "522858896",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -11896*0.287958.",
+      "expected": "-3425.548368",
+      "answer": "-3425.5483679999998",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is -1 divided by -13214638712?",
+      "expected": "1/13214638712",
+      "answer": "7.567365417958163e-11",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 14123652504 divided by 2116?",
+      "expected": "6674694",
+      "answer": "6674694",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Divide -2796166 by 1294.",
+      "expected": "-1398083/647",
+      "answer": "-2160.870170015456",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "1067051054 divided by 1",
+      "expected": "1067051054",
+      "answer": "1067051054.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate 1815975 divided by 7952.",
+      "expected": "259425/1136",
+      "answer": "228.36707746478874",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -1009699900 divided by 380.",
+      "expected": "-2657105",
+      "answer": "-2657105.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "17739685990 divided by 4705487",
+      "expected": "3770",
+      "answer": "3770.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -4983068544 divided by -6.",
+      "expected": "830511424",
+      "answer": "830511424.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Calculate -16 divided by -878415779.",
+      "expected": "16/878415779",
+      "answer": "1.8214609052463297e-08",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "612260388 divided by 9",
+      "expected": "68028932",
+      "answer": "68028932.0",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the second biggest value in 0.4, -129334, -4/7, 1/6, 0.3, -0.2, 0, -4, 0.175, -2/11?",
+      "expected": "0.3",
+      "answer": "0.3",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the eighth smallest value in 0.02, 0.07, 0.1, -3, -8/3, -4, -0.01, 5, 1.3, -183?",
+      "expected": "0.1",
+      "answer": "0.1",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the seventh smallest value?  (a) -0.2  (b) -1  (c) 2  (d) 7/5  (e) -515  (f) -7  (g) -4  (h) 2/7  (i) 17  (j) -0.3",
+      "expected": "h",
+      "answer": "0.2857142857142857",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the second smallest value?  (a) 1  (b) -1/14  (c) -2  (d) -4  (e) -1  (f) -0.08  (g) -1/56  (h) -7  (i) -4.7",
+      "expected": "i",
+      "answer": "-4.7",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the sixth smallest value?  (a) -5  (b) 4/77  (c) 0  (d) 1  (e) 8.9  (f) 2  (g) 0.3  (h) 10  (i) -0.2  (j) -3",
+      "expected": "g",
+      "answer": "0.3",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the eighth smallest value?  (a) -0.2  (b) 0.3  (c) -3  (d) 1  (e) 12  (f) -3/5  (g) 2/45  (h) 1.05  (i) -1/57  (j) 2",
+      "expected": "h",
+      "answer": "1.05",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the eighth biggest value in -8, -0.31, -3, -1/11, -6, 2798, -0.2, -15, 0.3?",
+      "expected": "-8",
+      "answer": "-8",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the ninth smallest value?  (a) -1690  (b) -2  (c) -5  (d) -24  (e) -3  (f) 0  (g) -0.1  (h) -0.05  (i) 0.03",
+      "expected": "i",
+      "answer": "0.03",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the seventh biggest value in 4, -7/6, -18, 164, 5, 0.4, 3, -2/17, 0.1?",
+      "expected": "-2/17",
+      "answer": "-0.117647058823529",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the second smallest value?  (a) 5  (b) -5  (c) 3  (d) 2  (e) -54806  (f) -0.086  (g) -2/9  (h) -4  (i) -4/5  (j) 0.5",
+      "expected": "b",
+      "answer": "-5",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Solve -4*z**2/7 - 657025032*z/7 + 1971075348 = 0 for z.",
+      "expected": "-164256279, 21",
+      "answer": "-164256279.000000, 21.0000000000000",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Factor 3*b**3/8 + 407045907*b**2/8 + 3663412677*b/4.",
+      "expected": "3*b*(b + 18)*(b + 135681951)/8",
+      "answer": "3*b*(b + 18)*(b + 135681951)/8",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Find o such that o**4/8 + 26469*o**3/4 + 26842621*o**2/8 + 6670953*o/2 - 13394843/2 = 0.",
+      "expected": "-52426, -511, -2, 1",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 7.41 GiB. GPU 0 has a total capacity of 14.74 GiB of which 6.84 GiB is free. Process 4433 has 7.90 GiB memory in use. Of the allocated memory 6.92 GiB is allocated by PyTorch, and 880.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "What is y in 6*y**4 - 2611478*y**3 - 2157676014*y**2 - 1436419522*y + 718645008 = 0?",
+      "expected": "-824, -1, 1/3, 436071",
+      "answer": "-824, -1, 1/3, 436071",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let -3*q**3/7 + 1339302*q**2/7 - 327933867*q/7 - 6714252072/7 = 0. What is q?",
+      "expected": "-19, 264, 446189",
+      "answer": "-1000",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Solve -3*z**4/5 - 259782*z**3/5 - 938850972*z**2/5 + 1878481302*z/5 - 187874109 = 0.",
+      "expected": "-82815, -3781, 1",
+      "answer": "-82815.0000000000, -3781.00000000000, 1.00000000000000",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Factor 2*x**3 - 97853318*x**2 + 2739891728*x - 19179239352.",
+      "expected": "2*(x - 48926631)*(x - 14)**2",
+      "answer": "(2x - 1)(x - 1000000)(x - 97853318)",
+      "correct": false,
+      "category": "algebra"
+    },
+    {
+      "problem": "Let -2*c**4/7 + 728*c**3 - 311242*c**2/7 - 4683164*c/7 + 14620320 = 0. What is c?",
+      "expected": "-22, 13, 72, 2485",
+      "answer": "-22, 13, 72, 2485",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Determine x so that 4*x**3 + 30500*x**2 - 23350288*x + 2978419456 = 0.",
+      "expected": "-8336, 163, 548",
+      "answer": "-8336, 163, 548",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "Find m such that 2*m**3 + 1143830*m**2 + 4575054*m - 133827174 = 0.",
+      "expected": "-571911, -13, 9",
+      "answer": "-571911, -13, 9",
+      "correct": true,
+      "category": "algebra"
+    },
+    {
+      "problem": "What is 52902817.6l in millilitres?",
+      "expected": "52902817600",
+      "answer": "52902817600.0",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "Convert 319.293959 kilograms to grams.",
+      "expected": "319293.959",
+      "answer": "319293.959",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many milliseconds are there in 9458.41856 microseconds?",
+      "expected": "9.45841856",
+      "answer": "9.45841856",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "Convert 9.23845969l to millilitres.",
+      "expected": "9238.45969",
+      "answer": "9238.45969",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many litres are there in 8.53360936ml?",
+      "expected": "0.00853360936",
+      "answer": "0.00853360936",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many seconds are there in 4.62505086 weeks?",
+      "expected": "2797230.760128",
+      "answer": "2797230.760128",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "Convert 62.3944512 litres to millilitres.",
+      "expected": "62394.4512",
+      "answer": "62394.451199999996",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "How many months are there in 7.45165185 millennia?",
+      "expected": "89419.8222",
+      "answer": "89419.8222",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "What is 0.538552302s in milliseconds?",
+      "expected": "538.552302",
+      "answer": "538.552302",
+      "correct": true,
+      "category": "measurement"
+    },
+    {
+      "problem": "What is 553029.171 weeks in milliseconds?",
+      "expected": "334472042620800",
+      "answer": "334472042620800.0",
+      "correct": false,
+      "category": "measurement"
+    },
+    {
+      "problem": "What is the millions digit of 560914526004?",
+      "expected": "4",
+      "answer": "9",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the ten billions digit of 946183645258?",
+      "expected": "4",
+      "answer": "0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundred millions digit of 9060714017?",
+      "expected": "0",
+      "answer": "1",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundred billions digit of 901159751692?",
+      "expected": "9",
+      "answer": "0",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundred thousands digit of 287212636139?",
+      "expected": "6",
+      "answer": "1",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundreds digit of 793188780112?",
+      "expected": "1",
+      "answer": "1",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundred millions digit of 459358469968?",
+      "expected": "3",
+      "answer": "9",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the hundred thousands digit of 472601590055?",
+      "expected": "5",
+      "answer": "5",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the billions digit of 21412640156?",
+      "expected": "1",
+      "answer": "4",
+      "correct": false,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is the thousands digit of 618016534090?",
+      "expected": "4",
+      "answer": "4",
+      "correct": true,
+      "category": "numbers"
+    },
+    {
+      "problem": "What is 2612847 take away -270.2702023?",
+      "expected": "2613117.2702023",
+      "answer": "2613117.2702023",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 97709035783 take away 2782985?",
+      "expected": "97706252798",
+      "answer": "97706252798",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "0.4+-45236774169889076",
+      "expected": "-45236774169889075.6",
+      "answer": "4.523677416988907e+16",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "12.5997212098515 - -304",
+      "expected": "316.5997212098515",
+      "answer": "316.5997212098515",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is -2 plus 5002692.1000745696?",
+      "expected": "5002690.1000745696",
+      "answer": "5002690.10007457",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 0.06063471818 take away -306295?",
+      "expected": "306295.06063471818",
+      "answer": "306295.06063471816",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 0.14868634 less than -223631181?",
+      "expected": "-223631181.14868634",
+      "answer": "-223631181.14868635",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Add together -78824128 and 2987.731452.",
+      "expected": "-78821140.268548",
+      "answer": "-78821140.268548",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the distance between 0.04324 and -63.503219150331?",
+      "expected": "63.546459150331",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 4.20 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.89 GiB is free. Process 4433 has 11.85 GiB memory in use. Of the allocated memory 10.67 GiB is allocated by PyTorch, and 1.05 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the distance between 32459577959 and -1542022?",
+      "expected": "32461119981",
+      "answer": "32461119981",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Five letters picked without replacement from {h: 6, k: 4, o: 6}. Give prob of sequence okkkk.",
+      "expected": "1/3640",
+      "answer": "1/728",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Calculate prob of sequence ooami when five letters picked without replacement from {m: 3, v: 5, a: 1, p: 1, o: 3, i: 1}.",
+      "expected": "3/40040",
+      "answer": "0.005494505494505495",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Calculate prob of sequence gpqqp when five letters picked without replacement from pqllplwqqqlqpggwpqwq.",
+      "expected": "7/12920",
+      "answer": "0.0",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {o: 4, j: 4, d: 1, g: 2, k: 2, w: 2}. Give prob of sequence kdwok.",
+      "expected": "2/45045",
+      "answer": "0.15151515151515152",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {z: 3, p: 2, l: 3, j: 3}. Give prob of sequence llzlp.",
+      "expected": "1/1540",
+      "answer": "0.35064935064935066",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of sequence onnon when five letters picked without replacement from {n: 4, o: 3}?",
+      "expected": "2/35",
+      "answer": "12",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from nnnkktktk. Give prob of sequence knnnk.",
+      "expected": "1/210",
+      "answer": "0.001984126984126984",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of sequence xxqpq when five letters picked without replacement from qqxppxqqqqqqqp?",
+      "expected": "9/5005",
+      "answer": "0.017982017982017984",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from ogggggggogogggooooo. What is prob of sequence ogggg?",
+      "expected": "44/969",
+      "answer": "0.00011671335200746966",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of sequence zzvvl when five letters picked without replacement from zzvlzzlvzlzz?",
+      "expected": "7/2640",
+      "answer": "0.00012345679012345678",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from aamaaaaaaaapaa. Give prob of picking 1 p and 4 a.",
+      "expected": "45/182",
+      "answer": "0.13986013986013987",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "What is prob of picking 1 r, 2 g and 2 e when five letters picked without replacement from egegeeegregeeggg?",
+      "expected": "7/52",
+      "answer": "0.1346153846153846",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {i: 5, x: 2, l: 1, e: 1, k: 1, d: 2}. Give prob of picking 1 e, 1 k, 1 l and 2 i.",
+      "expected": "5/396",
+      "answer": "0.03968253968253968",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from nnnnenpjpnnnnbjnen. Give prob of picking 2 n, 1 e and 2 j.",
+      "expected": "55/4284",
+      "answer": "0.18180349062702003",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from qmqllqxliqqquxullqqx. What is prob of picking 2 q, 2 u and 1 x?",
+      "expected": "7/1292",
+      "answer": "0.012899896800825593",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from gxazaxzazxzgzaxzxz. Give prob of picking 1 a, 2 x, 1 g and 1 z.",
+      "expected": "10/153",
+      "answer": "0.1864801864801865",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {d: 2, x: 2, u: 1, e: 1, t: 1, q: 5}. Give prob of picking 1 t, 1 e, 1 d, 1 x and 1 u.",
+      "expected": "1/198",
+      "answer": "0.07142857142857142",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {l: 3, b: 12}. What is prob of picking 2 b and 3 l?",
+      "expected": "2/91",
+      "answer": "0.02197802197802198",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {r: 6, c: 2, d: 1, m: 1, b: 2, j: 1}. What is prob of picking 1 b, 1 m, 2 r and 1 j?",
+      "expected": "10/429",
+      "answer": "5/42",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Five letters picked without replacement from {d: 1, k: 2, f: 3, g: 2, r: 6, p: 2}. What is prob of picking 2 f, 2 g and 1 r?",
+      "expected": "3/728",
+      "answer": "0.004120879120879121",
+      "correct": false,
+      "category": "probability"
+    },
+    {
+      "problem": "Which is the nearest to 18?  (a) 2/5  (b) 2710  (c) 2  (d) -0.11  (e) -0.5  (f) -2  (g) -0.3  (h) 2/13",
+      "expected": "c",
+      "answer": "2",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the nearest to -1/3 in 1/52, -87, 2/9, 2/13, -48136, 3/8, 0.2, -2?",
+      "expected": "1/52",
+      "answer": "0.019230769230769232",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the closest to -60?  (a) -3/13  (b) -19  (c) 2  (d) -38  (e) 1  (f) -2/7  (g) -3  (h) 0.2",
+      "expected": "d",
+      "answer": "Error solving problem: Error in generating model output:\nCUDA out of memory. Tried to allocate 4.57 GiB. GPU 0 has a total capacity of 14.74 GiB of which 2.51 GiB is free. Process 4433 has 12.23 GiB memory in use. Of the allocated memory 11.10 GiB is allocated by PyTorch, and 1.01 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the closest to -1/4?  (a) -0.3  (b) -2/9  (c) -5  (d) -2291/3  (e) -1/4  (f) -0.062  (g) -7  (h) -12",
+      "expected": "e",
+      "answer": "-0.25",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the nearest to -0.02 in -2, -368896, 7, -6, 2/3, -1/5, -9?",
+      "expected": "-1/5",
+      "answer": "-0.2",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the nearest to -0.06 in -556, -1/2, 0.5, 2/475, 0, -3, 2/13?",
+      "expected": "0",
+      "answer": "0",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the closest to 34 in -3/5, -2/13, 5, 4, 1299/13, 0.1, -0.166?",
+      "expected": "5",
+      "answer": "5",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Which is the nearest to -2/63?  (a) 2/105  (b) -1  (c) 5  (d) 0.4  (e) 9625  (f) -1/4  (g) -4",
+      "expected": "a",
+      "answer": "2/105",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the nearest to -1 in 2/9, -0.3, 0, 3, -297, -3/2, -253, -4?",
+      "expected": "-3/2",
+      "answer": "-1.5",
+      "correct": false,
+      "category": "comparison"
+    },
+    {
+      "problem": "What is the nearest to -0.2 in -5, 0.4, 2, -12/10711, -1862, -0.1, -10?",
+      "expected": "-0.1",
+      "answer": "-0.1",
+      "correct": true,
+      "category": "comparison"
+    },
+    {
+      "problem": "Calculate (12 - 7 - (-20 + -5 - -33)) + -1 + (0 + -57 - (2 + -8 - -3)).",
+      "expected": "-58",
+      "answer": "-58",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "6 + (7 - 4 - 2) - (-9 + -165 + 11 + (-5 - (2 - -2 - 7)))",
+      "expected": "172",
+      "answer": "172",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of 7 + -10 + -7 + 5 + 13 + -4 + -7 + 10 + (-6 + 2 - -7) + 106?",
+      "expected": "116",
+      "answer": "116",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is 314 + (21 - (-3 - -7) - (-3 + 5 + -6 - (0 - (15 + 1)) - 2))?",
+      "expected": "321",
+      "answer": "341",
+      "correct": false,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of (-2 + (0 - -22) - (2462 - 2437)) + (191 - -2) - (-10 - -1 - (4 + -6))?",
+      "expected": "195",
+      "answer": "195",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is (-1 - (-1 - -2)) + 2 + (-1 + -72 - (-440 + 453) - -7) + 8 + -9 + 5?",
+      "expected": "-75",
+      "answer": "-75",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Evaluate 29 + (-5 + -5 - 3) + -17 - ((0 - 1) + 1 - (9 - 106)).",
+      "expected": "-98",
+      "answer": "-98",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of -4 + -2 + (-21 - ((-62 - -30) + 32 + (-1 - 1))) + (2 + 5 - 9)?",
+      "expected": "-27",
+      "answer": "-27",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of (690565 - 690563) + (3 - -1) + (-2 - (-1 + -1 - -2 - 0)) + 185?",
+      "expected": "189",
+      "answer": "189",
+      "correct": true,
+      "category": "arithmetic"
+    },
+    {
+      "problem": "What is the value of 10 + (-33 + 7 + 3 + (-543 - -559) - ((-33 - (0 + 0)) + 0))?",
+      "expected": "36",
+      "answer": "36",
+      "correct": true,
+      "category": "arithmetic"
+    }
+  ],
+  "device": "cuda"
+}
